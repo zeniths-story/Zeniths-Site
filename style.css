@@ -1,0 +1,16 @@
+body{
+    background-color: rgb(39, 16, 82);
+    color: rgb(60, 158, 223);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+
+
+}
+.pageTitle{
+    background-color: blue;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+
+}
