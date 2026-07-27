@@ -70,7 +70,6 @@ body{
 }
 
 #baseAbt{
-    border: solid white 1px;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
@@ -78,7 +77,6 @@ body{
 
 #abt{
   width: 30%;  
-  border: solid white 1px;
 }
 
 #pfps{
@@ -103,4 +101,11 @@ border: solid white 1px;
     border: solid white 1px;
     width: 30%;
     max-height: 100%;
+}
+
+#list{
+    background-color: #64cff04d;
+    max-height: 95%;
+    overflow-y: scroll;
+    scrollbar-color:  #64cff0 #64cff000;
 }
