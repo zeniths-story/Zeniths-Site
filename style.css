@@ -71,7 +71,6 @@ body{
 
 #baseAbt{
     border: solid white 1px;
-    display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
