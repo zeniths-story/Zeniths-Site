@@ -1,16 +1,107 @@
 body{
-    background-color: rgb(39, 16, 82);
+    background-color: rgb(16, 17, 82);
     color: rgb(60, 158, 223);
     text-align: center;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-
-
+    align-items: center;
+    font-family: Monospace, "sans serif";
 }
-.pageTitle{
-    background-color: blue;
+
+.mount{
+    background-color: rgb(70, 138, 138);
+    padding: 600px;
+    rotate: 46deg;
+    position: fixed;
+    right: 40%;
+    top:610px
+}
+
+#mount2{
+    background-color: rgb(61, 121, 121);
+    padding: 300px;
+    right: 38%;
+}
+
+.pageTitleBox{
+    background-image: linear-gradient(to top, rgba(37, 76, 185, 0), rgba(37, 76, 185, 0), rgb(37, 77, 185), rgba(37, 76, 185, 0));
     width: fit-content;
     height: fit-content;
-    padding: 10px;
+    padding: 5px 30px 30px;
+    border-radius: 50px;
 
+}
+
+#pageTitle{
+    font-size: 300%;
+    color: rgb(134, 176, 255);
+}
+
+#tabs{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.tab{
+    width: fit-content;
+    background-color: #64cff04d;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#pagecontent{
+    background-color: #64cff04d;
+    color:  rgb(16, 17, 82);
+    font-size: 140%;
+    padding: 30px;
+    border-radius: 40px;
+    height: 55vh;
+    width: 90%;
+    position: fixed;
+    top:295px;
+    text-align: left;
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+#baseAbt{
+    border: solid white 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+#abt{
+  width: 30%;  
+  border: solid white 1px;
+}
+
+#pfps{
+    max-width: fit-content;
+}
+
+#pfps img{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+    border: solid 2px;
+}
+
+#currProj{
+border: solid white 1px;
+    width: 36%;
+    max-height: 100%;
+    text-align: center;
+}
+
+#abtTxt{
+    border: solid white 1px;
+    width: 30%;
+    max-height: 100%;
 }
