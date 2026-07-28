@@ -116,6 +116,27 @@ a:active{
     text-align: center;
 }
 
+@keyframes scroll {
+    from {};
+}
+
+#projs{
+    border: solid white 1px;
+    height: 40vh;
+   overflow: hidden; 
+   flex-direction: row;
+   justify-content: space-between;
+   align-items: flex-start;
+}
+
+.proj{
+  width: 100%;
+}
+
+.proj img{
+    max-width: 100%;
+}
+
 #abtTxt{
     width: 30%;
     max-height: 100%;
@@ -131,14 +152,13 @@ a:active{
 #list{
     background-color: #64cff04d;
     padding-left: 10px;
+    padding-top: 10px;
     border-radius: 10px;
     max-height: 100%;
     overflow-y: scroll;
     scrollbar-color:  #64cff0 #64cff000;
     align-self: left;
 }
-
-
 
 #HMcont{
 width: 89%;
