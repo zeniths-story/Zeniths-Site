@@ -1,0 +1,87 @@
+body{
+    background-color: rgb(107, 97, 9);
+    /*animation-name: tapBack;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;*/
+    color: rgb(192, 159, 97);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Monospace, "sans serif";
+}
+
+
+@keyframes tapBack {
+    0% { background-image: linear-gradient(to bottom, rgb(107, 81, 9), rgb(107, 97, 9), rgb(107, 97, 9), rgb(107, 97, 9), rgb(107, 97, 9) );}
+    25% { background-image: linear-gradient(to bottom, rgb(107, 97, 9), rgb(107, 81, 9), rgb(107, 97, 9), rgb(107, 97, 9), rgb(107, 97, 9) );}
+    50% { background-image: linear-gradient(to bottom, rgb(107, 97, 9), rgb(107, 97, 9), rgb(107, 81, 9), rgb(107, 97, 9), rgb(107, 97, 9) );}
+    75% { background-image: linear-gradient(to bottom, rgb(107, 97, 9), rgb(107, 97, 9), rgb(107, 97, 9), rgb(107, 81, 9), rgb(107, 97, 9) );}
+    100% {background-image: linear-gradient(to bottom, rgb(107, 97, 9) rgb(107, 97, 9), rgb(107, 97, 9), rgb(107, 97, 9),  rgb(107, 81, 9));}
+}
+
+.pageTitleBox{
+    background-image: linear-gradient(to top, rgba(37, 76, 185, 0), rgba(37, 76, 185, 0), rgb(218, 186, 82), rgba(37, 76, 185, 0));
+    width: fit-content;
+    height: fit-content;
+    padding: 5px 30px 30px;
+    border-radius: 50px;
+
+}
+
+#pageTitle{
+    font-size: 300%;
+    color: rgb(90, 77, 41);
+}
+
+#tabs{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: auto;
+}
+
+.tab{
+    width: fit-content;
+    background-color: #f0d6644d;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+ .select{
+    width: fit-content;
+    background-color: #f0be6269;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a:link, a:visited {
+    color: rgb(192, 159, 97);
+    text-decoration: none;
+}
+
+a:active{
+    background-color: #f0be6269;
+} 
+
+#pagecontent{
+    
+     background-color: #f0d6644d;
+    color:  rgb(16, 17, 82);
+    font-size: 140%;
+    padding: 30px;
+    border-radius: 40px;
+    height: 55vh;
+    width: 90%;
+    position: fixed;
+    top:295px;
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}

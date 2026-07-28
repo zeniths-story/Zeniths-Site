@@ -18,13 +18,14 @@
 
 
     <div id="tabs">
-      <div id="About" class="tab"> About us</div>
-       <div id="headmatesTab" class="tab"> Meet the Headmates!</div>
+      <div id="AbtTab" class="tab select"> About us</div>
+      <div id="headmatesTab" class="tab"> Meet the Headmates!</div>
+      <a href="./tapestry.html"><div class="tab">Tapestry</div></a>
     </div>
 
     <div id="pagecontent">
-      <div id="baseAbt" style="display: none;">
-       <div id="abt"> <p>Zenith "Everest" [LastName]<br/>
+      <div id="Abt" style="display: flex;">
+       <div id="simpabt"> <p>Zenith "Everest" [LastName]<br/>
          They/Them <br/>
          16<br/>
          Traumagenic system of 30
@@ -49,10 +50,10 @@
           Our content mainly focuses around our art, 
           typically depicting either our Headmates or our OCs.
        </p></div>
-       </div>
+       </div> <!-- abt end -->
 
 
-      <div id="headmates"></div>
+      <div id="headmates" style="display: none;">
 
         <div id="list">
          Ari <br/>
@@ -91,10 +92,15 @@
 
        </div>
         
+      </div> <!-- headmates end-->
 
 
-    </div>
 
+
+    </div> <!-- tab cont end-->
+
+
+<!--everything blow this, don't mess with-->
     <script src="./script.js"></script>
   </body>
 

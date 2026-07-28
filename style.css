@@ -43,6 +43,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    overflow-x: auto;
 }
 
 .tab{
@@ -50,9 +51,28 @@ body{
     background-color: #64cff04d;
     padding: 20px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
+ .select{
+    width: fit-content;
+    background-color: #62b0f08f;
+    padding: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a:link, a:visited {
+    color: rgb(60, 158, 223);
+    text-decoration: none;
+}
+
+a:active{
+    background-color: #62b0f08f;
+} 
+
 #pagecontent{
+    
     background-color: #64cff04d;
     color:  rgb(16, 17, 82);
     font-size: 140%;
@@ -63,19 +83,19 @@ body{
     position: fixed;
     top:295px;
     text-align: left;
-      display: flex;
+    display: flex;
     flex-direction: row;
     justify-content: space-between;
 
 }
 
-#baseAbt{
+#Abt{
     flex-direction: row;
     justify-content: space-between;
     align-items: flex-start;
 }
 
-#abt{
+#simpabt{
   width: 30%;  
 }
 
@@ -91,21 +111,38 @@ body{
 }
 
 #currProj{
-border: solid white 1px;
     width: 36%;
     max-height: 100%;
     text-align: center;
 }
 
 #abtTxt{
-    border: solid white 1px;
     width: 30%;
     max-height: 100%;
 }
 
+#headmates{
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
 #list{
     background-color: #64cff04d;
-    max-height: 95%;
+    padding-left: 10px;
+    border-radius: 10px;
+    max-height: 100%;
     overflow-y: scroll;
     scrollbar-color:  #64cff0 #64cff000;
+    align-self: left;
 }
+
+
+
+#HMcont{
+width: 89%;
+height: 100%;
+}
+
+/*  border: solid white 1px;  */
