@@ -9,6 +9,8 @@ var overview = document.getElementById("overveiw");
 
 
 var selected = document.getElementsByClassName("select");
+
+
 var tabopen = 1;
 
 /*function setPage(element) {
@@ -35,6 +37,7 @@ function closeTab (element) {
 
 function getOpen(element){
     var tab = document.getElementById(element.id + "Tab");
+    //matchTab(element)
     tab.addEventListener("click", function() { 
         openTab(element)
         if (element == about) {
@@ -44,6 +47,8 @@ function getOpen(element){
             tabopen = 2;
             closeTab(about);
         }
+
+        
     });
 };
 
@@ -56,3 +61,43 @@ getOpen(headmates);
 //getOpen(sod);
 //getOpen(extra);
 //getOpen(essa);
+
+var tabList = [
+    {
+        tabName: "about",
+    },
+    {
+        tabName: "headmates",
+    },
+    {
+        tabName: "projects",
+    },
+    {
+        tabName: "overview",
+    },
+    {
+        tabName: "cv",
+    },
+    {
+        tabName: "sod",
+    },
+    {
+        tabName: "extra",
+    },
+    {
+        tabName: "essa",
+    },
+    {
+        tabName: "winterr",
+    },
+];
+
+/*function matchTab(element){
+    var tabNum = tabList[index]
+    if () {
+        console.log(element);
+    } else {
+        console.log("try again");
+        console.log(element);
+    }
+}*/

@@ -47,6 +47,7 @@ body{
     width: fit-content;
     background-color: #f0d6644d;
     padding: 20px;
+    margin: 10px;
     border-radius: 5px;
     cursor: pointer;
 }

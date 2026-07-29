@@ -7,6 +7,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: Monospace, "sans serif";
+    scrollbar-color:  #64cff0 #64cff000;
 }
 
 .mount{
@@ -50,6 +51,7 @@ body{
     width: fit-content;
     background-color: #64cff04d;
     padding: 20px;
+    margin: 10px;
     border-radius: 5px;
     cursor: pointer;
 }
@@ -117,20 +119,26 @@ a:active{
 }
 
 @keyframes scroll {
-    from {};
+    from {transform: translateY(0%);}
+    to {transform: translateY(-68.5%);}
 }
 
 #projs{
-    border: solid white 1px;
-    height: 40vh;
+   height: 40vh;
    overflow: hidden; 
    flex-direction: row;
    justify-content: space-between;
    align-items: flex-start;
+   
 }
 
 .proj{
   width: 100%;
+  
+}
+
+#scroll{
+animation: scroll 10s linear infinite;
 }
 
 .proj img{
@@ -140,6 +148,9 @@ a:active{
 #abtTxt{
     width: 30%;
     max-height: 100%;
+    overflow-y: auto;
+    scrollbar-color:  #64cff0 #64cff000;
+    scrollbar-gutter: stable;
 }
 
 #headmates{
