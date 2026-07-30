@@ -64,6 +64,7 @@ body{
     cursor: pointer;
 }
 
+
 a:link, a:visited {
     color: rgb(60, 158, 223);
     text-decoration: none;

@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(107, 97, 9);
+    background-color: rgb(107, 9, 99);
     /*animation-name: tapBack;
     animation-duration: 5s;
     animation-iteration-count: infinite;*/
@@ -22,7 +22,6 @@ body{
 }
 
 .pageTitleBox{
-    background-image: linear-gradient(to top, rgba(37, 76, 185, 0), rgba(37, 76, 185, 0), rgb(218, 186, 82), rgba(37, 76, 185, 0));
     width: fit-content;
     height: fit-content;
     padding: 5px 30px 30px;
@@ -32,7 +31,7 @@ body{
 
 #pageTitle{
     font-size: 300%;
-    color: rgb(90, 77, 41);
+    color: rgb(189, 75, 221);
 }
 
 #tabs{
