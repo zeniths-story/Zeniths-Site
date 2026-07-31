@@ -39,6 +39,7 @@ body{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    align-items: center;
     overflow-x: auto;
 }
 
@@ -71,7 +72,7 @@ a:active{
 #pagecontent{
     
      background-color: #f0d6644d;
-    color:  rgb(16, 17, 82);
+    color:  rgb(192, 159, 97);
     font-size: 140%;
     padding: 30px;
     border-radius: 40px;

@@ -1,16 +1,17 @@
-var about = document.getElementById("Abt");
-var headmates = document.getElementById("headmates");
-var projects = document.getElementById("projects");
+var winterr = document.getElementById("winterr");
+var cv = document.getElementById("CV");
+var sod = document.getElementById("SoD");
+var extra = document.getElementById("extra");
+var essa = document.getElementById("essa");
+var overview = document.getElementById("overview");
 
-var currTab = about
+var currTab = overview
 
 function openTab(element) {
     var tab = document.getElementById(element.id + "Tab");
     element.style.display = "flex";
     tab.classList.add("select");
     currTab = element
-
-    
 }
 
 function closeTab (element) {
@@ -23,11 +24,14 @@ function closeTab (element) {
 function getOpen(element){
     var tab = document.getElementById(element.id + "Tab");
     tab.addEventListener("click", function() { 
-       closeTab(currTab);
+        closeTab(currTab);
         openTab(element);
     });
 };
 
-getOpen(about);
-getOpen(headmates);
-getOpen(projects);
+getOpen(winterr);
+getOpen(overview);
+getOpen(cv);
+getOpen(sod);
+getOpen(extra);
+getOpen(essa);
