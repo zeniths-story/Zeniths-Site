@@ -10,6 +10,7 @@ body{
     justify-content: center;
     align-items: center;
     font-family: Monospace, "sans serif";
+    scrollbar-color: rgb(192, 159, 97) #64cff000;
 }
 
 
@@ -70,14 +71,14 @@ a:active{
 } 
 
 #pagecontent{
-    
-     background-color: #f0d6644d;
+    background-color: #f0d6644d;
     color:  rgb(192, 159, 97);
     font-size: 140%;
     padding: 30px;
     border-radius: 40px;
     height: 55vh;
     width: 90%;
+    padding: 15px;
     position: fixed;
     top:295px;
     text-align: left;
@@ -85,4 +86,31 @@ a:active{
     flex-direction: row;
     justify-content: space-between;
 
+}
+
+.sidebar{
+    height: 100%;
+    max-width: 30%;
+    background-color: #f0d6644d;
+    overflow-y: scroll;
+    scrollbar-gutter: stable;
+    scrollbar-color: rgb(192, 159, 97) #64cff000;
+    padding-left: 10px;
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+#ovpg1{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    width: 60%;
+}
+
+.disclaimer, .disclaimer a{
+    color: rgb(80, 4, 4);
+}
+
+#email{
+    text-decoration: underline dotted;
 }
