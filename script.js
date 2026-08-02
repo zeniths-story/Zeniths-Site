@@ -33,7 +33,38 @@ getOpen(projects);
 
 var headmates = [
     {
-        name:"Ari",
+        name:"Name",
+        pronouns: "Pronouns",
+        role: "Role (if any)",
+        firstNoted: `[Date], approx when they showed up/we noticed in headspace.<br/>
+        !!Evi Doesn't have one because they hosted for so long we arn't 
+        sure the exact date star showed up!!`,
+        gender: "Gender",
+        age:"In-sys Age",
+        quote: "May or may not have a quote/song lyrics here",
+        species: "In-sys Species",
+        origin:`Origins:<br/>
+        >Willowgenic: Created on purpose
+        >Brainmade: not based off pre-existing media<br/>
+        >Introject: based off a pre-existing media or person.<br/>
+        <span id="red">!!Introjects have no control over their source. 
+        Introjects will have varying degrees of source attachment. 
+        Don't immeditely asume an introject wants to be treated or acts like their source!!</span><br/>
+        >>Fictive: based off a fictional character/person<br/>
+        >>>OCtive: based off an OC (Original Character)<br/>
+        >>>Songtive: based off one or more songs<br/>
+        >>Factive: based off a real-life person or thing
+        >>Faitive: mix of fictive & factive traits
+        
+        `,
+        links: "Links to playlists/Voice Claims/Any link they want to put here",
+        pictures: `Pictures go here<br/> 
+        Still working on geting pics for everyone 
+        <img src="./zen-picrew.png"> 
+     <a href="https://picrew.me/share?cd=mlczI0ex0G">(picrew link)<a/>`,
+    },
+    {
+        name:"Ari<br/>",
         pronouns: "She/They",
         role: "",
         firstNoted: "July 12, 2026",
@@ -43,6 +74,9 @@ var headmates = [
         species: "Foxkin (Zesper)",
         origin:"OCtive - 1st draft of Zesper Chronicles",
         links: "",
+        pictures: `<img src="./ari-1.png"> Best picture 
+        <a href="https://picrew.me/en/image_maker/2795963">(picrew link)<a/> 
+        <img src="./ari-2.png"> Take away Human ears `,
     },
     {
         name:"Asher",
@@ -55,6 +89,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Ash",
@@ -67,6 +102,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Az",
@@ -79,6 +115,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Cat",
@@ -91,6 +128,7 @@ var headmates = [
         species: "Cat",
         origin:"Brainmade - Willowgenic?",
         links: "",
+        pictures: "",
     },
     {
         name:"Charly",
@@ -115,6 +153,7 @@ var headmates = [
         species: "Explosion/Chaos God",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Ethan",
@@ -127,6 +166,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Evi",
@@ -141,6 +181,7 @@ var headmates = [
         species: "Enderman",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Evyn",
@@ -153,6 +194,7 @@ var headmates = [
         species: "Werewolf (Wolf Children style)",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Hades",
@@ -165,6 +207,7 @@ var headmates = [
         species: "Semi-realistic Minecraft Wolf",
         origin:"Minecraft",
         links: "",
+        pictures: "",
     },
     {
         name:"Hart",
@@ -177,6 +220,7 @@ var headmates = [
         species: "Elf (KotLC)",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Kai",
@@ -189,6 +233,7 @@ var headmates = [
         species: "Holographic Assistant",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Lumi",
@@ -204,6 +249,20 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
+        pictures: "",
+    },
+    {
+        name:"Luna",
+        pronouns: "She/Any",
+        role: "",
+        firstNoted: "July 29, 2026",
+        gender: "Girl",
+        age:"16 (regresses to 12)",
+        quote: ``,
+        species: "Human",
+        origin:"Brainmade",
+        links: "",
+        pictures: "",
     },
     {
         name:"Nova",
@@ -216,6 +275,7 @@ var headmates = [
         species: "Star-thing",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Null",
@@ -228,6 +288,7 @@ var headmates = [
         species: "Void",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Opal",
@@ -240,6 +301,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Ryon",
@@ -252,6 +314,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Quill",
@@ -274,6 +337,7 @@ var headmates = [
         species: "Fairy",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Reid",
@@ -290,6 +354,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Rocky",
@@ -302,6 +367,7 @@ var headmates = [
         species: "Eridian",
         origin: "Rocky - Project Hail Mary",
         links: "",
+        pictures: "",
     },
     {
         name:"Rowan",
@@ -314,6 +380,7 @@ var headmates = [
         species: "Demon",
         origin:"Brainmade",
         links: `<a href="https//music.amazon.com/albums/B0DF8VMY2J">Voice Claim</a>`,
+        pictures: "",
     },
     {
         name:"Rylan",
@@ -329,7 +396,9 @@ var headmates = [
         Story of a Warrior - John Michael Howell`,
         species: "Human",
         origin:"Brainmade",
-        links: `<a href="https://www.tiktok.com/t/ZP8Gj9jaU">Voice Claim (First Voice)</a>`,
+        links: `<a href="https://www.tiktok.com/t/ZP8Gj9jaU">
+        Voice Claim (First Voice)</a>`,
+        pictures: "",
     },
     {
         name:"Silveny",
@@ -342,6 +411,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Texas",
@@ -354,6 +424,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Theo",
@@ -366,6 +437,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Tina",
@@ -399,6 +471,7 @@ var headmates = [
         species: "Human",
         origin:"Songtive - Necromancer-Legrand",
         links: "",
+        pictures: "",
     },
     {
         name:"Tommy",
@@ -410,8 +483,9 @@ var headmates = [
         quote: `“Who am I without you?” -Me<br/>
         “Yourself.” -Tubbo (My Bsf)`,
         species: "Human",
-        origin:"Tommyinnit-verse",
+        origin:"Faitive - Tommyinnit/Tom Simons",
         links: "",
+        pictures: "",
     },
     {
         name:"Ves",
@@ -424,6 +498,7 @@ var headmates = [
         species: "Fallen Angel",
         origin:"Brainmade",
         links: "",
+        pictures: "",
     },
     {
         name:"Zane",
@@ -436,6 +511,8 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
+        pictures: "",
+        
     },
     
 ];
@@ -445,10 +522,7 @@ function addToList(index){
     var list = document.getElementById("list");
     var hminfo = headmates[index];
     var newDiv = document.createElement("div");
-    newDiv.innerHTML= `
-    <p>
-    ${hminfo.name}
-    </p>`;
+    newDiv.innerHTML= `${hminfo.name}<p></p>`;
 
     newDiv.addEventListener("click", function(){
         sethmCont(index);
@@ -471,6 +545,8 @@ function sethmCont(index){
     var species = document.getElementById("species");
     var origin = document.getElementById("origin");
     var links = document.getElementById("links");
+    var pict = document.getElementById("pictures")
+
     name.innerHTML = headmates[index].name;
     pronouns.innerHTML = headmates[index].pronouns;
     role.innerHTML = headmates[index].role;
@@ -481,6 +557,7 @@ function sethmCont(index){
     species.innerHTML = headmates[index].species;
     origin.innerHTML = headmates[index].origin;
     links.innerHTML = headmates[index].links;
+    pict.innerHTML = headmates[index].pictures;
 };
 sethmCont(0)
 
