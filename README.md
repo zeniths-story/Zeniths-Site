@@ -5,8 +5,11 @@ Includes:
 
 > # About Us:
 > Simple Intro
+>
 > List of Hobbies & Fandoms/Interests
+>
 > Where you can find us Online
+>
 > Main (currently wip) projects on home page
 
 > # Meet The Headmates
@@ -14,10 +17,12 @@ Includes:
 
 > # Projects
 > All past & Current projects
+>
 > Still a WIP
 
 > # Tapestry
 > Where all our OG stories live
+>
 > Still a WIP
 
 And more to be added!!
