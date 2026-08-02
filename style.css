@@ -180,4 +180,9 @@ width: 89%;
 height: 100%;
 }
 
+#extraCont a:link, #extraCont a:visited{
+    color:  rgb(16, 17, 82);
+    text-decoration: underline dotted;
+}
+
 /*  border: solid white 1px;  */
