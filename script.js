@@ -74,9 +74,9 @@ var headmates = [
         `,
 
         pictures: `Pictures go here<br/> 
-        Still working on geting pics for everyone 
-        <img src="./zen-picrew.png">
-        Zenith-1<img src="./zen-2.png">Zenith-2 `,
+        Still working on geting pics for Cat & Hades 
+        <img src="pics/zen-picrew.png">
+        Zenith-1<img src="pics/zen-2.png">Zenith-2 `,
     },
     {
         name:"Ari<br/>",
@@ -89,8 +89,8 @@ var headmates = [
         species: "Foxkin (Zesper)",
         origin:"OCtive - 1st draft of Zesper Chronicles",
         links: "",
-        pictures: `<img src="./ari-1.png"> Best picture  
-        <img src="./ari-2.png"> Take away Human ears `,
+        pictures: `<img src="pics/ari-1.png"> Best picture  
+        <img src="pics/ari-2.png"> Take away Human ears `,
     },
     {
         name:"Asher",
@@ -103,7 +103,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./asher.webp">`,
+        pictures: `<img src="pics/asher.webp">`,
     },
     {
         name:"Ash",
@@ -116,7 +116,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./ash.webp">`,
+        pictures: `<img src="pics/ash.webp">`,
     },
     {
         name:"Az",
@@ -129,7 +129,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./Az.webp">`,
+        pictures: `<img src="pics/Az.webp">`,
     },
     {
         name:"Cat",
@@ -154,8 +154,9 @@ var headmates = [
         quote: "",
         species: "Werewolf (Wolf Children style)",
         origin:"Brainmade",
-        links: `<a href="https://open.spotify.com/playlist/1ICjZ7JwC8z46ERScw3wfW">Voice Claim/Playlist</a>`,
-        pictures: `<img src="./charly.png">`,
+        links: `<a href="https://open.spotify.com/playlist/1ICjZ7JwC8z46ERScw3wfW">
+        Voice Claim/Playlist</a>`,
+        pictures: `<img src="pics/charly.png">`,
     },
     {
         name:"Danger",
@@ -167,8 +168,9 @@ var headmates = [
         quote: "",
         species: "Explosion/Chaos God",
         origin:"Brainmade",
-        links: `<a href=https://open.spotify.com/playlist/46zHm8sxmKftu1TAzKGEvS>God Complex (playlist)</a>`,
-        pictures: `<img src="./danger-1.png"><img src="./danger-2.png">`,
+        links: `<a href=https://open.spotify.com/playlist/46zHm8sxmKftu1TAzKGEvS>
+        God Complex (playlist)</a>`,
+        pictures: `<img src="pics/danger-1.png"><img src="pics/danger-2.png">`,
     },
     {
         name:"Ethan",
@@ -181,7 +183,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./ethan.png">`,
+        pictures: `<img src="pics/ethan.png">`,
     },
     {
         name:"Evi",
@@ -196,7 +198,7 @@ var headmates = [
         species: "Enderman",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./evi.png">`,
+        pictures: `<img src="pics/evi.png">`,
     },
     {
         name:"Evyn",
@@ -209,7 +211,7 @@ var headmates = [
         species: "Werewolf (Wolf Children style)",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./evyn.jpg">`,
+        pictures: `<img src="pics/evyn.jpg">`,
     },
     {
         name:"Hades",
@@ -235,7 +237,7 @@ var headmates = [
         species: "Elf (KotLC)",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./hart.png">`,
+        pictures: `<img src="pics/hart.png">`,
     },
     {
         name:"Kai",
@@ -251,7 +253,7 @@ var headmates = [
         species: "Holographic Assistant",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./kai.webp">`,
+        pictures: `<img src="pics/kai.webp">`,
     },
     {
         name:"Lumi",
@@ -267,7 +269,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./lumi.webp">`,
+        pictures: `<img src="pics/lumi.webp">`,
     },
     {
         name:"Luna",
@@ -280,7 +282,9 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./luna-1.png"> This one's best <img src="./luna-2.png"><img src="./luna-3.png">`,
+        pictures: `<img src="pics/luna-1.png"> This one's best 
+        <img src="pics/luna-2.png">
+        <img src="pics/luna-3.png">`,
     },
     {
         name:"Nova",
@@ -293,7 +297,7 @@ var headmates = [
         species: "Star-thing",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./nova.jpg"> Drawn by yours truly :3`,
+        pictures: `<img src="pics/nova.jpg"> Drawn by yours truly :3`,
     },
     {
         name:"Null",
@@ -306,7 +310,8 @@ var headmates = [
         species: "Void",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./nova-1.png"> True form <img src="./nova-2.png"> human-esqe form`,
+        pictures: `<img src="pics/nova-1.png"> True form 
+        <img src="pics/nova-2.png"> human-esqe form`,
     },
     {
         name:"Opal",
@@ -319,7 +324,8 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./opal-1.png"><img src="./opal-2.jpg"><img src="./opal-3.jpg">`,
+        pictures: `<img src="pics/opal-1.png">
+        <img src="pics/opal-2.jpg"><img src="pics/opal-3.jpg">`,
     },
     {
         name:"Quill",
@@ -342,7 +348,7 @@ var headmates = [
         species: "Fairy",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./quill.webp">`,
+        pictures: `<img src="pics/quill.webp">`,
     },
     {
         name:"Reid",
@@ -358,8 +364,9 @@ var headmates = [
         I guess I got my head in the clouds Right Now - Confetti`,
         species: "Human",
         origin:"Brainmade",
-        links: `<a href="https://open.spotify.com/playlist/4n8UrKarVgxTa7Isl90yG0">Reid's Tunes</a>`,
-        pictures: `<img src="./reid.png">`,
+        links: `<a href="https://open.spotify.com/playlist/4n8UrKarVgxTa7Isl90yG0">
+        Reid's Tunes</a>`,
+        pictures: `<img src="pics/reid.png">`,
     },
     {
         name:"Rocky",
@@ -372,7 +379,7 @@ var headmates = [
         species: "Eridian",
         origin: "Rocky - Project Hail Mary",
         links: "",
-        pictures: `<img src="./rocky.webp">`,
+        pictures: `<img src="pics/rocky.webp">`,
     },
     {
         name:"Rowan",
@@ -384,8 +391,9 @@ var headmates = [
         quote: "",
         species: "Demon",
         origin:"Brainmade",
-        links: `<a href="https//music.amazon.com/albums/B0DF8VMY2J">Voice Claim</a>`,
-        pictures: `<img src="./rowan.webp">`,
+        links: `<a href="https//music.amazon.com/albums/B0DF8VMY2J">
+        Voice Claim</a>`,
+        pictures: `<img src="pics/rowan.webp">`,
     },
     {
         name:"Rylen",
@@ -403,7 +411,7 @@ var headmates = [
         origin:"Brainmade",
         links: `<a href="https://www.tiktok.com/t/ZP8Gj9jaU">
         Voice Claim (First Voice)</a>`,
-        pictures: `<img src="./rylen.png">`,
+        pictures: `<img src="pics/rylen.png">`,
     },
      {
         name:"Ryon",
@@ -416,7 +424,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./ryon.webp">`,
+        pictures: `<img src="pics/ryon.webp">`,
     },
     {
         name:"Silveny",
@@ -429,7 +437,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./silveny.png">`,
+        pictures: `<img src="pics/silveny.png">`,
     },
     {
         name:"Texas",
@@ -442,7 +450,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./texas.png">`,
+        pictures: `<img src="pics/texas.png">`,
     },
     {
         name:"Theo",
@@ -455,7 +463,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./theo-1.png"><img src="./theo-2.jpg">`,
+        pictures: `<img src="pics/theo-1.png"><img src="pics/theo-2.jpg">`,
     },
     {
         name:"Tina",
@@ -488,8 +496,9 @@ var headmates = [
         Run Rabbit - Mollie Elisabeth`,
         species: "Human",
         origin:"Songtive - Necromancer-Legrand",
-        links: `<a href="https://open.spotify.com/playlist/13GphB6UQ7T79BTCtGhYO9">Tina's Playlist</a>`,
-        pictures: `<img src="./tina-1.png"><img src="./tina-2.png">`,
+        links: `<a href="https://open.spotify.com/playlist/13GphB6UQ7T79BTCtGhYO9">
+        Tina's Playlist</a>`,
+        pictures: `<img src="pics/tina-1.png"><img src="pics/tina-2.png">`,
     },
     {
         name:"Tommy",
@@ -503,7 +512,7 @@ var headmates = [
         species: "Human",
         origin:"Faitive - Tommyinnit/Tom Simons",
         links: "",
-        pictures: `<img src="./tommy.jpg"> art by @Shmeckdoesstuff on twitter`,
+        pictures: `<img src="pics/tommy.jpg"> art by @Shmeckdoesstuff on twitter`,
     },
     {
         name:"Ves",
@@ -516,7 +525,11 @@ var headmates = [
         species: "Fallen Angel",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./ves.png"><img src="./ves-3.png">Super awesome ArtFight attack drawn by my bestie @nameless_vessel <3<img src="./ves-2.jpg"> ArtFight Attack by @mikkiasie`,
+        pictures: `<img src="pics/ves.png">
+        <img src="pics/ves-3.png">
+        Super awesome ArtFight attack drawn by my bestie @nameless_vessel <3
+        <img src="pics/ves-2.jpg"> 
+        ArtFight Attack by @mikkiasie`,
     },
     {
         name:"Zane",
@@ -529,7 +542,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         links: "",
-        pictures: `<img src="./zane.png">`,
+        pictures: `<img src="pics/zane.png">`,
     },
     
 ];
@@ -576,5 +589,66 @@ function sethmCont(index){
     links.innerHTML = headmates[index].links;
     pict.innerHTML = headmates[index].pictures;
 };
-sethmCont(0)
+sethmCont(0);
 
+
+function seltag(element) {
+    element.classList.add("tagsel");
+}
+
+function deseltag (element) {
+    element.classList.remove("tagsel");
+}
+
+/*function getTag(element){
+    var tag = document.getElementById(element.id + "Tab");
+    tab.addEventListener("click", function() { 
+       closeTab(currTab);
+        openTab(element);
+    });
+};*/
+
+
+var projects = [
+    {
+        projname:"Our Website",
+        projpic:`<img href="pics/zen-site.png">`,
+        projtags:"current, 2026, HC, tech"
+    },
+
+]
+
+function getProjs(index) {
+    if (document.getElementsByClassName("tagsel")) {
+        //if tags are selected display only those
+        console.log("selected")
+        
+    } else {
+        //no tags are selected, display everything
+        console.log("nothing selected")
+        function addToShow(index){
+          var sc = document.getElementById("showcase");
+          var projects = projects[index];
+          var newDiv = document.createElement("div");
+          newDiv.innerHTML= `
+            ${projects.projname}
+            ${projects.projpic}
+            ${projects.projtags}`;
+
+    /*newDiv.addEventListener("click", function(){
+        sethmCont(index);
+    });*/
+          sc.appendChild(newDiv);
+         };
+
+         for(let i=0; i<headmates.length; i++){
+           addToShow(i);
+         }
+        
+    }
+
+}
+
+/*function spotlight(params) {
+    
+}*/
