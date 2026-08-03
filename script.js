@@ -615,6 +615,11 @@ var projects = [
         projpic:`<img href="pics/zen-site.png">`,
         projtags:"current, 2026, HC, tech"
     },
+    {
+        projname:"NovaOS",
+        projpic:`<img href="pics/novaos.png">`,
+        projtags:"current, 2026, HC, tech"
+    },
 
 ]
 
