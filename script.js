@@ -2,13 +2,14 @@ var about = document.getElementById("Abt");
 var headmates = document.getElementById("headmates");
 var projects = document.getElementById("projects");
 
-var currTab = about
+var currTab = about;
 
 function openTab(element) {
     var tab = document.getElementById(element.id + "Tab");
     element.style.display = "flex";
     tab.classList.add("select");
-    currTab = element
+    currTab = element;
+    
 }
 
 function closeTab (element) {
@@ -53,23 +54,23 @@ var headmates = [
         >>>Songtive: based off one or more songs<br/>
         >>Factive: based off a real-life person or thing<br/>
         >>Faitive: mix of fictive & factive traits
-        
         `,
+        misc:"Miscalanious info such as important relations",
         links: `Links to playlists/Voice Claims/Any link they want to put here<br/>
         Picrew credits:<br/>
-        <a href="https://picrew.me/en/image_maker/2795963">>Ari-1</a><br/>
-        <a href="https://picrew.me/share?cd=XyauBKLFfK">
+        <a href="https://picrew.me/en/image_maker/2795963" target="blank">>Ari-1</a><br/>
+        <a href="https://picrew.me/share?cd=XyauBKLFfK" target="blank">
         >Ari-2, Asher, Charly, Danger-1, Evi, Opal, Reid, Rylen, Theo, Ves, Zenith-2</a><br/>
-        <a href="https://picrew.me/share?cd=p2jKx7aTt8">>Ash, Lumi, Tina-2</a><br/>
-        <a href="https://picrew.me/share?cd=oxGaGfBTJb">>Az, Danger-2, Rowan, Zane</a><br/>
-        <a href="https://picrew.me/share?cd=mlczI0ex0G">>Evyn, Kai, Quill, Zenith-1</a><br/>
-        <a href="https://picrew.me/share?cd=UjQo8cvPL6">>Hart</a><br/>
-        <a href="https://picrew.me/share?cd=nPKi5s6xWi">>Luna-1</a><br/>
-        <a href="https://picrew.me/share?cd=J6BxsGC9Mq">>Luna-2</a><br/>
-        <a href="https://picrew.me/en/image_maker/1904634">>Luna-3</a><br/>
-        <a href="https://picrew.me/share?cd=SHbTH7668e">>Rocky</a><br/>
-        <a href="https://picrew.me/share?cd=eXBRA6ANXt">>Ryon, Silveny, Tina-1</a><br/>
-        <a href="https://picrew.me/share?cd=vgI4HWPR1s">>Texas</a><br/>
+        <a href="https://picrew.me/share?cd=p2jKx7aTt8" target="blank">>Ash, Lumi, Tina-2</a><br/>
+        <a href="https://picrew.me/share?cd=oxGaGfBTJb" target="blank">>Az, Danger-2, Rowan, Zane</a><br/>
+        <a href="https://picrew.me/share?cd=mlczI0ex0G" target="blank">>Evyn, Kai, Quill, Zenith-1</a><br/>
+        <a href="https://picrew.me/share?cd=UjQo8cvPL6" target="blank">>Hart</a><br/>
+        <a href="https://picrew.me/share?cd=nPKi5s6xWi" target="blank">>Luna-1</a><br/>
+        <a href="https://picrew.me/share?cd=J6BxsGC9Mq" target="blank">>Luna-2</a><br/>
+        <a href="https://picrew.me/en/image_maker/1904634" target="blank">>Luna-3</a><br/>
+        <a href="https://picrew.me/share?cd=SHbTH7668e" target="blank">>Rocky</a><br/>
+        <a href="https://picrew.me/share?cd=eXBRA6ANXt" target="blank">>Ryon, Silveny, Tina-1</a><br/>
+        <a href="https://picrew.me/share?cd=vgI4HWPR1s" target="blank">>Texas</a><br/>
         
         `,
 
@@ -88,6 +89,7 @@ var headmates = [
         quote: "",
         species: "Foxkin (Zesper)",
         origin:"OCtive - 1st draft of Zesper Chronicles",
+        misc: "",
         links: "",
         pictures: `<img src="pics/ari-1.png"> Best picture  
         <img src="pics/ari-2.png"> Take away Human ears `,
@@ -102,19 +104,21 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
+        misc:"",
         links: "",
-        pictures: `<img src="pics/asher.webp">`,
+        pictures: `<img src="pics/asher.png">`,
     },
     {
         name:"Ash",
         pronouns: "It/Sie",
-        role: "",
+        role: "Little",
         firstNoted: "May 30, 2026",
         gender: "Girl",
         age:"5",
         quote: "",
         species: "Human",
         origin:"Brainmade",
+        misc: "",
         links: "",
         pictures: `<img src="pics/ash.webp">`,
     },
@@ -128,6 +132,7 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
+        misc: "",
         links: "",
         pictures: `<img src="pics/Az.webp">`,
     },
@@ -141,6 +146,7 @@ var headmates = [
         quote: "",
         species: "Cat",
         origin:"Brainmade - Willowgenic?",
+        misc: "",
         links: "",
         pictures: "no pic yet...",
     },
@@ -152,9 +158,10 @@ var headmates = [
         gender: "Bigender (boy/girl)",
         age:"16",
         quote: "",
-        species: "Werewolf (Wolf Children style)",
+        species: "Werewolf (<i>Wolf Children</i> style)",
         origin:"Brainmade",
-        links: `<a href="https://open.spotify.com/playlist/1ICjZ7JwC8z46ERScw3wfW">
+        misc: "",
+        links: `<a href="https://open.spotify.com/playlist/1ICjZ7JwC8z46ERScw3wfW" target="blank">
         Voice Claim/Playlist</a>`,
         pictures: `<img src="pics/charly.png">`,
     },
@@ -168,7 +175,8 @@ var headmates = [
         quote: "",
         species: "Explosion/Chaos God",
         origin:"Brainmade",
-        links: `<a href=https://open.spotify.com/playlist/46zHm8sxmKftu1TAzKGEvS>
+        misc: "",
+        links: `<a href="https://open.spotify.com/playlist/46zHm8sxmKftu1TAzKGEvS" target="blank">
         God Complex (playlist)</a>`,
         pictures: `<img src="pics/danger-1.png"><img src="pics/danger-2.png">`,
     },
@@ -182,6 +190,7 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/ethan.png">`,
     },
@@ -190,13 +199,14 @@ var headmates = [
         pronouns: "They/Star/She",
         role: "Host",
         firstNoted: "",
-        gender: "Agender Girl",
+        gender: "Agender Girlflux",
         age:"16",
         quote: `They told me I was vital in the plan to save my life 
-        so I promised mine in hope I'd be the one holding the knife
+        so I promised mine in hope I'd be the one holding the knife | 
         Heaven's Gate - Amélie Farren`,
         species: "Enderman",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/evi.png">`,
     },
@@ -208,8 +218,9 @@ var headmates = [
         gender: "WolfGender",
         age:"16",
         quote: "",
-        species: "Werewolf (Wolf Children style)",
+        species: "Werewolf (<i>Wolf Children</i> style)",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/evyn.jpg">`,
     },
@@ -221,21 +232,23 @@ var headmates = [
         gender: "Male",
         age:"Adult",
         quote: "",
-        species: "Semi-realistic Minecraft Wolf",
-        origin:"Minecraft",
+        species: "Semi-realistic Minecraft Woods Wolf",
+        origin:"Minecraft Woods Wolf",
+        misc:"",
         links: "",
         pictures: "no pic yet...",
     },
     {
         name:"Hart",
         pronouns: "She/They",
-        role: "",
+        role: "Tech Elf",
         firstNoted: "June 26, 2026",
         gender: "Girlvoid",
         age:"17",
         quote: "",
-        species: "Elf (KotLC)",
+        species: "Elf (semi-KotLC)",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/hart.png">`,
     },
@@ -249,27 +262,27 @@ var headmates = [
         quote: `Am I a robot of a doll, 
         am I anything at all maybe a flaw like me doesn't 
         deserve to know hunching over standing tall 
-        I lost my identity so very long ago Language of the Lost - Riproducer`,
+        I lost my identity so very long ago | Language of the Lost - Riproducer`,
         species: "Holographic Assistant",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/kai.webp">`,
     },
     {
         name:"Lumi",
         pronouns: "She/They",
-        role: "",
+        role: "Joy/Childhood Holder",
         firstNoted: "March 30, 2026",
         gender: "Girl",
         age:"7",
-        quote: `I'ma dance my heart out 'til the dawn 
-        but I won't be done when mornin' comes, 
-        doin' it all night all summer, doin it the way I wanna
-        Lush Life - Zara Larsson`,
+        quote: `take a short moment to gather your thouts,
+        your head and your heart are just one foot apart | Head and Hart - TV Room`,
         species: "Human",
         origin:"Brainmade",
+        misc:"",
         links: "",
-        pictures: `<img src="pics/lumi.webp">`,
+        pictures: `<img src="pics/lumi.png">`,
     },
     {
         name:"Luna",
@@ -278,9 +291,14 @@ var headmates = [
         firstNoted: "July 29, 2026",
         gender: "Girl",
         age:"16 (regresses to 12)",
-        quote: ``,
+        quote: `love falls like the rain,
+        but my feelings never dried for you | Red Pack - Kevian Kraemer<br/><br/>
+        Ignorance means nothing to find,
+        lost things go where eyes avoid and I was made to be destroyed, 
+        I'm losing my mind | Losing my Mind - Amélie Farren`,
         species: "Human",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/luna-1.png"> This one's best 
         <img src="pics/luna-2.png">
@@ -296,19 +314,21 @@ var headmates = [
         quote: "",
         species: "Star-thing",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/nova.jpg"> Drawn by yours truly :3`,
     },
     {
         name:"Null",
         pronouns: "They/Void/Null",
-        role: "Caretaker",
+        role: "Caretaker/Protector",
         firstNoted: "July 9, 2026",
         gender: "Sure",
         age:"Adult",
         quote: "The most basic form of mind control is repetition.",
         species: "Void",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/nova-1.png"> True form 
         <img src="pics/nova-2.png"> human-esqe form`,
@@ -323,6 +343,7 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/opal-1.png">
         <img src="pics/opal-2.jpg"><img src="pics/opal-3.jpg">`,
@@ -336,7 +357,7 @@ var headmates = [
         age:"16",
         quote: `All the fake shit, where's your Oscar? 
         Wearin' my name like a collar, threw you a bone just to get scratched,
-         meet my canines (Bitch I bite back) HOUNDSOFHELL - Mad Tsai 
+         meet my canines (Bitch I bite back) | HOUNDSOFHELL - Mad Tsai 
          <br/><br/>
          What if its midnight driving, 
          what if its heart rates rising,
@@ -344,9 +365,10 @@ var headmates = [
          Yeah, these things never happened to no one. 
          What if its hypnotizing, what if we just can't hide it, 
          what if our love's straight up cinematic, 
-         I wanna watch how it happens Cinematic - Will Linley`,
+         I wanna watch how it happens | Cinematic - Will Linley`,
         species: "Fairy",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/quill.webp">`,
     },
@@ -358,13 +380,14 @@ var headmates = [
         gender: "Bigenderfluid (Boy/Girl)",
         age:"17",
         quote: `Too much, too much, people complain too much
-        Hate me but that's not my concern Right Now - Confetti
+        Hate me but that's not my concern | Right Now - Confetti
         <br/><br/>
         I'm not phased by the things you gotta say
-        I guess I got my head in the clouds Right Now - Confetti`,
+        I guess I got my head in the clouds | Right Now - Confetti`,
         species: "Human",
         origin:"Brainmade",
-        links: `<a href="https://open.spotify.com/playlist/4n8UrKarVgxTa7Isl90yG0">
+        misc:"",
+        links: `<a href="https://open.spotify.com/playlist/4n8UrKarVgxTa7Isl90yG0" target="blank">
         Reid's Tunes</a>`,
         pictures: `<img src="pics/reid.png">`,
     },
@@ -375,9 +398,10 @@ var headmates = [
         firstNoted: "June 1, 2026",
         gender: "",
         age:"Adult",
-        quote: `"Life is Reason!" Rocky - Project Hail Mary`,
+        quote: `"words of <em>great</em> encouragement!" Rocky - Project Hail Mary`,
         species: "Eridian",
-        origin: "Rocky - Project Hail Mary",
+        origin: "Rocky - Project Hail Mary (Movie)",
+        misc:"",
         links: "",
         pictures: `<img src="pics/rocky.webp">`,
     },
@@ -388,10 +412,13 @@ var headmates = [
         firstNoted: "March 28, 2026",
         gender: "Non-binary on the male side",
         age:"28",
-        quote: "",
+        quote: `whether you think you can or you think you can't, you're right. | 
+        Listen, smile, agree, 
+        then do whatever the fuck you were going to do anyway. -RDJ`,
         species: "Demon",
         origin:"Brainmade",
-        links: `<a href="https//music.amazon.com/albums/B0DF8VMY2J">
+        misc:"",
+        links: `<a href="https//music.amazon.com/albums/B0DF8VMY2J" target="blank">
         Voice Claim</a>`,
         pictures: `<img src="pics/rowan.webp">`,
     },
@@ -405,11 +432,12 @@ var headmates = [
         quote: `I'll tell you the story of a warrior 
         who fought the fight of love, 
         with every wound he wore he raised his sword 
-        and marched through tears and blood 
+        and marched through tears and blood | 
         Story of a Warrior - John Michael Howell`,
         species: "Human",
         origin:"Brainmade",
-        links: `<a href="https://www.tiktok.com/t/ZP8Gj9jaU">
+        misc:"",
+        links: `<a href="https://www.tiktok.com/t/ZP8Gj9jaU" target="blank">
         Voice Claim (First Voice)</a>`,
         pictures: `<img src="pics/rylen.png">`,
     },
@@ -423,19 +451,21 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/ryon.webp">`,
     },
     {
         name:"Silveny",
         pronouns: "She/Her",
-        role: "",
+        role: "Little",
         firstNoted: "June 10, 2026",
         gender: "Girl",
         age:"5",
         quote: "",
         species: "Human",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/silveny.png">`,
     },
@@ -449,6 +479,7 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/texas.png">`,
     },
@@ -462,6 +493,7 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/theo-1.png"><img src="pics/theo-2.jpg">`,
     },
@@ -479,7 +511,7 @@ var headmates = [
         love is a drug that I can't deny, 
         I'm your dream girl but you're not my type
         you got a front row seat and I, 
-        I got a taste of the glamorous life
+        I got a taste of the glamorous life | 
         Fame is a Gun -Addison Rae
         <br/><br/>
         (Don't hate the girl, 
@@ -492,11 +524,12 @@ var headmates = [
         oh a minor chord, 
         you put me in this house, 
         I had to crawl right out, 
-        run rabbit, run rabid>
+        run rabbit, run rabid | 
         Run Rabbit - Mollie Elisabeth`,
         species: "Human",
         origin:"Songtive - Necromancer-Legrand",
-        links: `<a href="https://open.spotify.com/playlist/13GphB6UQ7T79BTCtGhYO9">
+        misc:"",
+        links: `<a href="https://open.spotify.com/playlist/13GphB6UQ7T79BTCtGhYO9" target="blank">
         Tina's Playlist</a>`,
         pictures: `<img src="pics/tina-1.png"><img src="pics/tina-2.png">`,
     },
@@ -507,11 +540,13 @@ var headmates = [
         firstNoted: "July 14, 2026",
         gender: "Boy",
         age:"Slider 16-22",
-        quote: `“Who am I without you?” -Me<br/>
-        “Yourself.” -Tubbo (My Bsf)`,
+        quote: `"Who am I without you?" -Me<br/>
+        "Yourself." -Tubbo (My Bsf)`,
         species: "Human",
         origin:"Faitive - Tommyinnit/Tom Simons",
-        links: "",
+        misc:"",
+        links: `<a href="https://open.spotify.com/playlist/1f9mlzalrqvLP5w6AB5D8j" target="blank">
+        Tommy's Jams</a>`,
         pictures: `<img src="pics/tommy.jpg"> art by @Shmeckdoesstuff on twitter`,
     },
     {
@@ -524,6 +559,7 @@ var headmates = [
         quote: "",
         species: "Fallen Angel",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/ves.png">
         <img src="pics/ves-3.png">
@@ -541,6 +577,7 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
+        misc:"",
         links: "",
         pictures: `<img src="pics/zane.png">`,
     },
@@ -574,6 +611,7 @@ function sethmCont(index){
     var quote = document.getElementById("quote");
     var species = document.getElementById("species");
     var origin = document.getElementById("origin");
+    var misc = document.getElementById("misc");
     var links = document.getElementById("links");
     var pict = document.getElementById("pictures")
 
@@ -586,6 +624,7 @@ function sethmCont(index){
     quote.innerHTML = headmates[index].quote;
     species.innerHTML = headmates[index].species;
     origin.innerHTML = headmates[index].origin;
+    misc.innerHTML = headmates[index].misc;
     links.innerHTML = headmates[index].links;
     pict.innerHTML = headmates[index].pictures;
 };
@@ -594,43 +633,54 @@ sethmCont(0);
 
 function seltag(element) {
     element.classList.add("tagsel");
+    getProjs()
 }
 
 function deseltag (element) {
     element.classList.remove("tagsel");
+    getProjs()
 }
 
-/*function getTag(element){
-    var tag = document.getElementById(element.id + "Tab");
-    tab.addEventListener("click", function() { 
-       closeTab(currTab);
-        openTab(element);
+function getTag(element){
+    var tag = document.getElementsByClassName("tag");
+    tag.addEventListener("click", function() { 
+        seltag(element);
     });
-};*/
+};
 
+var tagList = document.getElementById("tagList");
+//getTag(tagList);
+
+var tagGet = ["current", "2026", "2025", "2024", "HC", "art", "af", "tech"]
 
 var projects = [
     {
         projname:"Our Website",
         projpic:`<img href="pics/zen-site.png">`,
-        projtags:"current, 2026, HC, tech"
+        projtags:"current, 2026, HC, tech",
     },
     {
         projname:"NovaOS",
         projpic:`<img href="pics/novaos.png">`,
-        projtags:"current, 2026, HC, tech"
+        projtags:"current, 2026, HC, tech",
     },
 
-]
+];
 
-function getProjs(index) {
-    if (document.getElementsByClassName("tagsel")) {
-        //if tags are selected display only those
-        console.log("selected")
-        
-    } else {
-        //no tags are selected, display everything
-        console.log("nothing selected")
+function getProjs() {
+    if (document.getElementsByClassName("tagsel")) {    //if tags are selected display only those
+        console.log("selected");
+
+        var seltags = document.getElementsByClassName("tagsel");
+
+        for(let i=0; i< tags.length; i++){
+        console.log(seltags[i].id.includes(tagGet[i]));
+
+
+    };
+    } else {     //no tags are selected, display everything
+        console.log("nothing selected");
+
         function addToShow(index){
           var sc = document.getElementById("showcase");
           var projects = projects[index];
@@ -657,3 +707,19 @@ function getProjs(index) {
 /*function spotlight(params) {
     
 }*/
+
+
+/*
+if(document.getElementsbyClassName("tagsel")){ //detect if tagsel exists/ tags are selected
+//if yes:
+find all projects with that/those tags
+display them
+prevent duplicates/allow only one tag to be needed
+} else { 
+//if no:
+//Display everything
+};
+
+
+
+*/

@@ -42,6 +42,7 @@ body{
     justify-content: space-between;
     align-items: center;
     overflow-x: auto;
+    user-select: none;
 }
 
 .tab{
@@ -51,6 +52,10 @@ body{
     margin: 10px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.tab:hover{
+    background-color: #caa84967;
 }
 
  .select{
@@ -100,7 +105,7 @@ a:active{
     border-radius: 10px;
 }
 
-#ovpg1{
+.pages{
     display: flex;
     flex-direction: column;
     padding: 10px;

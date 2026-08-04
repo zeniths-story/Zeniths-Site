@@ -45,6 +45,7 @@ body{
     flex-direction: row;
     justify-content: space-between;
     overflow-x: auto;
+    user-select: none;
 }
 
 .tab{
@@ -259,7 +260,6 @@ margin: 10px;
 }
 
 #tagList{
-    
     display: flex;
     width: 170px;
     flex-direction: column;

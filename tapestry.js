@@ -1,4 +1,5 @@
 var winterr = document.getElementById("winterr");
+var tot = document.getElementById("tot");
 var cv = document.getElementById("CV");
 var sod = document.getElementById("SoD");
 var extra = document.getElementById("extra");
@@ -31,6 +32,7 @@ function getOpen(element){
 
 getOpen(winterr);
 getOpen(overview);
+getOpen(tot)
 getOpen(cv);
 getOpen(sod);
 getOpen(extra);
