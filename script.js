@@ -225,6 +225,20 @@ var headmates = [
         pictures: `<img src="pics/evyn.jpg">`,
     },
     {
+        name:"Fletcher",
+        pronouns: "They/He",
+        role: "",
+        firstNoted: "August 2, 2026",
+        gender: "Gendervoid",
+        age:"13-14",
+        quote: "",
+        species: "Human?",
+        origin:"Brainmade",
+        misc:"",
+        links: "",
+        pictures: `<img src="pics/fletch.png">`,
+    },
+    {
         name:"Hades",
         pronouns: "He/Him",
         role: "",
@@ -633,41 +647,60 @@ sethmCont(0);
 
 function seltag(element) {
     element.classList.add("tagsel");
-    getProjs()
+    //for(let i=0; i< projects.length; i++){
+   // console.log(projects[i].projtag);}
+    //getProjs()
 }
 
 function deseltag (element) {
     element.classList.remove("tagsel");
-    getProjs()
+    //getProjs()
 }
 
 function getTag(element){
-    var tag = document.getElementsByClassName("tag");
-    tag.addEventListener("click", function() { 
-        seltag(element);
-    });
+        element.addEventListener("click", function() { 
+            if(element.classList.contains("tagsel")){
+                deseltag(element);
+           } else {
+                seltag(element);
+}});
 };
 
-var tagList = document.getElementById("tagList");
-//getTag(tagList);
+var current = document.getElementById("current");
+var y2026 = document.getElementById("2026");
+var y2025 = document.getElementById("2025");
+var y2024 = document.getElementById("2024");
+var art = document.getElementById("art");
+var af = document.getElementById("af");
+var tech = document.getElementById("tech");
+var HC = document.getElementById("HC");
+getTag(current);
+getTag(y2026);
+getTag(y2025);
+getTag(y2024);
+getTag(art);
+getTag(af);
+getTag(tech);
+getTag(HC);
 
-var tagGet = ["current", "2026", "2025", "2024", "HC", "art", "af", "tech"]
 
 var projects = [
     {
         projname:"Our Website",
         projpic:`<img href="pics/zen-site.png">`,
         projtags:"current, 2026, HC, tech",
+        visible: "false",
     },
     {
         projname:"NovaOS",
         projpic:`<img href="pics/novaos.png">`,
         projtags:"current, 2026, HC, tech",
+        visible: "false",
     },
 
 ];
 
-function getProjs() {
+function getProjs(element) {
     if (document.getElementsByClassName("tagsel")) {    //if tags are selected display only those
         console.log("selected");
 
@@ -718,8 +751,32 @@ prevent duplicates/allow only one tag to be needed
 } else { 
 //if no:
 //Display everything
-};
+};*/
 
 
+/*function getProjs2(element){
+    for(let i=0; i< projects.length; i++){
+        if(projects[i].projtag.includes(element)){
 
-*/
+        function addToShow(index){
+          var sc = document.getElementById("showcase");
+          var projects = projects[index];
+          var newDiv = document.createElement("div");
+          newDiv.innerHTML= `
+            ${projects.projname}
+            ${projects.projpic}
+            ${projects.projtags}`;
+
+           newDiv.addEventListener("click", function(){
+           spotlight(index);
+         });
+          sc.appendChild(newDiv);
+         };
+
+         for(let i=0; i<headmates.length; i++){
+           addToShow(i);
+         }; 
+        
+        }
+    }
+};*/

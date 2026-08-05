@@ -16,7 +16,8 @@ body{
     rotate: 46deg;
     position: fixed;
     right: 40%;
-    top:610px
+    top:610px;
+    
 }
 
 #mount2{
@@ -90,12 +91,14 @@ a:active{
     border-radius: 40px;
     height: 55vh;
     width: 90%;
-    position: fixed;
-    top:295px;
+       /*position: fixed;
+    top:295px;*/
+    justify-self: flex-end;
     text-align: left;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    z-index: 1;
 
 }
 
@@ -274,12 +277,12 @@ margin: 10px;
     width: fit-content;
     padding: 10px;
     background-color: #64cff038;
+    user-select: none;
 
 }
 
 .tagsel{
-    background-color: #649cf038;
-
+    background-color: #397bdd80;
 }
 
 

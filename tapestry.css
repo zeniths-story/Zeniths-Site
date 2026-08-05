@@ -84,8 +84,9 @@ a:active{
     height: 55vh;
     width: 90%;
     padding: 15px;
-    position: fixed;
-    top:295px;
+    /*position: fixed;
+    top:295px;*/
+    justify-self: flex-end;
     text-align: left;
     display: flex;
     flex-direction: row;
@@ -95,7 +96,7 @@ a:active{
 
 .sidebar{
     height: 98%;
-    max-width: 30%;
+    width: 30%;
     background-color: #f0d6644d;
     overflow-y: scroll;
     scrollbar-gutter: stable;
@@ -106,6 +107,7 @@ a:active{
 }
 
 .pages{
+    border: solid white 1px;
     display: flex;
     flex-direction: column;
     padding: 10px;
