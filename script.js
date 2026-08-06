@@ -64,6 +64,7 @@ var headmates = [
         <a href="https://picrew.me/share?cd=p2jKx7aTt8" target="blank">>Ash, Lumi, Tina-2</a><br/>
         <a href="https://picrew.me/share?cd=oxGaGfBTJb" target="blank">>Az, Danger-2, Rowan, Zane</a><br/>
         <a href="https://picrew.me/share?cd=mlczI0ex0G" target="blank">>Evyn, Kai, Quill, Zenith-1</a><br/>
+        <a href="https://picrew.me/share?cd=qT2x5gDBRc " target="blank">>Fletcher</a><br/>
         <a href="https://picrew.me/share?cd=UjQo8cvPL6" target="blank">>Hart</a><br/>
         <a href="https://picrew.me/share?cd=nPKi5s6xWi" target="blank">>Luna-1</a><br/>
         <a href="https://picrew.me/share?cd=J6BxsGC9Mq" target="blank">>Luna-2</a><br/>
@@ -80,7 +81,7 @@ var headmates = [
         Zenith-1<img src="pics/zen-2.png">Zenith-2 `,
     },
     {
-        name:"Ari<br/>",
+        name:"Ari",
         pronouns: "She/They",
         role: "",
         firstNoted: "July 12, 2026",
@@ -89,7 +90,12 @@ var headmates = [
         quote: "",
         species: "Foxkin (Zesper)",
         origin:"OCtive - 1st draft of Zesper Chronicles",
-        misc: "",
+        misc: `I prefer being called the old term of "foxkin" 
+        because thats wat we first called it before switching to zesper. 
+        Also I don't have any of the nerfs the zespers have 
+        due to our new worldbuilding. ¬⩊¬<br/>
+        Friends: Nova :D
+        `,
         links: "",
         pictures: `<img src="pics/ari-1.png"> Best picture  
         <img src="pics/ari-2.png"> Take away Human ears `,
@@ -104,7 +110,7 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
-        misc:"",
+        misc:"Friends: Evi",
         links: "",
         pictures: `<img src="pics/asher.png">`,
     },
@@ -118,7 +124,8 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
-        misc: "",
+        misc: `Caretaker: Az<br/>
+        Friends: Silveny, Lumi`,
         links: "",
         pictures: `<img src="pics/ash.webp">`,
     },
@@ -132,7 +139,10 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
-        misc: "",
+        misc: `As the sysmom I tend to take care of everyone and be a general comforter.<br/>
+        Family: Danger, Zane, Ethan<br/>
+        Friends: Rowan <br/>
+        Caretaker of: Ash, Vesper`,
         links: "",
         pictures: `<img src="pics/Az.webp">`,
     },
@@ -146,8 +156,10 @@ var headmates = [
         quote: "",
         species: "Cat",
         origin:"Brainmade - Willowgenic?",
-        misc: "",
-        links: "",
+        misc: `Bestie: Theo<br/>
+        Friend: Lumi
+        `,
+        links: ``,
         pictures: "no pic yet...",
     },
     {
@@ -160,7 +172,10 @@ var headmates = [
         quote: "",
         species: "Werewolf (<i>Wolf Children</i> style)",
         origin:"Brainmade",
-        misc: "",
+        misc: `Hi, I'm Charly! I'm very energetic and appeared right around 
+        when Evyn (my beautiful partner) appeared! 
+        I tend to stay with fur and generally keep howls spirits up!<br/>
+        Dating: Evyn`,
         links: `<a href="https://open.spotify.com/playlist/1ICjZ7JwC8z46ERScw3wfW" target="blank">
         Voice Claim/Playlist</a>`,
         pictures: `<img src="pics/charly.png">`,
@@ -175,7 +190,7 @@ var headmates = [
         quote: "",
         species: "Explosion/Chaos God",
         origin:"Brainmade",
-        misc: "",
+        misc: "Family: Az",
         links: `<a href="https://open.spotify.com/playlist/46zHm8sxmKftu1TAzKGEvS" target="blank">
         God Complex (playlist)</a>`,
         pictures: `<img src="pics/danger-1.png"><img src="pics/danger-2.png">`,
@@ -190,8 +205,9 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:`Hi, I'm a big techie and tend to do some of the coding around here with Hart.<br/>
+        Family: Az, Zane`,
+        links: ``,
         pictures: `<img src="pics/ethan.png">`,
     },
     {
@@ -206,8 +222,12 @@ var headmates = [
         Heaven's Gate - Amélie Farren`,
         species: "Enderman",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:`I'm like the "core" you could say. 
+        However I definitly don't think thats like a thing.
+        If you belive in that though I definitly don't think I'm the "original" either. 
+        I just split a lot of sysmates.<br/>
+        Friends: Asher, Theo, Ryon, Quill`,
+        links: ``,
         pictures: `<img src="pics/evi.png">`,
     },
     {
@@ -220,8 +240,9 @@ var headmates = [
         quote: "",
         species: "Werewolf (<i>Wolf Children</i> style)",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:`I will bark at you.<br/>
+        Dating:Charly`,
+        links: ``,
         pictures: `<img src="pics/evyn.jpg">`,
     },
     {
@@ -234,8 +255,8 @@ var headmates = [
         quote: "",
         species: "Human?",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:"Hi! I'm new! uh, you can call me either fletch or fletcher idc <br/>I like arrows n stuff",
+        links: ``,
         pictures: `<img src="pics/fletch.png">`,
     },
     {
@@ -248,8 +269,10 @@ var headmates = [
         quote: "",
         species: "Semi-realistic Minecraft Woods Wolf",
         origin:"Minecraft Woods Wolf",
-        misc:"",
-        links: "",
+        misc:`Can often be seen with Tommy (-Null)<br/>
+        Bestie: Tommy<br/>
+        Friend: Lumi`,
+        links: ``,
         pictures: "no pic yet...",
     },
     {
@@ -262,8 +285,8 @@ var headmates = [
         quote: "",
         species: "Elf (semi-KotLC)",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:"Friend: Rylen, Reid",
+        links: ``,
         pictures: `<img src="pics/hart.png">`,
     },
     {
@@ -279,8 +302,8 @@ var headmates = [
         I lost my identity so very long ago | Language of the Lost - Riproducer`,
         species: "Holographic Assistant",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:"Dormant?",
+        links: ``,
         pictures: `<img src="pics/kai.webp">`,
     },
     {
@@ -290,12 +313,13 @@ var headmates = [
         firstNoted: "March 30, 2026",
         gender: "Girl",
         age:"7",
-        quote: `take a short moment to gather your thouts,
+        quote: `Take a short moment to gather your thougts,
         your head and your heart are just one foot apart | Head and Hart - TV Room`,
         species: "Human",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:`Family: Rowan, Silveny, Theo<br/>
+        Friends: Cat, Ash, Ryon, Quill, Hades, Tommy`,
+        links: ``,
         pictures: `<img src="pics/lumi.png">`,
     },
     {
@@ -312,8 +336,8 @@ var headmates = [
         I'm losing my mind | Losing my Mind - Amélie Farren`,
         species: "Human",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:`New, Quiet girl, pretty nice (-Null)`,
+        links: ``,
         pictures: `<img src="pics/luna-1.png"> This one's best 
         <img src="pics/luna-2.png">
         <img src="pics/luna-3.png">`,
@@ -328,8 +352,9 @@ var headmates = [
         quote: "",
         species: "Star-thing",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:`My bestie and I are the best alters in here ¬ᴗ¬ sorry not sorry 𓁹‿𓁹
+        <br/>Bestie:Ari`,
+        links: ``,
         pictures: `<img src="pics/nova.jpg"> Drawn by yours truly :3`,
     },
     {
@@ -342,8 +367,8 @@ var headmates = [
         quote: "The most basic form of mind control is repetition.",
         species: "Void",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:``,
+        links: ``,
         pictures: `<img src="pics/nova-1.png"> True form 
         <img src="pics/nova-2.png"> human-esqe form`,
     },
@@ -357,8 +382,9 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:`You can call me Evy or Evelyn as well as Opal ^-^<br/>
+        `,
+        links: ``,
         pictures: `<img src="pics/opal-1.png">
         <img src="pics/opal-2.jpg"><img src="pics/opal-3.jpg">`,
     },
@@ -382,8 +408,8 @@ var headmates = [
          I wanna watch how it happens | Cinematic - Will Linley`,
         species: "Fairy",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:`Friends: Evi, Lumi`,
+        links: ``,
         pictures: `<img src="pics/quill.webp">`,
     },
     {
@@ -400,7 +426,7 @@ var headmates = [
         I guess I got my head in the clouds | Right Now - Confetti`,
         species: "Human",
         origin:"Brainmade",
-        misc:"",
+        misc:`Friends: Ry(len), Hart`,
         links: `<a href="https://open.spotify.com/playlist/4n8UrKarVgxTa7Isl90yG0" target="blank">
         Reid's Tunes</a>`,
         pictures: `<img src="pics/reid.png">`,
@@ -412,11 +438,11 @@ var headmates = [
         firstNoted: "June 1, 2026",
         gender: "",
         age:"Adult",
-        quote: `"words of <em>great</em> encouragement!" Rocky - Project Hail Mary`,
+        quote: `"Words of <em>great</em> encouragement!" Rocky - Project Hail Mary`,
         species: "Eridian",
         origin: "Rocky - Project Hail Mary (Movie)",
-        misc:"",
-        links: "",
+        misc:``,
+        links: ``,
         pictures: `<img src="pics/rocky.webp">`,
     },
     {
@@ -431,7 +457,8 @@ var headmates = [
         then do whatever the fuck you were going to do anyway. -RDJ`,
         species: "Demon",
         origin:"Brainmade",
-        misc:"",
+        misc:`Friends: Az <br/>
+        Family: Lumi`,
         links: `<a href="https//music.amazon.com/albums/B0DF8VMY2J" target="blank">
         Voice Claim</a>`,
         pictures: `<img src="pics/rowan.webp">`,
@@ -450,7 +477,8 @@ var headmates = [
         Story of a Warrior - John Michael Howell`,
         species: "Human",
         origin:"Brainmade",
-        misc:"",
+        misc:`So I'm a knight,<br/>
+        Friends: Hart, Reid`,
         links: `<a href="https://www.tiktok.com/t/ZP8Gj9jaU" target="blank">
         Voice Claim (First Voice)</a>`,
         pictures: `<img src="pics/rylen.png">`,
@@ -465,8 +493,9 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:`I love Calzones! If you get one near us, I <em>will</em> front.
+        Friends:Lumi, Theo, Evi`,
+        links: ``,
         pictures: `<img src="pics/ryon.webp">`,
     },
     {
@@ -479,8 +508,9 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:`Family:Lumi<br/>
+        Friends:Ash`,
+        links: ``,
         pictures: `<img src="pics/silveny.png">`,
     },
     {
@@ -493,8 +523,9 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:`Texas, Dakota, The Cowboy, any work for me. 
+        (He also really likes the library for some reason. -Null, Evi)`,
+        links: ``,
         pictures: `<img src="pics/texas.png">`,
     },
     {
@@ -507,8 +538,11 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:`I like animes! :> <br/>
+        Family: Lumi<br/>
+        Bestie: Cat<br/>
+        Friends: Ryon, Evi, Tommy`,
+        links: ``,
         pictures: `<img src="pics/theo-1.png"><img src="pics/theo-2.jpg">`,
     },
     {
@@ -542,7 +576,7 @@ var headmates = [
         Run Rabbit - Mollie Elisabeth`,
         species: "Human",
         origin:"Songtive - Necromancer-Legrand",
-        misc:"",
+        misc:`Don't hurt the body...`,
         links: `<a href="https://open.spotify.com/playlist/13GphB6UQ7T79BTCtGhYO9" target="blank">
         Tina's Playlist</a>`,
         pictures: `<img src="pics/tina-1.png"><img src="pics/tina-2.png">`,
@@ -558,7 +592,10 @@ var headmates = [
         "Yourself." -Tubbo (My Bsf)`,
         species: "Human",
         origin:"Faitive - Tommyinnit/Tom Simons",
-        misc:"",
+        misc:`If I'm fronting, please don't treat me like the actual Tom Simons! 
+        I will refer to us as the same person, but I'm aware we are funamentally different.<br/>
+        Bestie: Hades<br/>
+        Friends: Theo, Lumi`,
         links: `<a href="https://open.spotify.com/playlist/1f9mlzalrqvLP5w6AB5D8j" target="blank">
         Tommy's Jams</a>`,
         pictures: `<img src="pics/tommy.jpg"> art by @Shmeckdoesstuff on twitter`,
@@ -566,18 +603,19 @@ var headmates = [
     {
         name:"Ves",
         pronouns: "Night/Star/Void",
-        role: "",
+        role: "Guilt/Fear Holder",
         firstNoted: "April ??, 2026",
         gender: "Agender",
         age:"17",
         quote: "",
         species: "Fallen Angel",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:`I'm learning to be better.<br/>
+        Caretaker: Az`,
+        links: ``,
         pictures: `<img src="pics/ves.png">
         <img src="pics/ves-3.png">
-        Super awesome ArtFight attack drawn by my bestie @nameless_vessel <3
+        Super awesome ArtFight attack drawn by my bestie @nameless_vessel <3 (-Nova)
         <img src="pics/ves-2.jpg"> 
         ArtFight Attack by @mikkiasie`,
     },
@@ -591,8 +629,9 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
-        misc:"",
-        links: "",
+        misc:` Hi, I'm Zane. I'm pretty chill and I help Mom with the littles.
+        <br/>Family: Az, Ethan`,
+        links:``,
         pictures: `<img src="pics/zane.png">`,
     },
     

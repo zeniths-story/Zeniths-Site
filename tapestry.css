@@ -95,7 +95,6 @@ a:active{
 }
 
 .sidebar{
-    height: 98%;
     width: 30%;
     background-color: #f0d6644d;
     overflow-y: scroll;
@@ -103,6 +102,7 @@ a:active{
     scrollbar-color: rgb(192, 159, 97) #64cff000;
     padding-left: 10px;
     padding-top: 10px;
+    margin: 10px;
     border-radius: 10px;
 }
 
