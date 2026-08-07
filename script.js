@@ -337,7 +337,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         misc:`New, Quiet girl, pretty nice (-Null)`,
-        links: ``,
+        links: `<a href="https://open.spotify.com/playlist/3b0M1S2ZfzmdwlhN7JTBg9" target="blank">Luna's Likes (playlist)<a/>`,
         pictures: `<img src="pics/luna-1.png"> This one's best 
         <img src="pics/luna-2.png">
         <img src="pics/luna-3.png">`,
@@ -427,7 +427,8 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         misc:`Friends: Ry(len), Hart`,
-        links: `<a href="https://open.spotify.com/playlist/4n8UrKarVgxTa7Isl90yG0" target="blank">
+        links: `<a href="https://pin.it/4yIbEHkxQ" target="blank">Draw me in these please!!</a><br/>
+        <a href="https://open.spotify.com/playlist/4n8UrKarVgxTa7Isl90yG0" target="blank">
         Reid's Tunes</a>`,
         pictures: `<img src="pics/reid.png">`,
     },
