@@ -84,34 +84,23 @@ a:active{
     height: 55vh;
     width: 90%;
     padding: 15px;
-    /*position: fixed;
-    top:295px;*/
     justify-self: flex-end;
     text-align: left;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content:space-around;
+    align-content: center;
 
-}
-
-.sidebar{
-    width: 30%;
-    background-color: #f0d6644d;
-    overflow-y: scroll;
-    scrollbar-gutter: stable;
-    scrollbar-color: rgb(192, 159, 97) #64cff000;
-    padding-left: 10px;
-    padding-top: 10px;
-    margin: 10px;
-    border-radius: 10px;
 }
 
 .pages{
-    border: solid white 1px;
     display: flex;
     flex-direction: column;
     padding: 10px;
-    width: 60%;
+    max-width: 99%;
+    overflow-y: auto;
+    overflow-wrap: anywhere;
+    scrollbar-gutter: stable;
 }
 
 .disclaimer, .disclaimer a{
