@@ -64,7 +64,7 @@ var headmates = [
         <a href="https://picrew.me/share?cd=p2jKx7aTt8" target="blank">>Ash, Lumi, Tina-2</a><br/>
         <a href="https://picrew.me/share?cd=oxGaGfBTJb" target="blank">>Az, Danger-2, Rowan, Zane</a><br/>
         <a href="https://picrew.me/share?cd=mlczI0ex0G" target="blank">>Evyn, Kai, Quill, Zenith-1</a><br/>
-        <a href="https://picrew.me/share?cd=qT2x5gDBRc " target="blank">>Fletcher</a><br/>
+        <a href="https://picrew.me/share?cd=qT2x5gDBRc" target="blank">>Fletcher</a><br/>
         <a href="https://picrew.me/share?cd=UjQo8cvPL6" target="blank">>Hart</a><br/>
         <a href="https://picrew.me/share?cd=nPKi5s6xWi" target="blank">>Luna-1</a><br/>
         <a href="https://picrew.me/share?cd=J6BxsGC9Mq" target="blank">>Luna-2</a><br/>
