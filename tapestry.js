@@ -1,24 +1,24 @@
-var winterr = document.getElementById("winterr");
+/*var winterr = document.getElementById("winterr");
 var tot = document.getElementById("tot");
-var cv = document.getElementById("CV");
-var sod = document.getElementById("SoD");
+var CV = document.getElementById("CV");
+var SoD = document.getElementById("SoD");
 var extra = document.getElementById("extra");
 var essa = document.getElementById("essa");
-var overview = document.getElementById("overview");
+var overview = document.getElementById("overview");*/
 
 var currTab = overview
 
 function openTab(element) {
-    var tab = document.getElementById(element.id + "Tab");
+    var open = document.getElementById(element.id + "Tab");
     element.style.display = "flex";
-    tab.classList.add("select");
+    open.classList.add("select");
     currTab = element
 }
 
 function closeTab (element) {
-    var tab = document.getElementById(element.id + "Tab");
+    var close = document.getElementById(element.id + "Tab");
     element.style.display = "none";
-    tab.classList.remove("select");
+    close.classList.remove("select");
    
 }
 
@@ -30,13 +30,13 @@ function getOpen(element){
     });
 };
 
-getOpen(winterr);
+/*getOpen(winterr);
 getOpen(overview);
 getOpen(tot)
-getOpen(cv);
-getOpen(sod);
+getOpen(CV);
+getOpen(SoD);
 getOpen(extra);
-getOpen(essa);
+getOpen(essa);*/
 
 var stories = [
     {
@@ -118,8 +118,31 @@ var stories = [
             world: ``,
             religion: ``,
             timeline: ``,
-           }  
+           },
     },
 
 
 ];
+
+function putTab(element) {
+    for(let i=0; i<stories.length; i++){
+        if (currTab = stories[i].series){
+        //set page content
+        var page = document.getElementById(element.id + "pg");
+        //page.innerHTML = stories[i];
+    }}
+};
+
+function initTab(elementName) {
+    var tab = document.getElementById(elementName.id);
+    getOpen(tab);
+    putTab(tab);
+}
+
+initTab(winterr);
+initTab(overview);
+initTab(tot)
+initTab(CV);
+initTab(SoD);
+initTab(extra);
+initTab(essa);
