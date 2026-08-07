@@ -427,7 +427,7 @@ var headmates = [
         species: "Human",
         origin:"Brainmade",
         misc:`Friends: Ry(len), Hart`,
-        links: `<a href="https://pin.it/4yIbEHkxQ" target="blank">Draw me in these please!!</a><br/>
+        links: `<a href="https://pin.it/7Fz1GQSIM" target="blank">Draw me in these please!!</a><br/>
         <a href="https://open.spotify.com/playlist/4n8UrKarVgxTa7Isl90yG0" target="blank">
         Reid's Tunes</a>`,
         pictures: `<img src="pics/reid.png">`,
