@@ -251,7 +251,6 @@ margin: 10px;
     align-items: center;
     height: fit-content;
     width: fit-content;
-    
 
 }
 
@@ -283,6 +282,32 @@ margin: 10px;
 
 .tagsel{
     background-color: #397bdd80;
+}
+
+#showcase{
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    width: 80%;
+    overflow-y: auto;
+}
+
+.showpic{
+    border:solid  #397bdd80 1px;
+    border-radius: 20px;
+    max-width: fit-content;
+    min-width: 200px;
+    height: fit-content;
+    margin: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+.showpic img {
+    width:60%;
 }
 
 

@@ -727,55 +727,65 @@ getTag(HC);
 var projects = [
     {
         projname:"Our Website",
-        projpic:`<img href="pics/zen-site.png">`,
+        projpic:`<img src="pics/zen-site.png">`,
         projtags:"current, 2026, HC, tech",
         visible: "false",
     },
     {
         projname:"NovaOS",
-        projpic:`<img href="pics/novaos.png">`,
+        projpic:`<img src="pics/novaos.png">`,
         projtags:"current, 2026, HC, tech",
         visible: "false",
     },
 
 ];
 
-function getProjs(element) {
-    if (document.getElementsByClassName("tagsel")) {    //if tags are selected display only those
+function getProjs() {
+    if (document.getElementsByClassName("tagsel").length >= 1) {    //if tags are selected display only those
         console.log("selected");
 
         var seltags = document.getElementsByClassName("tagsel");
 
-        for(let i=0; i< tags.length; i++){
-        console.log(seltags[i].id.includes(tagGet[i]));
+       // for(let i=0; i< tags.length; i++){
+       // console.log(seltags[i].id.includes(tagGet[i]));
 
 
-    };
-    } else {     //no tags are selected, display everything
+    //};
+
+
+    } else {     //no tags are selected, display everything *works*
         console.log("nothing selected");
+        for(let i=0; i<projects.length; i++){
+           addToShow(i);
+         }
 
         function addToShow(index){
           var sc = document.getElementById("showcase");
-          var projects = projects[index];
-          var newDiv = document.createElement("div");
-          newDiv.innerHTML= `
-            ${projects.projname}
-            ${projects.projpic}
-            ${projects.projtags}`;
+          //var projects = projects[index];
+          var divTotal = document.createElement("div");
 
-    /*newDiv.addEventListener("click", function(){
-        sethmCont(index);
+            divTotal.innerHTML = `
+            <p>${projects[index].projname}</p>
+            ${projects[index].projpic}
+            <p></p>
+            `
+            //${projects[index].projtags}
+
+            divTotal.classList.add("showpic");
+
+    /*divTotal.addEventListener("click", function(){
+        spotlight(??);
     });*/
-          sc.appendChild(newDiv);
+          sc.appendChild(divTotal);
          };
 
-         for(let i=0; i<headmates.length; i++){
-           addToShow(i);
-         }
+         
         
     }
 
 }
+getProjs();
+
 
 /*function spotlight(params) {
     
