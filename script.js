@@ -9,6 +9,7 @@ function openTab(element) {
     element.style.display = "flex";
     tab.classList.add("select");
     currTab = element;
+    getProjs();
     
 }
 
@@ -689,12 +690,13 @@ function seltag(element) {
     element.classList.add("tagsel");
     //for(let i=0; i< projects.length; i++){
    // console.log(projects[i].projtag);}
-    //getProjs()
+   console.log(element.id)
+    getProjs()
 }
 
 function deseltag (element) {
     element.classList.remove("tagsel");
-    //getProjs()
+    getProjs()
 }
 
 function getTag(element){
@@ -743,6 +745,11 @@ var projects = [
 function getProjs() {
     if (document.getElementsByClassName("tagsel").length >= 1) {    //if tags are selected display only those
         console.log("selected");
+         var currProjs = document.getElementsByClassName("showpic")
+        
+        for(let i=0; i< currProjs.length; i++){
+        currProjs[i].remove()
+    }; 
 
         var seltags = document.getElementsByClassName("tagsel");
 
@@ -784,7 +791,7 @@ function getProjs() {
     }
 
 }
-getProjs();
+
 
 
 /*function spotlight(params) {
@@ -798,7 +805,7 @@ if(document.getElementsbyClassName("tagsel")){ //detect if tagsel exists/ tags a
 find all projects with that/those tags
 display them
 prevent duplicates/allow only one tag to be needed
-} else { 
+} else { *works*
 //if no:
 //Display everything
 };*/
