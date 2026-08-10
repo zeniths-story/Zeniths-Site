@@ -690,7 +690,7 @@ function seltag(element) {
     element.classList.add("tagsel");
     //for(let i=0; i< projects.length; i++){
    // console.log(projects[i].projtag);}
-   console.log(element.id)
+   //console.log(element.id)
     getProjs()
 }
 
@@ -746,7 +746,7 @@ function getProjs() {
     if (document.getElementsByClassName("tagsel").length >= 1) {    //if tags are selected display only those
         //console.log("selected");
          var currProjs = document.getElementsByClassName("showpic")
-        
+        console.log(currProjs);
         for(let i=0; i<currProjs.length; i++){
         currProjs[i].remove();
         console.log(i);
@@ -763,7 +763,7 @@ function getProjs() {
     } else {     //no tags are selected, display everything 
         //console.log("nothing selected");
         for(let i=0; i<projects.length; i++){
-            console.log(projects[i].visible == "false")
+            //console.log(projects[i].visible == "false")
             if(projects[i].visible == "false"){ //check if visible; yes = do nothing, it's already showing
             //no:
            addToShow(i);  //say visible (in show)
@@ -784,7 +784,7 @@ function getProjs() {
 
             divTotal.classList.add("showpic");
             divTotal.id = projects[index].projname;
-            console.log(divTotal.id);
+            //console.log(divTotal.id);
             sc.appendChild(divTotal);
             projects[index].visible = "true";
 
