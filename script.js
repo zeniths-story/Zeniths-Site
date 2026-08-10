@@ -744,27 +744,31 @@ var projects = [
 
 function getProjs() {
     if (document.getElementsByClassName("tagsel").length >= 1) {    //if tags are selected display only those
-        console.log("selected");
+        //console.log("selected");
          var currProjs = document.getElementsByClassName("showpic")
         
-        for(let i=0; i< currProjs.length; i++){
-        currProjs[i].remove()
+        for(let i=0; i<currProjs.length; i++){
+        currProjs[i].remove();
+        console.log(i);
+        projects[i].visible = "false";
     }; 
 
-        var seltags = document.getElementsByClassName("tagsel");
+        //var seltags = document.getElementsByClassName("tagsel");
 
        // for(let i=0; i< tags.length; i++){
        // console.log(seltags[i].id.includes(tagGet[i]));
 
 
     //};
-
-
-    } else {     //no tags are selected, display everything *works*
-        console.log("nothing selected");
+    } else {     //no tags are selected, display everything 
+        //console.log("nothing selected");
         for(let i=0; i<projects.length; i++){
-           addToShow(i);
-         }
+            console.log(projects[i].visible == "false")
+            if(projects[i].visible == "false"){ //check if visible; yes = do nothing, it's already showing
+            //no:
+           addToShow(i);  //say visible (in show)
+            }
+        };
 
         function addToShow(index){
           var sc = document.getElementById("showcase");
@@ -779,11 +783,15 @@ function getProjs() {
             //${projects[index].projtags}
 
             divTotal.classList.add("showpic");
+            divTotal.id = projects[index].projname;
+            console.log(divTotal.id);
+            sc.appendChild(divTotal);
+            projects[index].visible = "true";
 
     /*divTotal.addEventListener("click", function(){
         spotlight(??);
     });*/
-          sc.appendChild(divTotal);
+          
          };
 
          
