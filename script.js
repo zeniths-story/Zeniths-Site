@@ -746,13 +746,18 @@ function getProjs() {
     if (document.getElementsByClassName("tagsel").length >= 1) {    //if tags are selected display only those
         //console.log("selected");
          var currProjs = document.getElementsByClassName("showpic")
-        console.log(currProjs);
+        console.log(currProjs.length);
         for(let i=0; i<currProjs.length; i++){
         currProjs[i].remove();
-        console.log(i);
+        console.log(currProjs[i].id);
         projects[i].visible = "false";
     }; 
 
+    function remProj(index){
+
+       // var proj =
+
+    };
         //var seltags = document.getElementsByClassName("tagsel");
 
        // for(let i=0; i< tags.length; i++){
@@ -763,7 +768,7 @@ function getProjs() {
     } else {     //no tags are selected, display everything 
         //console.log("nothing selected");
         for(let i=0; i<projects.length; i++){
-            //console.log(projects[i].visible == "false")
+            //console.log(projects[i])
             if(projects[i].visible == "false"){ //check if visible; yes = do nothing, it's already showing
             //no:
            addToShow(i);  //say visible (in show)

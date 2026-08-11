@@ -296,6 +296,7 @@ margin: 10px;
 
 .showpic{
     border:solid  #397bdd80 1px;
+    background-color: #3440e970;
     border-radius: 20px;
     max-width: fit-content;
     min-width: 200px;
