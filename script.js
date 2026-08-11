@@ -744,20 +744,16 @@ var projects = [
 
 function getProjs() {
     if (document.getElementsByClassName("tagsel").length >= 1) {    //if tags are selected display only those
-        //console.log("selected");
          var currProjs = document.getElementsByClassName("showpic")
-        console.log(currProjs.length);
-        for(let i=0; i<currProjs.length; i++){
-        currProjs[i].remove();
-        console.log(currProjs[i].id);
-        projects[i].visible = "false";
+         var projlength = currProjs.length
+
+        for(let i=0; i< projlength; i++){ //remove everything *works*
+            //console.log(currProjs[i].id);
+            projects[0].visible = "false";
+            currProjs[0].remove();
+            console.log(i); 
     }; 
 
-    function remProj(index){
-
-       // var proj =
-
-    };
         //var seltags = document.getElementsByClassName("tagsel");
 
        // for(let i=0; i< tags.length; i++){
@@ -768,24 +764,23 @@ function getProjs() {
     } else {     //no tags are selected, display everything 
         //console.log("nothing selected");
         for(let i=0; i<projects.length; i++){
-            //console.log(projects[i])
-            if(projects[i].visible == "false"){ //check if visible; yes = do nothing, it's already showing
-            //no:
-           addToShow(i);  //say visible (in show)
+            //console.log(projects.length)
+            if(projects[i].visible == "false"){ //check if visible
+                //if not visible:
+                addToShow(i);  //make visible
+                // yes visible = do nothing, it's already showing
             }
         };
 
         function addToShow(index){
           var sc = document.getElementById("showcase");
-          //var projects = projects[index];
           var divTotal = document.createElement("div");
+          //var projects = projects[index];
 
             divTotal.innerHTML = `
             <p>${projects[index].projname}</p>
             ${projects[index].projpic}
-            <p></p>
-            `
-            //${projects[index].projtags}
+            <p></p>`
 
             divTotal.classList.add("showpic");
             divTotal.id = projects[index].projname;
@@ -793,9 +788,10 @@ function getProjs() {
             sc.appendChild(divTotal);
             projects[index].visible = "true";
 
-    /*divTotal.addEventListener("click", function(){
-        spotlight(??);
-    });*/
+    
+            /*divTotal.addEventListener("click", function(){
+               spotlight(??);
+            });*/
           
          };
 
