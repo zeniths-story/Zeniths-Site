@@ -736,43 +736,86 @@ var projects = [
         projtags:"current, 2026, HC, tech",
         visible: "false",
     },
+    {
+        projname:"Archie Enjoying a Drink",
+        projpic:`<img src="ArtFight/archie.png">`,
+        projtags:"2026, art, af",
+        visible: "false",
+    },
+    {
+        projname:"FallingStarStruck",
+        projpic:`<img src="ArtFight/fallingStarStruck.png">`,
+        projtags:"2026, art, af",
+        visible: "false",
+    },
+    {
+        projname:"Sleepy Boi",
+        projpic:`<img src="ArtFight/SleepyBoi.png">`,
+        projtags:"2026, art, af",
+        visible: "false",
+    },
+    {
+        projname:"Vexia",
+        projpic:`<img src="ArtFight/vexia.png">`,
+        projtags:"2026, art, af",
+        visible: "false",
+    },
+    {
+        projname:"Young Dominy",
+        projpic:`<img src="ArtFight/youngDominy.png">`,
+        projtags:"2026, art, af",
+        visible: "false",
+    },
 
 ];
 
 function getProjs() {
-    if (document.getElementsByClassName("tagsel").length >= 1) {    //if tags are selected display only those
-         var currProjs = document.getElementsByClassName("showpic")
+    if (document.getElementsByClassName("tagsel").length >= 1) { 
+        //if tags are selected display only those
+         deleteAllProj();
+         addTaggedProjs();
+    } else {     
+        //no tags are selected, display everything *works??*
+        deleteAllProj();
+        addAllProjs();
+    };
+};
+
+function deleteAllProj(){  //remove everything *works*
+    var currProjs = document.getElementsByClassName("showpic")
          var projlength = currProjs.length
 
-        for(let i=0; i< projlength; i++){ //remove everything *works*
+        for(let i=0; i< projlength; i++){
             projects[i].visible = "false";
+            //console.log("false: " + projects[i].visible)
             currProjs[0].remove();
     }; 
+};
 
-        var seltags = document.getElementsByClassName("tagsel");
+function addTaggedProjs(){
+    var seltags = document.getElementsByClassName("tagsel");
 
         for(let i=0; i< seltags.length; i++){
-            console.log(seltags[i].id);
             var tagName = seltags[i].id
+            console.log("tagName: " + tagName)
             for(let i=0; i<projects.length; i++){
             if(projects[i].projtags.includes(tagName) && projects[i].visible == "false"){ 
                 addToShow(i); 
-            }
+            };
         };
     };
+};
 
-    //addToShow(index)
-    } else {     //no tags are selected, display everything *works??*
-        for(let i=0; i<projects.length; i++){
+function addAllProjs(){
+    for(let i=0; i<projects.length; i++){
             if(projects[i].visible == "false"){ //check if visible
                 //if not visible:
                 addToShow(i);  //make visible
+                console.log(projects[i].projname)
                 // yes visible = do nothing, it's already showing
-            }
         };
-    }
-
-}
+    };
+};
 
 function addToShow(index){
           var sc = document.getElementById("showcase");
@@ -788,6 +831,7 @@ function addToShow(index){
             divTotal.id = projects[index].projname;
             sc.appendChild(divTotal);
             projects[index].visible = "true";
+            //console.log("true: " + projects[index].visible)
 
             /*divTotal.addEventListener("click", function(){
                spotlight(??);

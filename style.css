@@ -1,5 +1,8 @@
 body{
     background-color: rgb(16, 17, 82);
+    /*background-image: url(nightsky.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;*/
     color: rgb(60, 158, 223);
     text-align: center;
     display: flex;
@@ -261,6 +264,10 @@ margin: 10px;
     border: solid #3440e970 3px;
 }
 
+#projects{
+    width: 99%;
+}
+
 #tagList{
     display: flex;
     width: 170px;
@@ -285,21 +292,24 @@ margin: 10px;
 }
 
 #showcase{
+    
     margin: 10px;
     padding: 10px;
     display: flex;
-    width: 80%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 90%;
     overflow-y: auto;
     overflow-x: hidden;
-    overflow-wrap: anywhere;
+    
 }
 
 .showpic{
     border:solid  #397bdd80 1px;
     background-color: #3440e970;
     border-radius: 20px;
-    max-width: fit-content;
     min-width: 200px;
+    max-width: 400px;
     height: fit-content;
     margin: 15px;
     padding: 10px;
