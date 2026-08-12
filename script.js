@@ -729,76 +729,84 @@ var projects = [
         projpic:`<img src="pics/zen-site.png">`,
         projtags:"current, 2026, HC, tech",
         visible: "false",
+        projid: "Site",
     },
     {
         projname:"NovaOS",
         projpic:`<img src="pics/novaos.png">`,
         projtags:"current, 2026, HC, tech",
         visible: "false",
+        projid: "novaos",
     },
     {
         projname:"Archie Enjoying a Drink",
         projpic:`<img src="ArtFight/archie.png">`,
         projtags:"2026, art, af",
         visible: "false",
+        projid: "archie",
     },
     {
         projname:"FallingStarStruck",
         projpic:`<img src="ArtFight/fallingStarStruck.png">`,
         projtags:"2026, art, af",
         visible: "false",
+        projid: "stardog",
     },
     {
         projname:"Sleepy Boi",
         projpic:`<img src="ArtFight/SleepyBoi.png">`,
         projtags:"2026, art, af",
         visible: "false",
+        projid: "sleepdog",
     },
     {
         projname:"Vexia",
         projpic:`<img src="ArtFight/vexia.png">`,
         projtags:"2026, art, af",
         visible: "false",
+        projid: "vexia",
     },
     {
         projname:"Young Dominy",
         projpic:`<img src="ArtFight/youngDominy.png">`,
         projtags:"2026, art, af",
         visible: "false",
+        projid: "dominy",
     },
 
 ];
+var seltags = document.getElementsByClassName("tagsel");
 
 function getProjs() {
-    if (document.getElementsByClassName("tagsel").length >= 1) { 
-        //if tags are selected display only those
+    if (seltags.length >= 1) { 
+        //if tags are selected display only those *works*
          deleteAllProj();
+         console.log("delete for tag");
          addTaggedProjs();
     } else {     
-        //no tags are selected, display everything *works??*
+        //no tags are selected, display everything *buggy*
         deleteAllProj();
+        console.log("delete for all");
         addAllProjs();
     };
 };
 
 function deleteAllProj(){  //remove everything *works*
     var currProjs = document.getElementsByClassName("showpic")
-         var projlength = currProjs.length
+    var projlength = currProjs.length
 
-        for(let i=0; i< projlength; i++){
+        for(let i=0; i < projlength; i++){
             projects[i].visible = "false";
-            //console.log("false: " + projects[i].visible)
+            console.log("delete: " + projects[i].visible);
             currProjs[0].remove();
     }; 
 };
 
-function addTaggedProjs(){
-    var seltags = document.getElementsByClassName("tagsel");
+function addTaggedProjs(){ // *works*
 
-        for(let i=0; i< seltags.length; i++){
-            var tagName = seltags[i].id
-            console.log("tagName: " + tagName)
-            for(let i=0; i<projects.length; i++){
+    for(let i=0; i< seltags.length; i++){
+        var tagName = seltags[i].id
+        for(let i=0; i<projects.length; i++){
             if(projects[i].projtags.includes(tagName) && projects[i].visible == "false"){ 
                 addToShow(i); 
             };
@@ -808,11 +816,11 @@ function addTaggedProjs(){
 
 function addAllProjs(){
     for(let i=0; i<projects.length; i++){
-            if(projects[i].visible == "false"){ //check if visible
-                //if not visible:
-                addToShow(i);  //make visible
-                console.log(projects[i].projname)
-                // yes visible = do nothing, it's already showing
+        if(projects[i].visible == "false"){ //check if visible
+            //if not visible:
+            addToShow(i);  //make visible
+            console.log(projects[i].projid + projects[i].visible)
+            console.log(i)
         };
     };
 };
@@ -831,7 +839,7 @@ function addToShow(index){
             divTotal.id = projects[index].projname;
             sc.appendChild(divTotal);
             projects[index].visible = "true";
-            //console.log("true: " + projects[index].visible)
+            //console.log("add: " + projects[index].visible)
 
             /*divTotal.addEventListener("click", function(){
                spotlight(??);
