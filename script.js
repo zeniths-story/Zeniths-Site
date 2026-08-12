@@ -685,19 +685,15 @@ function sethmCont(index){
 };
 sethmCont(0);
 
-
 function seltag(element) {
     element.classList.add("tagsel");
-    //for(let i=0; i< projects.length; i++){
-   // console.log(projects[i].projtag);}
-   //console.log(element.id)
-    getProjs()
-}
+    getProjs();
+};
 
 function deseltag (element) {
     element.classList.remove("tagsel");
-    getProjs()
-}
+    getProjs();
+};
 
 function getTag(element){
         element.addEventListener("click", function() { 
@@ -705,7 +701,9 @@ function getTag(element){
                 deseltag(element);
            } else {
                 seltag(element);
-}});
+
+            };
+        });
 };
 
 var current = document.getElementById("current");
@@ -724,7 +722,6 @@ getTag(art);
 getTag(af);
 getTag(tech);
 getTag(HC);
-
 
 var projects = [
     {
@@ -748,31 +745,36 @@ function getProjs() {
          var projlength = currProjs.length
 
         for(let i=0; i< projlength; i++){ //remove everything *works*
-            //console.log(currProjs[i].id);
-            projects[0].visible = "false";
+            projects[i].visible = "false";
             currProjs[0].remove();
-            console.log(i); 
     }; 
 
-        //var seltags = document.getElementsByClassName("tagsel");
+        var seltags = document.getElementsByClassName("tagsel");
 
-       // for(let i=0; i< tags.length; i++){
-       // console.log(seltags[i].id.includes(tagGet[i]));
+        for(let i=0; i< seltags.length; i++){
+            console.log(seltags[i].id);
+            var tagName = seltags[i].id
+            for(let i=0; i<projects.length; i++){
+            if(projects[i].projtags.includes(tagName) && projects[i].visible == "false"){ 
+                addToShow(i); 
+            }
+        };
+    };
 
-
-    //};
-    } else {     //no tags are selected, display everything 
-        //console.log("nothing selected");
+    //addToShow(index)
+    } else {     //no tags are selected, display everything *works??*
         for(let i=0; i<projects.length; i++){
-            //console.log(projects.length)
             if(projects[i].visible == "false"){ //check if visible
                 //if not visible:
                 addToShow(i);  //make visible
                 // yes visible = do nothing, it's already showing
             }
         };
+    }
 
-        function addToShow(index){
+}
+
+function addToShow(index){
           var sc = document.getElementById("showcase");
           var divTotal = document.createElement("div");
           //var projects = projects[index];
@@ -784,65 +786,16 @@ function getProjs() {
 
             divTotal.classList.add("showpic");
             divTotal.id = projects[index].projname;
-            //console.log(divTotal.id);
             sc.appendChild(divTotal);
             projects[index].visible = "true";
 
-    
             /*divTotal.addEventListener("click", function(){
                spotlight(??);
             });*/
           
          };
 
-         
-        
-    }
-
-}
-
-
-
 /*function spotlight(params) {
     
 }*/
 
-
-/*
-if(document.getElementsbyClassName("tagsel")){ //detect if tagsel exists/ tags are selected
-//if yes:
-find all projects with that/those tags
-display them
-prevent duplicates/allow only one tag to be needed
-} else { *works*
-//if no:
-//Display everything
-};*/
-
-
-/*function getProjs2(element){
-    for(let i=0; i< projects.length; i++){
-        if(projects[i].projtag.includes(element)){
-
-        function addToShow(index){
-          var sc = document.getElementById("showcase");
-          var projects = projects[index];
-          var newDiv = document.createElement("div");
-          newDiv.innerHTML= `
-            ${projects.projname}
-            ${projects.projpic}
-            ${projects.projtags}`;
-
-           newDiv.addEventListener("click", function(){
-           spotlight(index);
-         });
-          sc.appendChild(newDiv);
-         };
-
-         for(let i=0; i<headmates.length; i++){
-           addToShow(i);
-         }; 
-        
-        }
-    }
-};*/
