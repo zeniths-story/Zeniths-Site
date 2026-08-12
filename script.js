@@ -1,6 +1,7 @@
 var about = document.getElementById("Abt");
 var headmates = document.getElementById("headmates");
 var projects = document.getElementById("projects");
+var blog = document.getElementById("blog");
 
 var currTab = about;
 
@@ -30,6 +31,7 @@ function getOpen(element){
 getOpen(about);
 getOpen(headmates);
 getOpen(projects);
+getOpen(blog);
 
 var headmates = [
     {
@@ -256,7 +258,9 @@ var headmates = [
         quote: "",
         species: "Human?",
         origin:"Brainmade",
-        misc:"Hi! I'm new! uh, you can call me either fletch or fletcher idc <br/>I like arrows n stuff",
+        misc:`Hi! I'm new! uh, you can call me either fletch or fletcher idc <br/>
+        I like arrows n stuff<br/>
+        Friends: Tommy`,
         links: ``,
         pictures: `<img src="pics/fletch.png">`,
     },
@@ -597,10 +601,10 @@ var headmates = [
         misc:`If I'm fronting, please don't treat me like the actual Tom Simons! 
         I will refer to us as the same person, but I'm aware we are funamentally different.<br/>
         Bestie: Hades<br/>
-        Friends: Theo, Lumi`,
+        Friends: Theo, Lumi, Fletch`,
         links: `<a href="https://open.spotify.com/playlist/1f9mlzalrqvLP5w6AB5D8j" target="blank">
         Tommy's Jams</a>`,
-        pictures: `<img src="pics/tommy.jpg"> art by @Shmeckdoesstuff on twitter`,
+        pictures: `<img src="pics/tommy.jpg"> Art by @Shmeckdoesstuff on twitter`,
     },
     {
         name:"Ves",
