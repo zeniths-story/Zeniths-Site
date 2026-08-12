@@ -10,15 +10,15 @@ Includes:
 >
 > Where you can find us Online
 >
-> Main (currently wip) projects on home page
+> Main wip projects on home page
 
 > # Meet The Headmates
 > Short introductions to all our Headmates
 
 > # Projects
-> All past & Current projects
+> Past & current art and programming projects
 >
-> Still a WIP
+> Weird Art/Artfight Tag Glitch
 
 > # Tapestry
 > Where all our OG stories live
