@@ -10,7 +10,6 @@ function openTab(element) {
     element.style.display = "flex";
     tab.classList.add("select");
     currTab = element;
-    getProjs();
     
 }
 
@@ -691,12 +690,10 @@ sethmCont(0);
 
 function seltag(element) {
     element.classList.add("tagsel");
-    getProjs();
 };
 
 function deseltag (element) {
     element.classList.remove("tagsel");
-    getProjs();
 };
 
 function getTag(element){
@@ -907,6 +904,7 @@ var blogPosts =[
             really dissocitive today for some reason. Emo Sib left with Mom to the MCR/PTV
             concert... I wanted to go but instead she took one of their other friends. 
             Totally not jealous... (╥˰╥") <br/>
+            Still no clue whats going on with the project tags.
 
 
             
@@ -922,7 +920,7 @@ var blogPosts =[
 function addPost(index) {
     var postDiv = document.createElement("div");
     var postNum = blogPosts[index];
-    var blogWall = document.getElementById("posts");
+    var blogWall = document.getElementById("blogWall");
 
     postDiv.innerHTML = `
     <div class="postTop"> <h3>${postNum.title}</h3>
@@ -934,8 +932,23 @@ function addPost(index) {
     postDiv.classList.add("postDes");
     blogWall.appendChild(postDiv);
     
-}
+};
 
-for(i=0; i<blogPosts.length; i++){
-    addPost(i);
-}
+for(i=0; i< (blogPosts.length + 1); i++){
+    //if (i = blogPosts.length + 1){
+       // var postDiv = document.createElement("div");
+       // var blogWall = document.getElementById("blogWall");
+       // var BlogId = "BlogTop";
+
+        //postDiv.id = BlogId;
+        //blogWall.appendChild(postDiv);
+
+    //}else{
+        addPost(i);
+    //};
+};
+
+function blogClick(){
+    var blogTop = document.getElementById("BlogTop");
+    //blogTop.scrollIntoView();
+};
