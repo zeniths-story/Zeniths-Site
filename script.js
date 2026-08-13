@@ -712,16 +712,16 @@ function getTag(element){
 
 var current = document.getElementById("current");
 var y2026 = document.getElementById("2026");
-var y2025 = document.getElementById("2025");
-var y2024 = document.getElementById("2024");
+/*var y2025 = document.getElementById("2025");
+var y2024 = document.getElementById("2024");*/
 var art = document.getElementById("art");
 var af = document.getElementById("af");
 var tech = document.getElementById("tech");
 var HC = document.getElementById("HC");
 getTag(current);
 getTag(y2026);
-getTag(y2025);
-getTag(y2024);
+/*getTag(y2025);
+getTag(y2024);*/
 getTag(art);
 getTag(af);
 getTag(tech);
@@ -785,48 +785,51 @@ function getProjs() {
     if (seltags.length >= 1) { 
         //if tags are selected display only those *works*
          deleteAllProj();
-         console.log("delete for tag");
-         console.log(projects.length);
          addTaggedProjs();
     } else {     
         //no tags are selected, display everything *buggy*
         deleteAllProj();
-        console.log("delete for all");
-        console.log(projects.length);
         addAllProjs();
     };
 };
 
 function deleteAllProj(){  //remove everything *works*
-    var currProjs = document.getElementsByClassName("showpic")
-    var currprojlength = currProjs.length
+    var currProjs = document.getElementsByClassName("showpic");
 
-        for(let i=0; i < currprojlength; i++){
+    for(let i=0; i < projects.length; i++){
+        console.log("deleteAllProjs: " + projects.length);
+        console.log("deleteAllProjs: " + i);
+        if (currProjs.length >= 1){
             projects[i].visible = "false";
-            console.log("delete: " + projects[i].projname);
             currProjs[0].remove();
+        }
     }; 
 };
 
 function addTaggedProjs(){ // *works*
-    for(let i=0; i< seltags.length; i++){
+    for(let i=0; i< seltags.length; i++){ //for if there is multiple tags selected
         var tagName = seltags[i].id
+        console.log("addTaggedProjs (tag): " + seltags.length);
+        console.log("addTaggedProjs (tag): " + i);
 
         for(let i=0; i<projects.length; i++){
+            
             if(projects[i].projtags.includes(tagName) && projects[i].visible == "false"){ 
                 addToShow(i); 
+                console.log("addTaggedProjs: " + i);
+                console.log("addTaggedProjs: " + projects[i].projname);
             };
         };
     };
 };
 
 function addAllProjs(){
-    for(let i=0; i<projects.length; i++){
+    for(let i=0; i< projects.length; i++){
+         console.log("addAllProjs: " + projects.length);
+         console.log("addAllProjs: " + i);
         if(projects[i].visible == "false"){ //check if visible
             //if not visible:
             addToShow(i);  //make visible
-            console.log(projects[i].projid + " " + projects[i].visible);
-            console.log(i);
         };
     };
 };
@@ -845,7 +848,7 @@ function addToShow(index){
             divTotal.id = projects[index].projname;
 
             sc.appendChild(divTotal);
-            console.log("add: " + projects[index].projname);
+            //console.log("add: " + projects[index].projname);
             projects[index].visible = "true";
             //console.log("add: " + projects[index].visible)
 
