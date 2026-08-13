@@ -46,7 +46,7 @@ var headmates = [
         quote: "May or may not have a quote/song lyrics here",
         species: "In-sys Species",
         origin:`Origins:<br/>
-        >Willowgenic: Created on purpose
+        >Willowgenic: Created on purpose<br/>
         >Brainmade: not based off pre-existing media<br/>
         >Introject: based off pre-existing media or people.<br/>
         <span id="red">!!Introjects have no control over their source. 
@@ -599,7 +599,7 @@ var headmates = [
         species: "Human",
         origin:"Faitive - Tommyinnit/Tom Simons",
         misc:`If I'm fronting, please don't treat me like the actual Tom Simons! 
-        I will refer to us as the same person, but I'm aware we are funamentally different.<br/>
+        I will refer to us as the same person, but I'm aware we are fundamentally different.<br/>
         Bestie: Hades<br/>
         Friends: Theo, Lumi, Fletch`,
         links: `<a href="https://open.spotify.com/playlist/1f9mlzalrqvLP5w6AB5D8j" target="blank">
@@ -786,30 +786,32 @@ function getProjs() {
         //if tags are selected display only those *works*
          deleteAllProj();
          console.log("delete for tag");
+         console.log(projects.length);
          addTaggedProjs();
     } else {     
         //no tags are selected, display everything *buggy*
         deleteAllProj();
         console.log("delete for all");
+        console.log(projects.length);
         addAllProjs();
     };
 };
 
 function deleteAllProj(){  //remove everything *works*
     var currProjs = document.getElementsByClassName("showpic")
-    var projlength = currProjs.length
+    var currprojlength = currProjs.length
 
-        for(let i=0; i < projlength; i++){
+        for(let i=0; i < currprojlength; i++){
             projects[i].visible = "false";
-            console.log("delete: " + projects[i].visible);
+            console.log("delete: " + projects[i].projname);
             currProjs[0].remove();
     }; 
 };
 
 function addTaggedProjs(){ // *works*
-
     for(let i=0; i< seltags.length; i++){
         var tagName = seltags[i].id
+
         for(let i=0; i<projects.length; i++){
             if(projects[i].projtags.includes(tagName) && projects[i].visible == "false"){ 
                 addToShow(i); 
@@ -823,8 +825,8 @@ function addAllProjs(){
         if(projects[i].visible == "false"){ //check if visible
             //if not visible:
             addToShow(i);  //make visible
-            console.log(projects[i].projid + projects[i].visible)
-            console.log(i)
+            console.log(projects[i].projid + " " + projects[i].visible);
+            console.log(i);
         };
     };
 };
@@ -841,7 +843,9 @@ function addToShow(index){
 
             divTotal.classList.add("showpic");
             divTotal.id = projects[index].projname;
+
             sc.appendChild(divTotal);
+            console.log("add: " + projects[index].projname);
             projects[index].visible = "true";
             //console.log("add: " + projects[index].visible)
 
@@ -855,3 +859,80 @@ function addToShow(index){
     
 }*/
 
+var blogPosts =[
+    {
+        title: `First day of Junior Year`,
+        date: `Aug. 12, 2026`,
+        body: ` 
+            Dispite being a half day, today was very interesting. 
+            It started off pretty normal, my sister of course being late to the car 
+            (I'm driving us this year). <br/>
+            When we arrived at school there was only five minutes left 
+            until the tardy bell rang and we still needed to get our 
+            updated schedules and put our stuff in our locker. <br/>
+            Unlike every other school schedule we'll have over the 
+            course of this next school season, we had homeroom first.
+            I of course made it to homeroom on time before we went to chapel. 
+            During chapel the principal just went on and on, 
+            but eventually we were let out to our first period, 
+            which for me was Spanish 2. <br/> When everyone had sat down 
+            and we were going to start, it was halfway through our 
+            already short period. We went through the syllabus but didn't have any time to 
+            start the syllabus homework. Next was weightlifting. Pretty uneventful, 
+            we just went through the syllabus. Same with Portfolio. 
+            When going to forensics someone called my name and when I 
+            turned to look, someone was staring right at me probably trying to 
+            talk to me, I was just trying to get to class so I said, "Later!" 
+            If I was supposed to recognize them, I didn't, sorry. <br/>
+            In forensics, after going through the syllabus we did several stations to introduce us to 
+            different concepts we'd be working with. <br/> In US history we pretended 
+            to be people in the future who didn't know anything about the USA and had to infer
+            things based off a penny. <br/> In theology we were told thart we're having a quiz on monday. Fun -_-<br/>
+            In English and PreCalc we just went over the syllabus. <br/>
+            Now I'm back home and working on this site. 
+            The Projects tab mostly works, but has a weird glitch with the art and 
+            ArtFight tags even though their ids are "art" and "af" respectfully.
+            
+            `,
+    },
+    {
+        title: `2nd Day of Junior Year`,
+        date: `Aug. 13, 2026`,
+        body: `
+            Suprisingly, there's still no math homework, 
+            or much homework in general, just theology.<br/>
+            really dissocitive today for some reason. Emo Sib left with Mom to the MCR/PTV
+            concert... I wanted to go but instead she took one of their other friends. 
+            Totally not jealous... (╥˰╥") <br/>
+
+
+            
+            `,
+    },
+    /*{
+        title: `title`,
+        date: `Aug. ??, 2026`,
+        body: ``,
+    },*/
+];
+
+function addPost(index) {
+    var postDiv = document.createElement("div");
+    var postNum = blogPosts[index];
+    var blogWall = document.getElementById("posts");
+
+    postDiv.innerHTML = `
+    <div class="postTop"> <h3>${postNum.title}</h3>
+    <p class="postDate">${postNum.date}</p> 
+    </div>
+    <p class="bodyText">${postNum.body}</p>
+    `;
+
+    postDiv.classList.add("postDes");
+    blogWall.appendChild(postDiv);
+    
+}
+
+for(i=0; i<blogPosts.length; i++){
+    addPost(i);
+}

@@ -328,13 +328,33 @@ margin: 10px;
     border-radius: 20px;
     padding: 15px;
     display: flex;
-    flex-direction: column;
-    width: 100%;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+    width: 110%;
     height: 94%;
 }
 
+.postDes{
+    border-radius: 15px;
+    background-color: #3440e970;
+    padding: 10px;
+    margin: 15px 0px;
+}
+
+.postTop{
+    padding: 0px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.postDate{
+    font-size: 80%;
+}
+    
 .bodyText{
-    overflow-y: auto;
+    padding: 5px;
+    margin: 0px 5px 5px 5px;
 }
 
 
