@@ -690,10 +690,12 @@ sethmCont(0);
 
 function seltag(element) {
     element.classList.add("tagsel");
+    getProjs();
 };
 
 function deseltag (element) {
     element.classList.remove("tagsel");
+    getProjs();
 };
 
 function getTag(element){
@@ -702,7 +704,6 @@ function getTag(element){
                 deseltag(element);
            } else {
                 seltag(element);
-
             };
         });
 };
@@ -794,27 +795,33 @@ function deleteAllProj(){  //remove everything *works*
     var currProjs = document.getElementsByClassName("showpic");
 
     for(let i=0; i < projects.length; i++){
-        console.log("deleteAllProjs: " + projects.length);
-        console.log("deleteAllProjs: " + i);
-        if (currProjs.length >= 1){
+        //console.log("delete: " + projects.length);
+        //console.log("delete: " + i);
+        //console.log("Delete:" + projects[i].visible)
             projects[i].visible = "false";
+            console.log(currProjs);
             currProjs[0].remove();
-        }
+            //console.log("Delete 2:" + projects[i].visible)
+        //if (projects.length >= 1){
+            
+        //}
     }; 
 };
 
 function addTaggedProjs(){ // *works*
     for(let i=0; i< seltags.length; i++){ //for if there is multiple tags selected
         var tagName = seltags[i].id
-        console.log("addTaggedProjs (tag): " + seltags.length);
-        console.log("addTaggedProjs (tag): " + i);
+        //console.log("Tagged(tag): " + seltags.length);
+        //console.log("Tagged(tag): " + i);
 
         for(let i=0; i<projects.length; i++){
             
             if(projects[i].projtags.includes(tagName) && projects[i].visible == "false"){ 
+                //console.log("Tagged:" + projects[i].visible)
                 addToShow(i); 
-                console.log("addTaggedProjs: " + i);
-                console.log("addTaggedProjs: " + projects[i].projname);
+                //console.log("Tagged 2:" + projects[i].visible)
+                //console.log("Tagged: " + i);
+                //console.log("Tagged: " + projects[i].projname);
             };
         };
     };
@@ -822,11 +829,13 @@ function addTaggedProjs(){ // *works*
 
 function addAllProjs(){
     for(let i=0; i< projects.length; i++){
-         console.log("addAllProjs: " + projects.length);
-         console.log("addAllProjs: " + i);
+         //console.log("Add: " + projects.length);
+         //console.log("Add: " + i);
         if(projects[i].visible == "false"){ //check if visible
             //if not visible:
+            //console.log("Add:" + projects[i].visible)
             addToShow(i);  //make visible
+            //console.log("Add 2:" + projects[i].visible)
         };
     };
 };
@@ -906,8 +915,6 @@ var blogPosts =[
             Totally not jealous... (╥˰╥") <br/>
             Still no clue whats going on with the project tags.
 
-
-            
             `,
     },
     /*{
@@ -922,12 +929,15 @@ function addPost(index) {
     var postNum = blogPosts[index];
     var blogWall = document.getElementById("blogWall");
 
+    //*
     postDiv.innerHTML = `
-    <div class="postTop"> <h3>${postNum.title}</h3>
+    <div class="postTop"> 
+    <h3>${postNum.title}</h3>
     <p class="postDate">${postNum.date}</p> 
     </div>
     <p class="bodyText">${postNum.body}</p>
     `;
+    //*/
 
     postDiv.classList.add("postDes");
     blogWall.appendChild(postDiv);
