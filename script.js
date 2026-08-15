@@ -901,7 +901,6 @@ var blogPosts =[
             Now I'm back home and working on this site. 
             The Projects tab mostly works, but has a weird glitch with the art and 
             ArtFight tags even though their ids are "art" and "af" respectfully.
-            
             `,
     },
     {
@@ -914,51 +913,69 @@ var blogPosts =[
             concert... I wanted to go but instead she took one of their other friends. 
             Totally not jealous... (╥˰╥") <br/>
             Still no clue whats going on with the project tags.
-
             `,
     },
-    /*{
-        title: `title`,
+    {
+        title: `BlogTop`,
         date: `Aug. ??, 2026`,
-        body: ``,
-    },*/
+        body: `
+            Zenith's IRL Stories
+        `,
+    },
 ];
 
+/*
+    {
+        title: `title`,
+        date: `Aug. ??, 2026`,
+        body: `
+            start
+        `,
+    },
+    */
+
 function addPost(index) {
-    var postDiv = document.createElement("div");
-    var postNum = blogPosts[index];
-    var blogWall = document.getElementById("blogWall");
 
-    //*
-    postDiv.innerHTML = `
-    <div class="postTop"> 
-    <h3>${postNum.title}</h3>
-    <p class="postDate">${postNum.date}</p> 
-    </div>
-    <p class="bodyText">${postNum.body}</p>
-    `;
-    //*/
+    console.log(blogPosts[index].title == "BlogTop")
+    if (blogPosts[index].title == "BlogTop"){
+        console.log(blogPosts[index].title == "BlogTop")
+          var postDiv = document.createElement("div");
+          var blogWall = document.getElementById("blogWall");
+          var BlogId = "BlogTop";
 
-    postDiv.classList.add("postDes");
-    blogWall.appendChild(postDiv);
-    
+          postDiv.innerHTML = `
+          ${blogPosts[index].body}
+        `;
+
+          postDiv.id = BlogId;
+          postDiv.classList.add("postDes");
+          blogWall.appendChild(postDiv);
+
+    } else {
+        var postDiv = document.createElement("div");
+        var blogWall = document.getElementById("blogWall");
+
+        //*
+        postDiv.innerHTML = `
+        <div class="postTop"> 
+        <h3>${blogPosts[index].title}</h3>
+        <p class="postDate">${blogPosts[index].date}</p> 
+        </div>
+        <p class="bodyText">${blogPosts[index].body}</p>
+        `;
+        //*/
+
+        postDiv.classList.add("postDes");
+        blogWall.appendChild(postDiv);
+    }
 };
 
 for(i=0; i< (blogPosts.length + 1); i++){
-    //if (i = blogPosts.length + 1){
-       // var postDiv = document.createElement("div");
-       // var blogWall = document.getElementById("blogWall");
-       // var BlogId = "BlogTop";
-
-        //postDiv.id = BlogId;
-        //blogWall.appendChild(postDiv);
-
-    //}else{
         addPost(i);
-    //};
+
 };
 
 function blogClick(){
     var blogTop = document.getElementById("BlogTop");
-    //blogTop.scrollIntoView();
+    blogTop.scrollIntoView();
 };

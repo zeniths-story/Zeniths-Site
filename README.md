@@ -20,6 +20,9 @@ Includes:
 >
 > Weird Art/Artfight Tag Glitch
 
+> # Blog
+> Stories & rants from our IRL life
+
 > # Tapestry
 > Where all our OG stories live
 >
