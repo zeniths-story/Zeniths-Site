@@ -15,14 +15,46 @@ var stories = [
         overview: `<p class="disclaimer">!!These pages will contain lore/spoilers about the characters and worlds. 
           If you would like to bug me to write faster you can reach me <a id="email" href="mailto:starfoxbutbusiness+bookcomplaints@gmail.com">here</a>!!</p>
           <h3> Tapestry Overview </h3>
-          <p>The Main Tapestry storyline consists of the destruction and reawakening of magic.</p>`,
-        characters: `nteb`,
+          <p>The Main Tapestry storyline consists of the destruction and reawakening of magic.
+            <br/><br/>
+            ༄ = Main storyline<br/>
+            ᨒ = Side Tapestry Story<br/>
+            ⟢ = Other Stories<br/>
+
+          </p>`,
+        characters: ``,
         worldbuilding: {
-            species: `breweqzxerdutefvitvyeivteivetitvv7trirbrbrtsg`,
+            species: `The inteligent species are:`,
             world: `brebrdhrftcvribunoyut4drcuiytvrbtyerciyvegrycthrcvyfgdsarhytucxytgdftsfhtgxyufhyu6xzegdsrghjtikugytuefsefhgytdrreggs`,
             religion: `breaxetvytbutrcstybetvyybrybudtvertvdhvtcvfvrffgfhge`,
-            timeline: `brgeswqxrvyni,o,imk,yhdejghbbjkhlugdrhtjuikldsffegythuiklodsfgrhtyuiklobsergsn6`,
-           }  
+            timeline: `
+                ~2017 CE (Earth)/~1572 ME (Nezro)<br/>
+                > ༄ Winterr Chronicles
+                <ul>
+                   <li>Awakening</li>
+                   <li>Heritage</li>
+                   <li>Legacy</li>
+                </ul>
+                <br/>
+                ~1689 ME (Nezro)<br/>
+                > ᨒ Loose Threads (Wip Name)<br/>
+                <br/>
+                ~389 LE (Nezro)<br/>
+                > ༄ Threads of Time<br/>
+                <br/>
+                ~390 LE (Nezro)<br/>
+                > ᨒ Changing Winds<br/>
+                <br/>
+                ~2637 CE (Earth)/~505 LE(Nezro)/~1845 AD (Jifro)<br/>
+                > ᨒ On the Other Side of the World<br/>
+                > ᨒ On the Other Side of Us<br/>
+                <br/>
+                ~517 LE (Nezro)<br/>
+                > ༄ Shades of Deceit
+
+
+            
+            `}  
         
     },
     {
@@ -133,8 +165,8 @@ function putTab(element) {
         //set page content
         var page = document.getElementById(element.id + "pg");
         page.innerHTML = `
-        ${stories[i].overview}
-        <p>${stories[i].characters}<p/>
+        ${stories[i].overview}<br/>
+        ${stories[i].characters}
        <details> <summary>Worldbuilding</summary>
         ${stories[i].worldbuilding.timeline}<br/>
         ${stories[i].worldbuilding.world}<br/>
