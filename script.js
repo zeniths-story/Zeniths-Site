@@ -746,6 +746,7 @@ var projects = [
         projtags:"current, 2026, HC, tech",
         visible: "false",
         projid: "Site",
+        num: 1,
     },
     {
         projname:"NovaOS",
@@ -753,6 +754,7 @@ var projects = [
         projtags:"current, 2026, HC, tech",
         visible: "false",
         projid: "novaos",
+        num: 2,
     },
     {
         projname:"Archie Enjoying a Drink",
@@ -760,6 +762,7 @@ var projects = [
         projtags:"2026, art, af",
         visible: "false",
         projid: "archie",
+        num: 3,
     },
     {
         projname:"FallingStarStruck",
@@ -767,6 +770,7 @@ var projects = [
         projtags:"2026, art, af",
         visible: "false",
         projid: "stardog",
+        num: 4,
     },
     {
         projname:"Sleepy Boi",
@@ -774,6 +778,7 @@ var projects = [
         projtags:"2026, art, af",
         visible: "false",
         projid: "sleepdog",
+        num: 5,
     },
     {
         projname:"Vexia",
@@ -781,6 +786,7 @@ var projects = [
         projtags:"2026, art, af",
         visible: "false",
         projid: "vexia",
+        num: 6,
     },
     {
         projname:"Young Dominy",
@@ -788,6 +794,7 @@ var projects = [
         projtags:"2026, art, af",
         visible: "false",
         projid: "dominy",
+        num: 7,
     },
 
 ];
@@ -808,34 +815,25 @@ function getProjs() {
 function deleteAllProj(){  //remove everything *works*
     var currProjs = document.getElementsByClassName("showpic");
 
-    for(let i=0; i < projects.length; i++){
-        //console.log("delete: " + projects.length);
-        //console.log("delete: " + i);
-        //console.log("Delete:" + projects[i].visible)
-            projects[i].visible = "false";
-            console.log(currProjs);
-            currProjs[0].remove();
-            //console.log("Delete 2:" + projects[i].visible)
-        //if (projects.length >= 1){
-            
-        //}
+    for(let i=0; i < currProjs.length; i++){
+        console.log(currProjs.length);
+        var num = currProjs[i].id;
+
+        projects[num].visible = "false";
+        console.log(currProjs);
+        currProjs[0].remove();    
     }; 
 };
 
 function addTaggedProjs(){ // *works*
     for(let i=0; i< seltags.length; i++){ //for if there is multiple tags selected
         var tagName = seltags[i].id
-        //console.log("Tagged(tag): " + seltags.length);
-        //console.log("Tagged(tag): " + i);
 
         for(let i=0; i<projects.length; i++){
             
             if(projects[i].projtags.includes(tagName) && projects[i].visible == "false"){ 
-                //console.log("Tagged:" + projects[i].visible)
                 addToShow(i); 
-                //console.log("Tagged 2:" + projects[i].visible)
-                //console.log("Tagged: " + i);
-                //console.log("Tagged: " + projects[i].projname);
+
             };
         };
     };
@@ -843,13 +841,9 @@ function addTaggedProjs(){ // *works*
 
 function addAllProjs(){
     for(let i=0; i< projects.length; i++){
-         //console.log("Add: " + projects.length);
-         //console.log("Add: " + i);
         if(projects[i].visible == "false"){ //check if visible
             //if not visible:
-            //console.log("Add:" + projects[i].visible)
             addToShow(i);  //make visible
-            //console.log("Add 2:" + projects[i].visible)
         };
     };
 };
@@ -857,7 +851,6 @@ function addAllProjs(){
 function addToShow(index){
           var sc = document.getElementById("showcase");
           var divTotal = document.createElement("div");
-          //var projects = projects[index];
 
             divTotal.innerHTML = `
             <p>${projects[index].projname}</p>
@@ -865,12 +858,10 @@ function addToShow(index){
             <p></p>`
 
             divTotal.classList.add("showpic");
-            divTotal.id = projects[index].projname;
-
+            divTotal.id = projects[index].num;
+//(projects[index].projname + projects[index].num)
             sc.appendChild(divTotal);
-            //console.log("add: " + projects[index].projname);
             projects[index].visible = "true";
-            //console.log("add: " + projects[index].visible)
 
             /*divTotal.addEventListener("click", function(){
                spotlight(??);
@@ -949,10 +940,7 @@ var blogPosts =[
     */
 
 function addPost(index) {
-
-    console.log(blogPosts[index].title == "BlogTop")
     if (blogPosts[index].title == "BlogTop"){
-        console.log(blogPosts[index].title == "BlogTop")
           var postDiv = document.createElement("div");
           var blogWall = document.getElementById("blogWall");
           var BlogId = "BlogTop";
@@ -984,7 +972,7 @@ function addPost(index) {
     }
 };
 
-for(i=0; i< (blogPosts.length + 1); i++){
+for(i=0; i< (blogPosts.length); i++){
         addPost(i);
 
 };
