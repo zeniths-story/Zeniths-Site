@@ -639,6 +639,20 @@ var headmates = [
         links:``,
         pictures: `<img src="pics/zane.png">`,
     },
+    {
+        name:"Zer0",
+        pronouns: "They/Axis/Orbit",
+        role: "",
+        firstNoted: "August 13, 2026",
+        gender: "",
+        age:"Ageless",
+        quote: "",
+        species: "Gravity",
+        origin:"Brainmade",
+        misc:``,
+        links:``,
+        pictures: `no pic yet...`,
+    },
     
 ];
 
