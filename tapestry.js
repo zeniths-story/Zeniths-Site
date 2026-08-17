@@ -19,13 +19,15 @@ var stories = [
             <br/><br/>
             ༄ = Main storyline<br/>
             ᨒ = Side Tapestry Story<br/>
-            ⟢ = Other Stories<br/>
+            ⟢ = Other Non-Tapestry Stories<br/>
 
           </p>`,
         characters: ``,
         worldbuilding: {
             species: `The inteligent species are:`,
-            world: `brebrdhrftcvribunoyut4drcuiytvrbtyerciyvegrycthrcvyfgdsarhytucxytgdftsfhtgxyufhyu6xzegdsrghjtikugytuefsefhgytdrreggs`,
+            world: `<h3>Nezro:<h3>
+            		
+                `,
             religion: `breaxetvytbutrcstybetvyybrybudtvertvdhvtcvfvrffgfhge`,
             timeline: `
                 ~2017 CE (Earth)/~1572 ME (Nezro)<br/>
@@ -51,9 +53,6 @@ var stories = [
                 <br/>
                 ~517 LE (Nezro)<br/>
                 > ༄ Shades of Deceit
-
-
-            
             `}  
         
     },
