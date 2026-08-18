@@ -76,12 +76,12 @@ body{
 }
 
 
-a:link, a:visited {
+#tapestryTab a:link, #tapestryTab a:visited {
     color: rgb(60, 158, 223);
     text-decoration: none;
 }
 
-a:active{
+#tapestryTab a:active{
     background-color: #62b0f08f;
 } 
 
