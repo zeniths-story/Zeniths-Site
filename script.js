@@ -78,7 +78,7 @@ var headmates = [
         `,
 
         pictures: `Pictures go here<br/> 
-        Still working on geting pics for Cat & Hades 
+        Still working on geting pics for Cat, Hades, and Zer0 
         <img src="pics/zen-picrew.png">
         Zenith-1<img src="pics/zen-2.png">Zenith-2 `,
     },
@@ -751,56 +751,49 @@ var projects = [
         projpic:`<img src="pics/zen-site.png">`,
         projtags:"current, 2026, HC, tech",
         visible: "false",
-        projid: "Site",
-        num: 1,
+        num: 0,
     },
     {
         projname:"NovaOS",
         projpic:`<img src="pics/novaos.png">`,
         projtags:"current, 2026, HC, tech",
         visible: "false",
-        projid: "novaos",
-        num: 2,
+        num: 1,
     },
     {
         projname:"Archie Enjoying a Drink",
         projpic:`<img src="ArtFight/archie.png">`,
         projtags:"2026, art, af",
         visible: "false",
-        projid: "archie",
-        num: 3,
+        num: 2,
     },
     {
         projname:"FallingStarStruck",
         projpic:`<img src="ArtFight/fallingStarStruck.png">`,
         projtags:"2026, art, af",
         visible: "false",
-        projid: "stardog",
-        num: 4,
+        num: 3,
     },
     {
         projname:"Sleepy Boi",
         projpic:`<img src="ArtFight/SleepyBoi.png">`,
         projtags:"2026, art, af",
         visible: "false",
-        projid: "sleepdog",
-        num: 5,
+        num: 4,
     },
     {
         projname:"Vexia",
         projpic:`<img src="ArtFight/vexia.png">`,
         projtags:"2026, art, af",
         visible: "false",
-        projid: "vexia",
-        num: 6,
+        num: 5,
     },
     {
         projname:"Young Dominy",
         projpic:`<img src="ArtFight/youngDominy.png">`,
         projtags:"2026, art, af",
         visible: "false",
-        projid: "dominy",
-        num: 7,
+        num: 6,
     },
 
 ];
@@ -808,26 +801,25 @@ var seltags = document.getElementsByClassName("tagsel");
 
 function getProjs() {
     if (seltags.length >= 1) { 
-        //if tags are selected display only those *works*
+        //if tags are selected display only those 
          deleteAllProj();
          addTaggedProjs();
     } else {     
-        //no tags are selected, display everything *buggy*
-        deleteAllProj();
-        addAllProjs();
+        //no tags are selected, display everything 
+         deleteAllProj();
+         addAllProjs();
     };
 };
 
-function deleteAllProj(){  //remove everything *works*
+function deleteAllProj(){  //remove everything
     var currProjs = document.getElementsByClassName("showpic");
+    var currProjsLeng = currProjs.length;
 
-    for(let i=0; i < currProjs.length; i++){
-        console.log(currProjs.length);
-        var num = currProjs[i].id;
+    for(let i=0; i < currProjsLeng; i++){
+        var num = currProjs[0].id;
 
         projects[num].visible = "false";
-        console.log(currProjs);
-        currProjs[0].remove();    
+        currProjs[0].remove();   
     }; 
 };
 
@@ -865,7 +857,6 @@ function addToShow(index){
 
             divTotal.classList.add("showpic");
             divTotal.id = projects[index].num;
-//(projects[index].projname + projects[index].num)
             sc.appendChild(divTotal);
             projects[index].visible = "true";
 
