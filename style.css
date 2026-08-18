@@ -85,6 +85,15 @@ body{
     background-color: #62b0f08f;
 } 
 
+a:link, a:visited {
+    color:  rgb(16, 17, 82);
+    text-decoration: none;
+}
+
+a:active{
+    background-color: #62b0f08f;
+} 
+
 #pagecontent{
     
     background-color: #64cff04d;
