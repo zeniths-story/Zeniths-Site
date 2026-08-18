@@ -76,9 +76,18 @@ body{
 }
 
 
-a:link, a:visited {
+#tapestryTab a:link, #tapestryTab a:visited {
     color: rgb(60, 158, 223);
     text-decoration: none;
+}
+
+#tapestryTab a:active{
+    background-color: #62b0f08f;
+} 
+
+a:link, a:visited {
+    color:  rgb(16, 17, 82);
+    text-decoration: Underline;
 }
 
 a:active{
