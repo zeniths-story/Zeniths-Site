@@ -87,7 +87,7 @@ body{
 
 a:link, a:visited {
     color:  rgb(16, 17, 82);
-    text-decoration: none;
+    text-decoration: Underline wavy;
 }
 
 a:active{
