@@ -702,6 +702,12 @@ function sethmCont(index){
 };
 sethmCont(0);
 
+function getHMTot(){
+    var totSpan =document.getElementById("hmTot");
+    totSpan.innerHTML = (headmates.length - 1)
+}
+getHMTot()
+
 function seltag(element) {
     element.classList.add("tagsel");
     getProjs();
