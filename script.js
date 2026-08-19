@@ -79,8 +79,8 @@ var headmates = [
 
         pictures: `Pictures go here<br/> 
         Still working on geting pics for Cat, Hades, and Zer0 
-        <img src="pics/zen-picrew.png">
-        Zenith-1<img src="pics/zen-2.png">Zenith-2 `,
+        <img src="hmpics/zen-picrew.png">
+        Zenith-1<img src="hmpics/zen-2.png">Zenith-2 `,
     },
     {
         name:"Ari",
@@ -99,8 +99,8 @@ var headmates = [
         Friends: Nova :D
         `,
         links: "",
-        pictures: `<img src="pics/ari-1.png"> Best picture  
-        <img src="pics/ari-2.png"> Take away Human ears `,
+        pictures: `<img src="hmpics/ari-1.png"> Best picture  
+        <img src="hmpics/ari-2.png"> Take away Human ears `,
     },
     {
         name:"Asher",
@@ -114,7 +114,7 @@ var headmates = [
         origin:"Brainmade",
         misc:"Friends: Evi",
         links: "",
-        pictures: `<img src="pics/asher.png">`,
+        pictures: `<img src="hmpics/asher.png">`,
     },
     {
         name:"Ash",
@@ -129,7 +129,7 @@ var headmates = [
         misc: `Caretaker: Az<br/>
         Friends: Silveny, Lumi`,
         links: "",
-        pictures: `<img src="pics/ash.webp">`,
+        pictures: `<img src="hmpics/ash.webp">`,
     },
     {
         name:"Az",
@@ -146,7 +146,7 @@ var headmates = [
         Friends: Rowan <br/>
         Caretaker of: Ash, Vesper`,
         links: "",
-        pictures: `<img src="pics/Az.webp">`,
+        pictures: `<img src="hmpics/Az.webp">`,
     },
     {
         name:"Cat",
@@ -180,7 +180,7 @@ var headmates = [
         Dating: Evyn`,
         links: `<a href="https://open.spotify.com/playlist/1ICjZ7JwC8z46ERScw3wfW" target="blank">
         Voice Claim/Playlist</a>`,
-        pictures: `<img src="pics/charly.png">`,
+        pictures: `<img src="hmpics/charly.png">`,
     },
     {
         name:"Danger",
@@ -195,7 +195,7 @@ var headmates = [
         misc: "Family: Az",
         links: `<a href="https://open.spotify.com/playlist/46zHm8sxmKftu1TAzKGEvS" target="blank">
         God Complex (playlist)</a>`,
-        pictures: `<img src="pics/danger-1.png"><img src="pics/danger-2.png">`,
+        pictures: `<img src="hmpics/danger-1.png"><img src="hmpics/danger-2.png">`,
     },
     {
         name:"Ethan",
@@ -210,7 +210,7 @@ var headmates = [
         misc:`Hi, I'm a big techie and tend to do some of the coding around here with Hart.<br/>
         Family: Az, Zane`,
         links: ``,
-        pictures: `<img src="pics/ethan.png">`,
+        pictures: `<img src="hmpics/ethan.png">`,
     },
     {
         name:"Evi",
@@ -230,7 +230,7 @@ var headmates = [
         I just split a lot of sysmates.<br/>
         Friends: Asher, Theo, Ryon, Quill`,
         links: ``,
-        pictures: `<img src="pics/evi.png">`,
+        pictures: `<img src="hmpics/evi.png">`,
     },
     {
         name:"Evyn",
@@ -245,7 +245,7 @@ var headmates = [
         misc:`I will bark at you.<br/>
         Dating:Charly`,
         links: ``,
-        pictures: `<img src="pics/evyn.jpg">`,
+        pictures: `<img src="hmpics/evyn.jpg">`,
     },
     {
         name:"Fletcher",
@@ -261,7 +261,7 @@ var headmates = [
         I like arrows n stuff<br/>
         Friends: Tommy`,
         links: ``,
-        pictures: `<img src="pics/fletch.png">`,
+        pictures: `<img src="hmpics/fletch.png">`,
     },
     {
         name:"Hades",
@@ -291,7 +291,7 @@ var headmates = [
         origin:"Brainmade",
         misc:"Friend: Rylen, Reid",
         links: ``,
-        pictures: `<img src="pics/hart.png">`,
+        pictures: `<img src="hmpics/hart.png">`,
     },
     {
         name:"Kai",
@@ -308,7 +308,7 @@ var headmates = [
         origin:"Brainmade",
         misc:"Dormant?",
         links: ``,
-        pictures: `<img src="pics/kai.webp">`,
+        pictures: `<img src="hmpics/kai.webp">`,
     },
     {
         name:"Lumi",
@@ -324,7 +324,7 @@ var headmates = [
         misc:`Family: Rowan, Silveny, Theo<br/>
         Friends: Cat, Ash, Ryon, Quill, Hades, Tommy`,
         links: ``,
-        pictures: `<img src="pics/lumi.png">`,
+        pictures: `<img src="hmpics/lumi.png">`,
     },
     {
         name:"Luna",
@@ -342,9 +342,9 @@ var headmates = [
         origin:"Brainmade",
         misc:`New, Quiet girl, pretty nice (-Null)`,
         links: `<a href="https://open.spotify.com/playlist/3b0M1S2ZfzmdwlhN7JTBg9" target="blank">Luna's Likes (playlist)<a/>`,
-        pictures: `<img src="pics/luna-1.png"> This one's best 
-        <img src="pics/luna-2.png">
-        <img src="pics/luna-3.png">`,
+        pictures: `<img src="hmpics/luna-1.png"> This one's best 
+        <img src="hmpics/luna-2.png">
+        <img src="hmpics/luna-3.png">`,
     },
     {
         name:"Nova",
@@ -359,7 +359,7 @@ var headmates = [
         misc:`My bestie and I are the best alters in here ¬ᴗ¬ sorry not sorry 𓁹‿𓁹
         <br/>Bestie:Ari`,
         links: ``,
-        pictures: `<img src="pics/nova.jpg"> Drawn by yours truly :3`,
+        pictures: `<img src="hmpics/nova.jpg"> Drawn by yours truly :3`,
     },
     {
         name:"Null",
@@ -373,8 +373,8 @@ var headmates = [
         origin:"Brainmade",
         misc:``,
         links: ``,
-        pictures: `<img src="pics/nova-1.png"> True form 
-        <img src="pics/nova-2.png"> human-esqe form`,
+        pictures: `<img src="hmpics/nova-1.png"> True form 
+        <img src="hmpics/nova-2.png"> human-esqe form`,
     },
     {
         name:"Opal",
@@ -389,8 +389,8 @@ var headmates = [
         misc:`You can call me Evy or Evelyn as well as Opal ^-^<br/>
         `,
         links: ``,
-        pictures: `<img src="pics/opal-1.png">
-        <img src="pics/opal-2.jpg"><img src="pics/opal-3.jpg">`,
+        pictures: `<img src="hmpics/opal-1.png">
+        <img src="hmpics/opal-2.jpg"><img src="hmpics/opal-3.jpg">`,
     },
     {
         name:"Quill",
@@ -414,7 +414,7 @@ var headmates = [
         origin:"Brainmade",
         misc:`Friends: Evi, Lumi`,
         links: ``,
-        pictures: `<img src="pics/quill.webp">`,
+        pictures: `<img src="hmpics/quill.webp">`,
     },
     {
         name:"Reid",
@@ -434,7 +434,7 @@ var headmates = [
         links: `<a href="https://pin.it/7Fz1GQSIM" target="blank">Draw me in these please!!</a><br/>
         <a href="https://open.spotify.com/playlist/4n8UrKarVgxTa7Isl90yG0" target="blank">
         Reid's Tunes</a>`,
-        pictures: `<img src="pics/reid.png">`,
+        pictures: `<img src="hmpics/reid.png">`,
     },
     {
         name:"Rocky",
@@ -448,7 +448,7 @@ var headmates = [
         origin: "Rocky - Project Hail Mary (Movie)",
         misc:``,
         links: ``,
-        pictures: `<img src="pics/rocky.webp">`,
+        pictures: `<img src="hmpics/rocky.webp">`,
     },
     {
         name:"Rowan",
@@ -466,7 +466,7 @@ var headmates = [
         Family: Lumi`,
         links: `<a href="https//music.amazon.com/albums/B0DF8VMY2J" target="blank">
         Voice Claim</a>`,
-        pictures: `<img src="pics/rowan.webp">`,
+        pictures: `<img src="hmpics/rowan.webp">`,
     },
     {
         name:"Rylen",
@@ -486,7 +486,7 @@ var headmates = [
         Friends: Hart, Reid`,
         links: `<a href="https://www.tiktok.com/t/ZP8Gj9jaU" target="blank">
         Voice Claim (First Voice)</a>`,
-        pictures: `<img src="pics/rylen.png">`,
+        pictures: `<img src="hmpics/rylen.png">`,
     },
      {
         name:"Ryon",
@@ -501,7 +501,7 @@ var headmates = [
         misc:`I love Calzones! If you get one near us, I <em>will</em> front.
         Friends:Lumi, Theo, Evi`,
         links: ``,
-        pictures: `<img src="pics/ryon.webp">`,
+        pictures: `<img src="hmpics/ryon.webp">`,
     },
     {
         name:"Silveny",
@@ -516,7 +516,7 @@ var headmates = [
         misc:`Family:Lumi<br/>
         Friends:Ash`,
         links: ``,
-        pictures: `<img src="pics/silveny.png">`,
+        pictures: `<img src="hmpics/silveny.png">`,
     },
     {
         name:"Texas",
@@ -531,7 +531,7 @@ var headmates = [
         misc:`Texas, Dakota, The Cowboy, any work for me. 
         (He also really likes the library for some reason. -Null, Evi)`,
         links: ``,
-        pictures: `<img src="pics/texas.png">`,
+        pictures: `<img src="hmpics/texas.png">`,
     },
     {
         name:"Theo",
@@ -548,7 +548,7 @@ var headmates = [
         Bestie: Cat<br/>
         Friends: Ryon, Evi, Tommy`,
         links: ``,
-        pictures: `<img src="pics/theo-1.png"><img src="pics/theo-2.jpg">`,
+        pictures: `<img src="hmpics/theo-1.png"><img src="hmpics/theo-2.jpg">`,
     },
     {
         name:"Tina",
@@ -584,7 +584,7 @@ var headmates = [
         misc:`Don't hurt the body...`,
         links: `<a href="https://open.spotify.com/playlist/13GphB6UQ7T79BTCtGhYO9" target="blank">
         Tina's Playlist</a>`,
-        pictures: `<img src="pics/tina-1.png"><img src="pics/tina-2.png">`,
+        pictures: `<img src="hmpics/tina-1.png"><img src="hmpics/tina-2.png">`,
     },
     {
         name:"Tommy",
@@ -603,7 +603,7 @@ var headmates = [
         Friends: Theo, Lumi, Fletch`,
         links: `<a href="https://open.spotify.com/playlist/1f9mlzalrqvLP5w6AB5D8j" target="blank">
         Tommy's Jams</a>`,
-        pictures: `<img src="pics/tommy.jpg"> Art by @Shmeckdoesstuff on twitter`,
+        pictures: `<img src="hmpics/tommy.jpg"> Art by @Shmeckdoesstuff on twitter`,
     },
     {
         name:"Ves",
@@ -618,10 +618,10 @@ var headmates = [
         misc:`I'm learning to be better.<br/>
         Caretaker: Az`,
         links: ``,
-        pictures: `<img src="pics/ves.png">
-        <img src="pics/ves-3.png">
+        pictures: `<img src="hmpics/ves.png">
+        <img src="hmpics/ves-3.png">
         Super awesome ArtFight attack drawn by my bestie @nameless_vessel <3 (-Nova)
-        <img src="pics/ves-2.jpg"> 
+        <img src="hmpics/ves-2.jpg"> 
         ArtFight Attack by @mikkiasie`,
     },
     {
@@ -637,7 +637,7 @@ var headmates = [
         misc:` Hi, I'm Zane. I'm pretty chill and I help Mom with the littles.
         <br/>Family: Az, Ethan`,
         links:``,
-        pictures: `<img src="pics/zane.png">`,
+        pictures: `<img src="hmpics/zane.png">`,
     },
     {
         name:"Zer0",
@@ -748,14 +748,14 @@ getTag(HC);
 var projects = [
     {
         projname:"Our Website",
-        projpic:`<img src="pics/zen-site.png">`,
+        projpic:`<img src="./zen-site.png">`,
         projtags:"current, 2026, HC, tech",
         visible: "false",
         num: 0,
     },
     {
         projname:"NovaOS",
-        projpic:`<img src="pics/novaos.png">`,
+        projpic:`<img src="./novaos.png">`,
         projtags:"current, 2026, HC, tech",
         visible: "false",
         num: 1,
@@ -794,6 +794,13 @@ var projects = [
         projtags:"2026, art, af",
         visible: "false",
         num: 6,
+    },
+    {
+        projname:"Hades' Mask",
+        projpic:`<img src="crafts/hades-maskFront.jpeg">`,
+        projtags:"2026, art, crafts",
+        visible: "false",
+        num: 7,
     },
 
 ];
