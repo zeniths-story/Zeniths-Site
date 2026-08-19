@@ -12,8 +12,10 @@ var currTab = overview
 var stories = [
     {
         series:"overview",
-        overview: `<p class="disclaimer">!!These pages will contain lore/spoilers about the characters and worlds. 
-          If you would like to bug me to write faster you can reach me <a id="email" href="mailto:starfoxbutbusiness+bookcomplaints@gmail.com">here</a>!!</p>
+        overview: `<p class="disclaimer">!!These pages will contain lore/spoilers 
+          about the characters and worlds. 
+          If you would like to bug me to write faster you can reach me 
+          <a id="email" href="mailto:starfoxbutbusiness+hurryTFup@gmail.com">here</a>!!</p>
           <h3> Tapestry Overview </h3>
           <p>The Main Tapestry storyline consists of the destruction and reawakening of magic.
             <br/><br/>
@@ -30,29 +32,29 @@ var stories = [
                 `,
             religion: `breaxetvytbutrcstybetvyybrybudtvertvdhvtcvfvrffgfhge`,
             timeline: `
-                ~2017 CE (Earth)/~1572 ME (Nezro)<br/>
+                <div class="timelinePoint"> ~2017 CE/AD (Earth)/~1572 ME (Nezro)<br/>
                 > ༄ Winterr Chronicles
                 <ul>
                    <li>Awakening</li>
                    <li>Heritage</li>
                    <li>Legacy</li>
-                </ul>
-                <br/>
-                ~1689 ME (Nezro)<br/>
-                > ᨒ Loose Threads (Wip Name)<br/>
-                <br/>
-                ~389 LE (Nezro)<br/>
-                > ༄ Threads of Time<br/>
-                <br/>
-                ~390 LE (Nezro)<br/>
-                > ᨒ Changing Winds<br/>
-                <br/>
-                ~2637 CE (Earth)/~505 LE(Nezro)/~1845 AD (Jifro)<br/>
+                </ul></div>
+                
+                <div class="timelinePoint">~1689 ME (Nezro)<br/>
+                > ᨒ Loose Threads (Wip Name)<br/></div>
+
+                <div class="timelinePoint">~389 LE (Nezro)<br/>
+                > ༄ Threads of Time<br/></div>
+
+                <div class="timelinePoint">~390 LE (Nezro)<br/>
+                > ᨒ Changing Winds<br/></div>
+                
+                <div class="timelinePoint">~2637 CE/AD (Earth)/~505 LE(Nezro)/~1845 AD (Jifro)<br/>
                 > ᨒ On the Other Side of the World<br/>
-                > ᨒ On the Other Side of Us<br/>
-                <br/>
-                ~517 LE (Nezro)<br/>
-                > ༄ Shades of Deceit
+                > ᨒ On the Other Side of Us<br/></div>
+                
+                <div class="timelinePoint">~517 LE (Nezro)<br/>
+                > ༄ Shades of Deceit</div>
             `}  
         
     },
@@ -167,7 +169,8 @@ function putTab(element) {
         ${stories[i].overview}<br/>
         ${stories[i].characters}
        <details> <summary>Worldbuilding</summary>
-        ${stories[i].worldbuilding.timeline}<br/>
+       <h2>Timeline</h2>
+        <div class="timeline">${stories[i].worldbuilding.timeline}</div><br/>
         ${stories[i].worldbuilding.world}<br/>
         ${stories[i].worldbuilding.species}<br/>
         ${stories[i].worldbuilding.religion}
