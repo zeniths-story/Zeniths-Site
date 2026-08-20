@@ -750,6 +750,7 @@ var projects = [
         projname:"Our Website",
         projpic:`<img src="./zen-site.png">`,
         projtags:"current, 2026, HC, tech",
+        desc: "",
         visible: "false",
         num: 0,
     },
