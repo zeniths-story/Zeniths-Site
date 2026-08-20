@@ -873,10 +873,13 @@ function addToShow(index){
           
 };
 
-/*function spotlight(params) {
+/*function spotlight(index) {
     var splTitle = document.getElementById("splTitle");
     var splDesc = document.getElementById("splDesc");
-    
+    var mainPic =
+
+    splTitle.innerHTML = projects[index].projname;
+    splDesc.innerHTML = projects[index].desc;
     
 }*/
 
