@@ -854,26 +854,29 @@ function addAllProjs(){
 };
 
 function addToShow(index){
-          var sc = document.getElementById("showcase");
-          var divTotal = document.createElement("div");
+    var sc = document.getElementById("showcase");
+    var divTotal = document.createElement("div");
 
-            divTotal.innerHTML = `
-            <p>${projects[index].projname}</p>
-            ${projects[index].projpic}
-            <p></p>`
+    divTotal.innerHTML = `
+    <p>${projects[index].projname}</p>
+     ${projects[index].projpic}
+    <p></p>`
 
-            divTotal.classList.add("showpic");
-            divTotal.id = projects[index].num;
-            sc.appendChild(divTotal);
-            projects[index].visible = "true";
+    divTotal.classList.add("showpic");
+    divTotal.id = projects[index].num;
+    sc.appendChild(divTotal);
+    projects[index].visible = "true";
 
-            /*divTotal.addEventListener("click", function(){
-               spotlight(??);
-            });*/
+    /*divTotal.addEventListener("click", function(){
+        spotlight(??);
+    });*/
           
-         };
+};
 
 /*function spotlight(params) {
+    var splTitle = document.getElementById("splTitle");
+    var splDesc = document.getElementById("splDesc");
+    
     
 }*/
 
@@ -923,6 +926,20 @@ var blogPosts =[
             Totally not jealous... (╥˰╥") <br/>
             Still no clue whats going on with the project tags.
             `,
+    },
+    {
+        title: `Word Count`,
+        date: `Aug. 20, 2026`,
+        body: `
+            After school today I had to pick my sib up from volleyball, 
+            but I had to wait for two hours. in those two hours, 
+            I continued writing a fanfic i had been working on. 
+            Around the beginning I glanced at the number of words it had, it only had two chapters, 
+            and chapter one was pretty short, yet somehow it almost had the amount of 
+            words my original story currently has
+            (granted, the original story has a full ~11 page chapter one 
+            and the beginning of chapter two). It probably has more now. O.O
+        `,
     },
     {
         title: `BlogTop`,
