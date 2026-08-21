@@ -356,6 +356,13 @@ margin: 10px;
     justify-content: space-around;
 }
 
+#splClose{
+    position: absolute;
+    right: 16%;
+    top: 12%;
+    background-image: radial-gradient(circle, rgba(37, 76, 185, 0), rgb(37, 77, 185), rgba(37, 76, 185, 0));
+}
+
 #splTitle, #splDesc{
     width: fit-content;
     background-color: #64a5f0;

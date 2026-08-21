@@ -924,7 +924,7 @@ function getProjs() {
 function deleteAllProj(){  //remove everything
     var currProjs = document.getElementsByClassName("showpic");//stuff that is showing
     var currProjsLeng = currProjs.length; //turn it solid
-    console.log(currProjsLeng);
+    //console.log(currProjsLeng);
 
     for(let i=0; i < currProjsLeng; i++){
         var num = currProjs[0].id;//the proj we are currently looking at
@@ -975,7 +975,7 @@ function addToShow(index){
 };
 
 function spotlight(index) {
-    console.log("spotlight");
+    //console.log("spotlight");
     var spotlight = document.getElementById("spotlight");
     var splTitle = document.getElementById("splTitle");
     var splDesc = document.getElementById("splDesc");
@@ -986,17 +986,17 @@ function spotlight(index) {
              AllPics.push(projects.otherpics[i])
          }
     }  projects[index].projpic*/
-    var AllPics = [pic1, pic2, pic3];
+    var AllPics = ["pic1", "pic2", "pic3"];
 
 
     splMainPic.classList.add("mainpic");
-    splMainPic.innerHTML =
+    splMainPic.innerHTML = projects[index].projpic;
 
 
     splTitle.innerHTML = projects[index].projname;
-    splPics.innerHTML = splMainPic
+    splPics.innerHTML = splMainPic;
     splDesc.innerHTML = projects[index].desc;
-    spotlight.style.display = "flex";
+    //spotlight.style.display = "flex";
     
 };
 
