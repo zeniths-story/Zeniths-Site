@@ -736,6 +736,8 @@ var art = document.getElementById("art");
 var af = document.getElementById("af");
 var tech = document.getElementById("tech");
 var HC = document.getElementById("HC");
+var doodles = document.getElementById("doodles");
+var td = document.getElementById("td");
 getTag(current);
 getTag(y2026);
 /*getTag(y2025);
@@ -744,19 +746,25 @@ getTag(art);
 getTag(af);
 getTag(tech);
 getTag(HC);
+getTag(doodles);
+getTag(td);
 
 var projects = [
     {
         projname:"Our Website",
         projpic:`<img src="./zen-site.png">`,
+        otherpics: [``],
+        desc: `Our homebase where we can put info on our plurality, 
+            past and current projects, and give an easy intro to others about us.`,
         projtags:"current, 2026, HC, tech",
-        desc: "",
         visible: "false",
         num: 0,
     },
     {
         projname:"NovaOS",
         projpic:`<img src="./novaos.png">`,
+        otherpics: [``],
+        desc: "A small space-themed WebOS made for HackClub.",
         projtags:"current, 2026, HC, tech",
         visible: "false",
         num: 1,
@@ -764,6 +772,8 @@ var projects = [
     {
         projname:"Archie Enjoying a Drink",
         projpic:`<img src="ArtFight/archie.png">`,
+        otherpics: [``],
+        desc: "An Artfight attack towards @Aim's Archie",
         projtags:"2026, art, af",
         visible: "false",
         num: 2,
@@ -771,6 +781,8 @@ var projects = [
     {
         projname:"FallingStarStruck",
         projpic:`<img src="ArtFight/fallingStarStruck.png">`,
+        otherpics: [``],
+        desc: "An ArtFight attack towards @Tigertearz' Stardawg (currently hidden)",
         projtags:"2026, art, af",
         visible: "false",
         num: 3,
@@ -778,13 +790,17 @@ var projects = [
     {
         projname:"Sleepy Boi",
         projpic:`<img src="ArtFight/SleepyBoi.png">`,
+        otherpics: [``],
+        desc: "An ArtFight attack towards @hauntober's ambrose",
         projtags:"2026, art, af",
-        visible: "false",
+        visible: "false",  
         num: 4,
     },
     {
         projname:"Vexia",
         projpic:`<img src="ArtFight/vexia.png">`,
+        otherpics: [``],
+        desc: "An ArtFight attack towards @Crowsnest22's Vexia",
         projtags:"2026, art, af",
         visible: "false",
         num: 5,
@@ -792,6 +808,8 @@ var projects = [
     {
         projname:"Young Dominy",
         projpic:`<img src="ArtFight/youngDominy.png">`,
+        otherpics: [``],
+        desc: "Our first ArtFight attack! character is our bestie @Nameless_Vessel's Dominy Ström ",
         projtags:"2026, art, af",
         visible: "false",
         num: 6,
@@ -799,9 +817,93 @@ var projects = [
     {
         projname:"Hades' Mask",
         projpic:`<img src="crafts/hades-maskFront.jpeg">`,
+        otherpics: [`<img src="crafts/hades-maskSide.jpeg">`],
+        desc: `An animal mask (don't call them "therian masks" non-therians can wear them too >:[) 
+           that looks somewhat like Hades. `,
         projtags:"2026, art, crafts",
         visible: "false",
         num: 7,
+    },
+    {
+        projname:"Evi Doodle",
+        projpic:`<img src="Tommy's Doodles/evi-td.jpeg">`,
+        otherpics: [``],
+        desc: "A doodle of Evi by Tommy",
+        projtags:"2026, art, doodles, td",
+        visible: "false",
+        num: 8,
+    },
+    {
+        projname:"Evyn Doodle",
+        projpic:`<img src="Tommy's Doodles/evyn-td.jpeg">`,
+        otherpics: [``],
+        desc: "A doodle of Evyn by Tommy",
+        projtags:"2026, art, doodles, td",
+        visible: "false",
+        num: 9,
+    },
+    {
+        projname:"Silveny & Az Doodle",
+        projpic:`<img src="Tommy's Doodles/silAz-td.jpeg">`,
+        otherpics: [``],
+        desc: "Az holding Silveny, drawn by Tommy",
+        projtags:"2026, art, doodles, td",
+        visible: "false",
+        num: 10,
+    },
+    {
+        projname:"Theo Doodle",
+        projpic:`<img src="Tommy's Doodles/theo-td.jpeg">`,
+        otherpics: [``],
+        desc: "A doodle of Theo by Tommy",
+        projtags:"2026, art, doodles, td",
+        visible: "false",
+        num: 11,
+    },
+    {
+        projname:"Tommy Doodle",
+        projpic:`<img src="Tommy's Doodles/tommy-td.jpeg">`,
+        otherpics: [``],
+        desc: "Tommy laughing, by Tommy",
+        projtags:"2026, art, doodle, td",
+        visible: "false",
+        num: 12,
+    },
+    {
+        projname:"Tommy's 1st Doodle",
+        projpic:`<img src="Tommy's Doodles/tommy2-td.jpeg">`,
+        otherpics: [``],
+        desc: "Tommy starting to draw, finding his style.",
+        projtags:"2026, art, doodles, td",
+        visible: "false",
+        num: 13,
+    },
+    {
+        projname:"Ves Doodle",
+        projpic:`<img src="Tommy's Doodles/ves-td.jpeg">`,
+        otherpics: [``],
+        desc: "Ves being night moody self, by Tommy",
+        projtags:"2026, art, doodles, td",
+        visible: "false",
+        num: 14,
+    },
+    {
+        projname:"2nd Ves Doodle",
+        projpic:`<img src="Tommy's Doodles/ves2-td.jpeg">`,
+        otherpics: [``],
+        desc: "Wing practice, by Tommy",
+        projtags:"2026, art, doodles, td",
+        visible: "false",
+        num: 15,
+    },
+    {
+        projname:"Cheerleaders",
+        projpic:`<img src="doodles/luTina-fl.jpeg">`,
+        otherpics: [``],
+        desc: "Lumi and Tina cheerleading. What for? Who knows. Drawn by Fletch",
+        projtags:"2026, art, doodles",
+        visible: "false",
+        num: 16,
     },
 
 ];
@@ -820,14 +922,15 @@ function getProjs() {
 };
 
 function deleteAllProj(){  //remove everything
-    var currProjs = document.getElementsByClassName("showpic");
-    var currProjsLeng = currProjs.length;
+    var currProjs = document.getElementsByClassName("showpic");//stuff that is showing
+    var currProjsLeng = currProjs.length; //turn it solid
+    console.log(currProjsLeng);
 
     for(let i=0; i < currProjsLeng; i++){
-        var num = currProjs[0].id;
+        var num = currProjs[0].id;//the proj we are currently looking at
 
-        projects[num].visible = "false";
-        currProjs[0].remove();   
+        projects[num].visible = "false";//make it say it's not showing
+        currProjs[0].remove();//actually take it off
     }; 
 };
 
@@ -847,10 +950,7 @@ function addTaggedProjs(){ // *works*
 
 function addAllProjs(){
     for(let i=0; i< projects.length; i++){
-        if(projects[i].visible == "false"){ //check if visible
-            //if not visible:
             addToShow(i);  //make visible
-        };
     };
 };
 
@@ -868,21 +968,37 @@ function addToShow(index){
     sc.appendChild(divTotal);
     projects[index].visible = "true";
 
-    /*divTotal.addEventListener("click", function(){
-        spotlight(??);
-    });*/
+    divTotal.addEventListener("click", function(){
+        spotlight(index);
+    });
           
 };
 
-/*function spotlight(index) {
+function spotlight(index) {
+    console.log("spotlight");
+    var spotlight = document.getElementById("spotlight");
     var splTitle = document.getElementById("splTitle");
     var splDesc = document.getElementById("splDesc");
-    var AllPics = [projects[index].projpic, ]
+    var splPics = document.getElementById("splPics")
+    var splMainPic = document.createElement("div")
+    /*if(projects[i].otherpics.length >= 1){
+        for(i=0; i< projects[i].otherpics.length; i++){
+             AllPics.push(projects.otherpics[i])
+         }
+    }  projects[index].projpic*/
+    var AllPics = [pic1, pic2, pic3];
+
+
+    splMainPic.classList.add("mainpic");
+    splMainPic.innerHTML =
+
 
     splTitle.innerHTML = projects[index].projname;
+    splPics.innerHTML = splMainPic
     splDesc.innerHTML = projects[index].desc;
+    spotlight.style.display = "flex";
     
-}*/
+};
 
 var blogPosts =[
     {

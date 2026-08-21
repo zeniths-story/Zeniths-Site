@@ -1,8 +1,5 @@
 body{
     background-color: rgb(16, 17, 82);
-    /*background-image: url(nightsky.jpg);
-    background-repeat: no-repeat;
-    background-size: 100%;*/
     color: rgb(60, 158, 223);
     text-align: center;
     display: flex;
@@ -177,6 +174,9 @@ animation: scroll 10s linear infinite;
     scrollbar-gutter: stable;
 }
 
+
+
+/*headmates stuff*/
 #headmates{
     width: 100%;
     flex-direction: row;
@@ -271,6 +271,10 @@ margin: 10px;
     border: solid #3440e970 3px;
 }
 
+
+
+
+/*projects stuff*/
 #projects{
     width: 99%;
 }
@@ -291,6 +295,7 @@ margin: 10px;
     padding: 10px;
     background-color: #64cff038;
     user-select: none;
+    text-align: center;
 
 }
 
@@ -330,6 +335,64 @@ margin: 10px;
     width:60%;
 }
 
+#spotlight{
+    z-index: 100;
+    width: 100%;
+    height: 106%;
+    background-color: #64cff04d;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    color:  rgb(16, 17, 82);
+}
+
+#slideshow{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#splTitle, #splDesc{
+    width: fit-content;
+    background-color: #64a5f0;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+}
+
+#splPics{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border: solid white 1px;
+}
+
+.arrow{
+    background-image: linear-gradient(to left, rgba(37, 76, 185, 0), rgb(37, 77, 185), rgba(37, 76, 185, 0));
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    user-select: none;
+}
+
+.arrow:hover{
+    background-image: linear-gradient(to left, rgba(37, 76, 185, 0), rgb(53, 100, 230), rgba(37, 76, 185, 0));
+    width: fit-content;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 10px;
+    color:  rgb(28, 30, 112);
+    user-select: none;
+}
+
+
+
+
+/* blog stuff*/
 #BlogTop{
     width: max-content;
     height: 25px;
