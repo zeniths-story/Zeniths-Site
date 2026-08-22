@@ -781,8 +781,13 @@ getTag(td);
 var projects = [
     {
         projname:"Our Website",
-        projpic:`<img src="./zen-site.png">`,
-        otherpics: [],
+        projpic:`<img src="./zen-sitenew.png">`,
+        otherpics: [
+            `<img src="./zen-site2.png">`,
+            `<img src="./zen-site3.png">`,
+            `<img src="./zen-site4.png">`,
+            `<img src="./zen-site5.png">`,
+        ],
         desc: `Our homebase where we can put info on our plurality, 
             past and current projects, and give an easy intro to others about us.`,
         projtags:"current, 2026, HC, tech",
@@ -793,7 +798,7 @@ var projects = [
         projname:"NovaOS",
         projpic:`<img src="./novaos.png">`,
         otherpics: [],
-        desc: "A small space-themed WebOS made for HackClub.",
+        desc: "A simple, small space-themed WebOS made for HackClub.",
         projtags:"current, 2026, HC, tech",
         visible: "false",
         num: 1,
@@ -1020,12 +1025,12 @@ function spotlight(index) {
 
     //console.log(AllPics);
 
-    console.log(projects[index].otherpics.length);
+    //console.log(projects[index].otherpics.length);
     //console.log(projects[index].num);
     if(projects[index].otherpics.length >= 1){
         for(i=0; i< projects[index].otherpics.length; i++){
              AllPics.push(projects[index].otherpics[i])
-             console.log(AllPics);
+             //console.log(AllPics);
              splPics.innerHTML =  AllPics[CurrPic];
          }
     } else {
