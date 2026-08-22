@@ -1023,16 +1023,11 @@ function spotlight(index) {
     var AllPics = [projects[index].projpic,];
     var CurrPic = 0;
 
-    //console.log(AllPics);
-
-    //console.log(projects[index].otherpics.length);
-    //console.log(projects[index].num);
     if(projects[index].otherpics.length >= 1){
         for(i=0; i< projects[index].otherpics.length; i++){
              AllPics.push(projects[index].otherpics[i])
-             //console.log(AllPics);
-             splPics.innerHTML =  AllPics[CurrPic];
          }
+         splPics.innerHTML =  AllPics[CurrPic];
     } else {
         Larrow.style.display = "none";
         Rarrow.style.display = "none";
@@ -1040,32 +1035,22 @@ function spotlight(index) {
     }
 
     Rarrow.addEventListener("click", function(){
-       // if (CurrPic = AllPics.length - 1){
-          //  Rarrow.style.display = "none";
-       // } else {
-            Rarrow.style.display = "flex";
             CurrPic++
             splPics.innerHTML =  AllPics[CurrPic];
-        //}
     })
 
     Larrow.addEventListener("click", function(){
-        //if (CurrPic = 0){
-        //    Larrow.style.display = "none";
-        //    splPics.innerHTML =  AllPics[CurrPic];
-       // } else {
             Larrow.style.display = "flex";
             CurrPic--
             splPics.innerHTML =  AllPics[CurrPic];
         //}
     })
 
-    console.log(AllPics);
-    console.log(CurrPic);
+    //console.log(AllPics);
+    //console.log(CurrPic);
 
      splTitle.innerHTML = projects[index].projname;
      splDesc.innerHTML = projects[index].desc;
-
 
      splClose.addEventListener("click", function(){
          spotlight.style.display = "none";
@@ -1073,6 +1058,26 @@ function spotlight(index) {
     spotlight.style.display = "flex";
 
 };
+
+function putCurrent(){
+    for(i=0; i< projects.length; i++){
+
+        if(projects[i].projtags.includes("current")){
+            var scroll = document.getElementById("scroll");
+            var addProj = document.createElement("div");
+
+            addProj.classList.add("proj");
+            addProj.innerHTML = `
+            ${projects[i].projpic}
+            <p>${projects[i].projname}</p>
+            `;
+            scroll.appendChild(addProj);
+        }
+    }
+}
+
+putCurrent();
+putCurrent();
 
 var blogPosts =[
     {
