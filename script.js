@@ -57,7 +57,7 @@ var headmates = [
         >>Factive: based off a real-life person or thing<br/>
         >>Faitive: mix of fictive & factive traits
         `,
-        misc:"Miscalanious info such as important relations",
+        misc:"Miscellaneous info such as important relations or anything they want to say",
         links: `Links to playlists/Voice Claims/Any link they want to put here<br/>
         Picrew credits:<br/>
         <a href="https://picrew.me/en/image_maker/2795963" target="blank">>Ari-1</a><br/>
@@ -77,8 +77,8 @@ var headmates = [
         
         `,
 
-        pictures: `Pictures go here<br/> 
-        Still working on geting pics for Cat, Hades, and Zer0 
+        pictures: `Pictures go here, captions underneath<br/> 
+        Still working on geting pics for Cat, Hades, Zer0, Cirrus 
         <img src="hmpics/zen-picrew.png">
         Zenith-1<img src="hmpics/zen-2.png">Zenith-2 `,
     },
@@ -89,13 +89,14 @@ var headmates = [
         firstNoted: "July 12, 2026",
         gender: "Girl",
         age:"13",
-        quote: "",
+        quote: `Human beings have the remarkable ability to accept the abnormal 
+        and make it normal -Andy Weir, <em>Project Hail Mary</em>`,
         species: "Foxkin (Zesper)",
         origin:"OCtive - 1st draft of Zesper Chronicles",
         misc: `I prefer being called the old term of "foxkin" 
         because thats wat we first called it before switching to zesper. 
         Also I don't have any of the nerfs the zespers have 
-        due to our new worldbuilding. ¬⩊¬<br/>
+        due to our new worldbuilding. ¬⩊¬<br/><br/>
         Friends: Nova :D
         `,
         links: "",
@@ -109,7 +110,7 @@ var headmates = [
         firstNoted: "March 24, 2026",
         gender: "Agender",
         age:"16",
-        quote: "",
+        quote: `Once we accept our limits, we can go beyond them - Albert Einstein`,
         species: "Human",
         origin:"Brainmade",
         misc:"Friends: Evi",
@@ -123,12 +124,12 @@ var headmates = [
         firstNoted: "May 30, 2026",
         gender: "Girl",
         age:"5",
-        quote: "",
+        quote: ``,
         species: "Human",
         origin:"Brainmade",
         misc: `Caretaker: Az<br/>
         Friends: Silveny, Lumi`,
-        links: "",
+        links: ``,
         pictures: `<img src="hmpics/ash.webp">`,
     },
     {
@@ -138,14 +139,17 @@ var headmates = [
         firstNoted: "May 16, 2026",
         gender: "",
         age:"27",
-        quote: "",
+        quote: `Yes, you will rise from the ashes, but the burning comes first.<br/>
+            For this part, darling, you must be brave.<br/>
+            -Kalen Dion`,
         species: "Human",
         origin:"Brainmade",
-        misc: `As the sysmom I tend to take care of everyone and be a general comforter.<br/>
+        misc: `As the sysmom I tend to take care of everyone and 
+        be a general comforter.<br/><br/>
         Family: Danger, Zane, Ethan<br/>
         Friends: Rowan <br/>
         Caretaker of: Ash, Vesper`,
-        links: "",
+        links: `<a href="https://open.spotify.com/playlist/1NlAZwl57jsyEo8sZ2C0Fg" target="blank"> Playlist </a>`,
         pictures: `<img src="hmpics/Az.webp">`,
     },
     {
@@ -155,7 +159,7 @@ var headmates = [
         firstNoted: "January 28, 2026",
         gender: "Female",
         age:"Adult",
-        quote: "",
+        quote: ``,
         species: "Cat",
         origin:"Brainmade - Willowgenic?",
         misc: `Bestie: Theo<br/>
@@ -171,16 +175,31 @@ var headmates = [
         firstNoted: "June 14, 2026",
         gender: "Bigender (boy/girl)",
         age:"16",
-        quote: "",
+        quote: "And the universe said I love you because you are love - Minecraft",
         species: "Werewolf (<i>Wolf Children</i> style)",
         origin:"Brainmade",
         misc: `Hi, I'm Charly! I'm very energetic and appeared right around 
         when Evyn (my beautiful partner) appeared! 
-        I tend to stay with fur and generally keep howls spirits up!<br/>
+        I tend to stay with fur and generally keep howls spirits up!<br/><br/>
         Dating: Evyn`,
         links: `<a href="https://open.spotify.com/playlist/1ICjZ7JwC8z46ERScw3wfW" target="blank">
-        Voice Claim/Playlist</a>`,
+        Playlist</a>  <a href="https://open.spotify.com/track/3d4WE2mXks9S6qyxUABSmv" target="blank">
+        Voice Claim</a>`,
         pictures: `<img src="hmpics/charly.png">`,
+    },
+     {
+        name:"Cirrus",
+        pronouns: "They/Fluff/Wind/Aether",
+        role: "",
+        firstNoted: "August 21, 2026",
+        gender: "",
+        age:"Ageless??",
+        quote: ``,
+        species: "Humannoid concept of clouds n shit",
+        origin:"Brainmade",
+        misc:``,
+        links:``,
+        pictures: `no pic yet...`,
     },
     {
         name:"Danger",
@@ -189,12 +208,13 @@ var headmates = [
         firstNoted: "May 2, 2026",
         gender: "",
         age:"16",
-        quote: "",
+        quote: `No one's coming to save you, but no one's coming to stop you either | Through Hell to the stars`,
         species: "Explosion/Chaos God",
         origin:"Brainmade",
         misc: "Family: Az",
         links: `<a href="https://open.spotify.com/playlist/46zHm8sxmKftu1TAzKGEvS" target="blank">
-        God Complex (playlist)</a>`,
+           God Complex (playlist)</a>  
+            <a href="https://pin.it/4cnPvZBpc" target="blank">My Pintrest Board <a/>`,
         pictures: `<img src="hmpics/danger-1.png"><img src="hmpics/danger-2.png">`,
     },
     {
@@ -204,10 +224,12 @@ var headmates = [
         firstNoted: "July 5, 2026",
         gender: "Boy",
         age:"19",
-        quote: "",
+        quote: ``,
         species: "Human",
         origin:"Brainmade",
-        misc:`Hi, I'm a big techie and tend to do some of the coding around here with Hart.<br/>
+        misc:`Hi, I'm a big techie and tend to do some of the 
+        coding around here with Hart.<br/>
+        <br/>
         Family: Az, Zane`,
         links: ``,
         pictures: `<img src="hmpics/ethan.png">`,
@@ -227,9 +249,9 @@ var headmates = [
         misc:`I'm like the "core" you could say. 
         However I definitly don't think thats like a thing.
         If you belive in that though I definitly don't think I'm the "original" either. 
-        I just split a lot of sysmates.<br/>
+        I just split a lot of sysmates.<br/><br/>
         Friends: Asher, Theo, Ryon, Quill`,
-        links: ``,
+        links: `<a href="https://pin.it/1BFIhrTkb" target="blank"> Pintrest Board </a>`,
         pictures: `<img src="hmpics/evi.png">`,
     },
     {
@@ -239,12 +261,12 @@ var headmates = [
         firstNoted: "June 12, 2026",
         gender: "WolfGender",
         age:"16",
-        quote: "",
+        quote: `Ask for more, the universe isn't on a budget`,
         species: "Werewolf (<i>Wolf Children</i> style)",
         origin:"Brainmade",
-        misc:`I will bark at you.<br/>
+        misc:`I will bark at you.<br/><br/>
         Dating:Charly`,
-        links: ``,
+        links: `<a href="https://open.spotify.com/playlist/60qiOvAgXqA0HfZjqlHyj5" target="blank"> Playlist </a>`,
         pictures: `<img src="hmpics/evyn.jpg">`,
     },
     {
@@ -254,13 +276,13 @@ var headmates = [
         firstNoted: "August 2, 2026",
         gender: "Gendervoid",
         age:"13-14",
-        quote: "",
+        quote: `Shoot for the moon, even if you miss you'll land among the stars.`,
         species: "Human?",
         origin:"Brainmade",
-        misc:`Hi! I'm new! uh, you can call me either fletch or fletcher idc <br/>
+        misc:`Hi! I'm new! uh, you can call me either Fletch or Fletcher idc <br/>
         I like arrows n stuff<br/>
         Friends: Tommy`,
-        links: ``,
+        links: `<a href="https://pin.it/6SZhmDDZr" target="blank"> My Pintrest Board! :p </a>"`,
         pictures: `<img src="hmpics/fletch.png">`,
     },
     {
@@ -273,7 +295,7 @@ var headmates = [
         quote: "",
         species: "Semi-realistic Minecraft Woods Wolf",
         origin:"Minecraft Woods Wolf",
-        misc:`Can often be seen with Tommy (-Null)<br/>
+        misc:`Can often be seen with Tommy (-Null)<br/><br/>
         Bestie: Tommy<br/>
         Friend: Lumi`,
         links: ``,
@@ -286,7 +308,7 @@ var headmates = [
         firstNoted: "June 26, 2026",
         gender: "Girlvoid",
         age:"17",
-        quote: "",
+        quote: `Speak the truth, even if your voice shakes`,
         species: "Elf (semi-KotLC)",
         origin:"Brainmade",
         misc:"Friend: Rylen, Reid",
@@ -307,7 +329,7 @@ var headmates = [
         species: "Holographic Assistant",
         origin:"Brainmade",
         misc:"Dormant?",
-        links: ``,
+        links: `<a href="https://pin.it/7ifFZR6Hb" target="blank"> Pintrest Board </a>`,
         pictures: `<img src="hmpics/kai.webp">`,
     },
     {
@@ -358,7 +380,8 @@ var headmates = [
         origin:"Brainmade",
         misc:`My bestie and I are the best alters in here ¬ᴗ¬ sorry not sorry 𓁹‿𓁹
         <br/>Bestie:Ari`,
-        links: ``,
+        links: `<a href="https://open.spotify.com/playlist/4FzDEkleuM1pAkRzuyOYcD" target="blank">Nova's Music</a>  
+            <a href="https://pin.it/5VhJCvDWu" target="blank"> Pintrest board </a>`,
         pictures: `<img src="hmpics/nova.jpg"> Drawn by yours truly :3`,
     },
     {
@@ -427,11 +450,13 @@ var headmates = [
         Hate me but that's not my concern | Right Now - Confetti
         <br/><br/>
         I'm not phased by the things you gotta say
-        I guess I got my head in the clouds | Right Now - Confetti`,
+        I guess I got my head in the clouds | Right Now - Confetti
+        <br/><br/>
+        When life is shit, Turn the music up`,
         species: "Human",
         origin:"Brainmade",
         misc:`Friends: Ry(len), Hart`,
-        links: `<a href="https://pin.it/7Fz1GQSIM" target="blank">Draw me in these please!!</a><br/>
+        links: `<a href="https://pin.it/5cw8L85CJ" target="blank">Draw me in these please!!</a><br/>
         <a href="https://open.spotify.com/playlist/4n8UrKarVgxTa7Isl90yG0" target="blank">
         Reid's Tunes</a>`,
         pictures: `<img src="hmpics/reid.png">`,
@@ -443,7 +468,7 @@ var headmates = [
         firstNoted: "June 1, 2026",
         gender: "",
         age:"Adult",
-        quote: `"Words of <em>great</em> encouragement!" Rocky - Project Hail Mary`,
+        quote: `"Words of <em>great</em> encouragement!" Rocky - <i>Project Hail Mary</i>`,
         species: "Eridian",
         origin: "Rocky - Project Hail Mary (Movie)",
         misc:``,
@@ -464,8 +489,9 @@ var headmates = [
         origin:"Brainmade",
         misc:`Friends: Az <br/>
         Family: Lumi`,
-        links: `<a href="https//music.amazon.com/albums/B0DF8VMY2J" target="blank">
-        Voice Claim</a>`,
+        links: `<a href="https://open.spotify.com/track/5gPRWJA9LoEkkXtic380AA" target="blank">
+        Voice Claim</a>  
+        <a href="https://pin.it/4H6qGSjAB" target="blank"> Pintrest Board</a>`,
         pictures: `<img src="hmpics/rowan.webp">`,
     },
     {
@@ -495,12 +521,12 @@ var headmates = [
         firstNoted: "March 28, 2026",
         gender: "Boy",
         age:"15",
-        quote: "",
+        quote: "I like pizza and want to eat more of it/ref x3",
         species: "Human",
         origin:"Brainmade",
-        misc:`I love Calzones! If you get one near us, I <em>will</em> front.
+        misc:`I love Calzones! If you get one near us, I <em>will</em> front.<br/><br/>
         Friends:Lumi, Theo, Evi`,
-        links: ``,
+        links: `<a href="https://pin.it/5FDAWBrOt" target="blank"> Pintrest Board</a>`,
         pictures: `<img src="hmpics/ryon.webp">`,
     },
     {
@@ -513,9 +539,10 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
-        misc:`Family:Lumi<br/>
+        misc:`I love Unicorns!<br/><br/>
+        Family:Lumi<br/>
         Friends:Ash`,
-        links: ``,
+        links: `<a href="https://pin.it/3euYrIY7x" target="blank"> Unicorns!!!! </a>`,
         pictures: `<img src="hmpics/silveny.png">`,
     },
     {
@@ -525,7 +552,7 @@ var headmates = [
         firstNoted: "June 16, 2026",
         gender: "Boy",
         age:"34",
-        quote: "",
+        quote: `Yippy kai yay motherfuckers`,
         species: "Human",
         origin:"Brainmade",
         misc:`Texas, Dakota, The Cowboy, any work for me. 
@@ -543,7 +570,8 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Brainmade",
-        misc:`I like animes! :> <br/>
+        misc:`I like animes! :> 
+        <br/><br/>
         Family: Lumi<br/>
         Bestie: Cat<br/>
         Friends: Ryon, Evi, Tommy`,
@@ -602,7 +630,8 @@ var headmates = [
         Bestie: Hades<br/>
         Friends: Theo, Lumi, Fletch`,
         links: `<a href="https://open.spotify.com/playlist/1f9mlzalrqvLP5w6AB5D8j" target="blank">
-        Tommy's Jams</a>`,
+        Tommy's Jams</a>  
+        <a href="https://pin.it/6dPNfZvoc" target="blank"> Pintrest Board >:) </a>`,
         pictures: `<img src="hmpics/tommy.jpg"> Art by @Shmeckdoesstuff on twitter`,
     },
     {
@@ -753,7 +782,7 @@ var projects = [
     {
         projname:"Our Website",
         projpic:`<img src="./zen-site.png">`,
-        otherpics: [``],
+        otherpics: [],
         desc: `Our homebase where we can put info on our plurality, 
             past and current projects, and give an easy intro to others about us.`,
         projtags:"current, 2026, HC, tech",
@@ -763,7 +792,7 @@ var projects = [
     {
         projname:"NovaOS",
         projpic:`<img src="./novaos.png">`,
-        otherpics: [``],
+        otherpics: [],
         desc: "A small space-themed WebOS made for HackClub.",
         projtags:"current, 2026, HC, tech",
         visible: "false",
@@ -772,7 +801,7 @@ var projects = [
     {
         projname:"Archie Enjoying a Drink",
         projpic:`<img src="ArtFight/archie.png">`,
-        otherpics: [``],
+        otherpics: [],
         desc: "An Artfight attack towards @Aim's Archie",
         projtags:"2026, art, af",
         visible: "false",
@@ -781,7 +810,7 @@ var projects = [
     {
         projname:"FallingStarStruck",
         projpic:`<img src="ArtFight/fallingStarStruck.png">`,
-        otherpics: [``],
+        otherpics: [],
         desc: "An ArtFight attack towards @Tigertearz' Stardawg (currently hidden)",
         projtags:"2026, art, af",
         visible: "false",
@@ -790,7 +819,7 @@ var projects = [
     {
         projname:"Sleepy Boi",
         projpic:`<img src="ArtFight/SleepyBoi.png">`,
-        otherpics: [``],
+        otherpics: [],
         desc: "An ArtFight attack towards @hauntober's ambrose",
         projtags:"2026, art, af",
         visible: "false",  
@@ -799,7 +828,7 @@ var projects = [
     {
         projname:"Vexia",
         projpic:`<img src="ArtFight/vexia.png">`,
-        otherpics: [``],
+        otherpics: [],
         desc: "An ArtFight attack towards @Crowsnest22's Vexia",
         projtags:"2026, art, af",
         visible: "false",
@@ -808,8 +837,8 @@ var projects = [
     {
         projname:"Young Dominy",
         projpic:`<img src="ArtFight/youngDominy.png">`,
-        otherpics: [``],
-        desc: "Our first ArtFight attack! character is our bestie @Nameless_Vessel's Dominy Ström ",
+        otherpics: [],
+        desc: "Our first ArtFight attack! Character is our bestie @Nameless_Vessel's Dominy Ström ",
         projtags:"2026, art, af",
         visible: "false",
         num: 6,
@@ -818,8 +847,10 @@ var projects = [
         projname:"Hades' Mask",
         projpic:`<img src="crafts/hades-maskFront.jpeg">`,
         otherpics: [`<img src="crafts/hades-maskSide.jpeg">`],
-        desc: `An animal mask (don't call them "therian masks" non-therians can wear them too >:[) 
-           that looks somewhat like Hades. `,
+        desc: `An animal mask 
+           <span class="spoiler">(don't call them "therian masks" 
+           non-therians can wear them too >:[)</span>
+           we made that looks somewhat like Hades. `,
         projtags:"2026, art, crafts",
         visible: "false",
         num: 7,
@@ -827,7 +858,7 @@ var projects = [
     {
         projname:"Evi Doodle",
         projpic:`<img src="Tommy's Doodles/evi-td.jpeg">`,
-        otherpics: [``],
+        otherpics: [],
         desc: "A doodle of Evi by Tommy",
         projtags:"2026, art, doodles, td",
         visible: "false",
@@ -836,7 +867,7 @@ var projects = [
     {
         projname:"Evyn Doodle",
         projpic:`<img src="Tommy's Doodles/evyn-td.jpeg">`,
-        otherpics: [``],
+        otherpics: [],
         desc: "A doodle of Evyn by Tommy",
         projtags:"2026, art, doodles, td",
         visible: "false",
@@ -845,7 +876,7 @@ var projects = [
     {
         projname:"Silveny & Az Doodle",
         projpic:`<img src="Tommy's Doodles/silAz-td.jpeg">`,
-        otherpics: [``],
+        otherpics: [],
         desc: "Az holding Silveny, drawn by Tommy",
         projtags:"2026, art, doodles, td",
         visible: "false",
@@ -854,7 +885,7 @@ var projects = [
     {
         projname:"Theo Doodle",
         projpic:`<img src="Tommy's Doodles/theo-td.jpeg">`,
-        otherpics: [``],
+        otherpics: [],
         desc: "A doodle of Theo by Tommy",
         projtags:"2026, art, doodles, td",
         visible: "false",
@@ -863,7 +894,7 @@ var projects = [
     {
         projname:"Tommy Doodle",
         projpic:`<img src="Tommy's Doodles/tommy-td.jpeg">`,
-        otherpics: [``],
+        otherpics: [],
         desc: "Tommy laughing, by Tommy",
         projtags:"2026, art, doodle, td",
         visible: "false",
@@ -872,7 +903,7 @@ var projects = [
     {
         projname:"Tommy's 1st Doodle",
         projpic:`<img src="Tommy's Doodles/tommy2-td.jpeg">`,
-        otherpics: [``],
+        otherpics: [],
         desc: "Tommy starting to draw, finding his style.",
         projtags:"2026, art, doodles, td",
         visible: "false",
@@ -881,7 +912,7 @@ var projects = [
     {
         projname:"Ves Doodle",
         projpic:`<img src="Tommy's Doodles/ves-td.jpeg">`,
-        otherpics: [``],
+        otherpics: [],
         desc: "Ves being night moody self, by Tommy",
         projtags:"2026, art, doodles, td",
         visible: "false",
@@ -890,7 +921,7 @@ var projects = [
     {
         projname:"2nd Ves Doodle",
         projpic:`<img src="Tommy's Doodles/ves2-td.jpeg">`,
-        otherpics: [``],
+        otherpics: [],
         desc: "Wing practice, by Tommy",
         projtags:"2026, art, doodles, td",
         visible: "false",
@@ -899,7 +930,7 @@ var projects = [
     {
         projname:"Cheerleaders",
         projpic:`<img src="doodles/luTina-fl.jpeg">`,
-        otherpics: [``],
+        otherpics: [],
         desc: "Lumi and Tina cheerleading. What for? Who knows. Drawn by Fletch",
         projtags:"2026, art, doodles",
         visible: "false",
@@ -979,25 +1010,63 @@ function spotlight(index) {
     var spotlight = document.getElementById("spotlight");
     var splTitle = document.getElementById("splTitle");
     var splDesc = document.getElementById("splDesc");
-    var splPics = document.getElementById("splPics")
-    var splMainPic = document.createElement("div")
-    /*if(projects[i].otherpics.length >= 1){
-        for(i=0; i< projects[i].otherpics.length; i++){
-             AllPics.push(projects.otherpics[i])
+    var splPics = document.getElementById("splPics");
+    var splClose = document.getElementById("splClose");
+    var Larrow = document.getElementById("splLarrow");
+    var Rarrow = document.getElementById("splRarrow");
+
+    var AllPics = [projects[index].projpic,];
+    var CurrPic = 0;
+
+    //console.log(AllPics);
+
+    console.log(projects[index].otherpics.length);
+    //console.log(projects[index].num);
+    if(projects[index].otherpics.length >= 1){
+        for(i=0; i< projects[index].otherpics.length; i++){
+             AllPics.push(projects[index].otherpics[i])
+             console.log(AllPics);
+             splPics.innerHTML =  AllPics[CurrPic];
          }
-    }  projects[index].projpic*/
-    var AllPics = ["pic1", "pic2", "pic3"];
+    } else {
+        Larrow.style.display = "none";
+        Rarrow.style.display = "none";
+        splPics.innerHTML =  AllPics[CurrPic];
+    }
+
+    Rarrow.addEventListener("click", function(){
+       // if (CurrPic = AllPics.length - 1){
+          //  Rarrow.style.display = "none";
+       // } else {
+            Rarrow.style.display = "flex";
+            CurrPic++
+            splPics.innerHTML =  AllPics[CurrPic];
+        //}
+    })
+
+    Larrow.addEventListener("click", function(){
+        //if (CurrPic = 0){
+        //    Larrow.style.display = "none";
+        //    splPics.innerHTML =  AllPics[CurrPic];
+       // } else {
+            Larrow.style.display = "flex";
+            CurrPic--
+            splPics.innerHTML =  AllPics[CurrPic];
+        //}
+    })
+
+    console.log(AllPics);
+    console.log(CurrPic);
+
+     splTitle.innerHTML = projects[index].projname;
+     splDesc.innerHTML = projects[index].desc;
 
 
-    splMainPic.classList.add("mainpic");
-    splMainPic.innerHTML = projects[index].projpic;
+     splClose.addEventListener("click", function(){
+         spotlight.style.display = "none";
+    })
+    spotlight.style.display = "flex";
 
-
-    splTitle.innerHTML = projects[index].projname;
-    splPics.innerHTML = splMainPic;
-    splDesc.innerHTML = projects[index].desc;
-    //spotlight.style.display = "flex";
-    
 };
 
 var blogPosts =[
