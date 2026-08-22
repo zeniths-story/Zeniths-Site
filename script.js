@@ -960,7 +960,6 @@ function getProjs() {
 function deleteAllProj(){  //remove everything
     var currProjs = document.getElementsByClassName("showpic");//stuff that is showing
     var currProjsLeng = currProjs.length; //turn it solid
-    //console.log(currProjsLeng);
 
     for(let i=0; i < currProjsLeng; i++){
         var num = currProjs[0].id;//the proj we are currently looking at
@@ -1045,9 +1044,6 @@ function spotlight(index) {
             splPics.innerHTML =  AllPics[CurrPic];
         //}
     })
-
-    //console.log(AllPics);
-    //console.log(CurrPic);
 
      splTitle.innerHTML = projects[index].projname;
      splDesc.innerHTML = projects[index].desc;
@@ -1160,23 +1156,16 @@ var blogPosts =[
     */
 
 function addPost(index) {
+    var postDiv = document.createElement("div");
+    var blogWall = document.getElementById("posts");
+
     if (blogPosts[index].title == "BlogTop"){
-          var postDiv = document.createElement("div");
-          var blogWall = document.getElementById("blogWall");
           var BlogId = "BlogTop";
 
-          postDiv.innerHTML = `
-          ${blogPosts[index].body}
-        `;
-
+          postDiv.innerHTML = `${blogPosts[index].body}`;
           postDiv.id = BlogId;
-          postDiv.classList.add("postDes");
-          blogWall.appendChild(postDiv);
 
     } else {
-        var postDiv = document.createElement("div");
-        var blogWall = document.getElementById("blogWall");
-
         //*
         postDiv.innerHTML = `
         <div class="postTop"> 
@@ -1186,18 +1175,19 @@ function addPost(index) {
         <p class="bodyText">${blogPosts[index].body}</p>
         `;
         //*/
-
-        postDiv.classList.add("postDes");
-        blogWall.appendChild(postDiv);
     }
+         
+    postDiv.classList.add("postDes");
+    blogWall.appendChild(postDiv);
 };
 
 for(i=0; i< (blogPosts.length); i++){
         addPost(i);
-
 };
+blogClick()
 
 function blogClick(){
+    console.log("click")
     var blogTop = document.getElementById("BlogTop");
     blogTop.scrollIntoView();
 };

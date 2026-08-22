@@ -448,12 +448,6 @@ margin: 10px;
 }
 
 #posts{
-    display: flex;
-    flex-direction: column;
-    overflow-y: auto;
-}
-
-#blogWall{
     background-color: #64cff038;
     border-radius: 20px;
     padding: 15px;
