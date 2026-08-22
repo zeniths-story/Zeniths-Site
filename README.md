@@ -16,9 +16,7 @@ Includes:
 > Short introductions to all our Headmates
 
 > # Projects
-> Past & current art and programming projects
->
-> Weird Art/Artfight Tag Glitch
+> Past & current art as well as programming projects
 
 > # Blog
 > Stories & rants from our IRL life
@@ -28,6 +26,6 @@ Includes:
 >
 > Still a WIP
 
-And more to be added!!
+And more to be added!! ^-^
 
 No AI Used to Create this!
