@@ -18,13 +18,11 @@ var stories = [
           <a id="email" href="mailto:starfoxbutbusiness+hurryTFup@gmail.com">here</a>!!</p>
           <h3> Tapestry Overview </h3>
           <p>The Main Tapestry storyline consists of the destruction and reawakening of magic.
-            <br/><br/>
-            ༄ = Main storyline<br/>
-            ᨒ = Side Tapestry Story<br/>
-            ⟢ = Other Non-Tapestry Stories<br/>
-
+            <br/>
           </p>`,
-        characters: ``,
+        characters: ` ༄ = Main storyline<br/>
+            ᨒ = Side Tapestry Story<br/>
+            ⟢ = Other Non-Tapestry Stories (for now...?)<br/><br/>`,
         worldbuilding: {
             species: `The inteligent species are:`,
             world: `<h3>Nezro:<h3>
@@ -60,7 +58,25 @@ var stories = [
     },
     {
         series:"winterr",
-        overview: ``,
+        overview: `<h3> Winterr Chronicles Overview </h3>
+          <p>The Winterr Chronicles follow Ari Winterr as her 
+          powers awaken and she discovers what she really is.<br/>
+           <details> <summary>Awakening</summary> 
+               On Ari Winterr's thirteenth birthday she awakes to find animal-like 
+               ears on top of her head and a big fluffy tail have appeared. 
+               On top of that her hair has turned purple. This isn't exactly the first impression she 
+               wanted to give on her first day at a new school. A couple weeks later her new 
+               friends also awaken with strange powers. The trio vows to use their powers for good but
+               don't realize what that'll entail once their class gets roped into a real-live supervillan's scheme.
+
+           </details> <br/>
+           <details> <summary>Heritage</summary> 
+
+           </details><br/>
+           <details> <summary>Legacy</summary> 
+
+           </details>
+          </p>`,
         characters: ``,
         worldbuilding: {
             species: ``,

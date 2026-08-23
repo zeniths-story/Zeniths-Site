@@ -99,6 +99,10 @@ a:active{
     text-decoration: underline dotted;
 }
 
+details{
+    user-select: none;
+}
+
 .timeline{
     border: solid #f0d66423 3px;
     border-radius: 10px;
