@@ -17,20 +17,29 @@ var stories = [
           If you would like to bug me to write faster you can reach me 
           <a id="email" href="mailto:starfoxbutbusiness+hurryTFup@gmail.com">here</a>!!</p>
           <h3> Tapestry Overview </h3>
-          <p>The Main Tapestry storyline consists of the destruction and reawakening of magic.
-            <br/>
-          </p>`,
+          <p>The Main Tapestry storyline consists of the destruction and reawakening of magic. </p>`,
         characters: ` ༄ = Main storyline<br/>
             ᨒ = Side Tapestry Story<br/>
             ⟢ = Other Non-Tapestry Stories (for now...?)<br/><br/>`,
         worldbuilding: {
-            species: `The inteligent species are:`,
-            world: `<h3>Nezro:<h3>
+            species: `The inteligent species are:
+                <h3>Mi'kru'mir</h3>
+                <h3>Hareni</h3>
+                <h3>Zesper</h3>
+                <h3>Antored</h3>
+                
+            `,
+            world: `<h3>Nezro:</h3>
+                 Name & Meaning: Nezro [Ne-say-row]
+                 <h3>Jifro:</h3>
+                 Name & Meaning: Jifro [he-fro]
+                 <h3>Mamirye (Earth):</h3>
+                 Name & Meaning: Mamirye [Maw-mear-yea] "place without magic"
             		
                 `,
             religion: `breaxetvytbutrcstybetvyybrybudtvertvdhvtcvfvrffgfhge`,
             timeline: `
-                <div class="timelinePoint"> ~2017 CE/AD (Earth)/~1572 ME (Nezro)<br/>
+                <div class="timelinePoint"> ~2017 CE/AD (Earth)/<br/>~1572 ME (Nezro)<br/>
                 > ༄ Winterr Chronicles
                 <ul>
                    <li>Awakening</li>
@@ -47,7 +56,7 @@ var stories = [
                 <div class="timelinePoint">~390 LE (Nezro)<br/>
                 > ᨒ Changing Winds<br/></div>
                 
-                <div class="timelinePoint">~2637 CE/AD (Earth)/~505 LE(Nezro)/~1845 AD (Jifro)<br/>
+                <div class="timelinePoint">~2637 CE/AD (Earth)/<br/>~505 LE(Nezro)/<br/>~1845 AD (Jifro)<br/>
                 > ᨒ On the Other Side of the World<br/>
                 > ᨒ On the Other Side of Us<br/></div>
                 
@@ -61,7 +70,7 @@ var stories = [
         overview: `<h3> Winterr Chronicles Overview </h3>
           <p>The Winterr Chronicles follow Ari Winterr as her 
           powers awaken and she discovers what she really is.<br/>
-           <details> <summary>Awakening</summary> 
+           <details> <summary>Awakening summary</summary> 
                On Ari Winterr's thirteenth birthday she awakes to find animal-like 
                ears on top of her head and a big fluffy tail have appeared. 
                On top of that her hair has turned purple. This isn't exactly the first impression she 
@@ -70,14 +79,65 @@ var stories = [
                don't realize what that'll entail once their class gets roped into a real-live supervillan's scheme.
 
            </details> <br/>
-           <details> <summary>Heritage</summary> 
+           <details> <summary>Heritage summary</summary> 
+                With the fight's interuption with her aunt and uncle, 
+                no one is more confused than Ari's Dad. Having already confronted them, 
+                he's not excited to have to do that again. However, they're more powerful
+                now than when they were kids, and now they have a whole diety on their side. 
+                Ari's going to have to find a way back to the place where she was born and confront the 
+                beings ruling the world in order to save both realms.
 
            </details><br/>
-           <details> <summary>Legacy</summary> 
+           <details> <summary>Legacy summary</summary> 
+                All Ari wants now is to finish human highschool, spend time with her now-huge family, 
+                and learn more aout what it means to be zesper. However tension is building in the Winterr
+                kingdom and there is increasingly more evidence of an uprising from a rebel zesper group.
+                Ari's pleas for the rest of her life to be simple go unanswered as she's tasked with 
+                an insanely difficult choice. Will she make the right one and save both of her kingdoms?
 
            </details>
           </p>`,
-        characters: ``,
+        characters: `
+           <details> <summary>Awakening Characters</summary>
+            Ari Winterr<br/>
+            Age: 13<br/>
+            Species: Zesper<br/>
+                Ari is very friendly but quite reserved as well. She's been homeschooled for most of her 
+                life and this is the first year she'll be going to public school. Ari loves art and drawing, 
+                particurally she likes drawing animals. Ari also loves reading, her favorite genres 
+                are fantasy and sci-fi.
+            <br/><br/>
+
+            Holly lastn<br/>
+            Age: 12 <br/>
+            Species: Human (Mostly)<br/>
+            Holly is the energy of the trio. She's always bouncing off the walls or ranting about something.
+            Holly is 
+            <br/><br/>
+
+            Grace lastn<br/>
+            Age: 13 <br/>
+            Species: Human (Mostly)<br/>
+                A calm girl, Grace is the mediator of the trio. She's also a big anime and manga fan.
+                When her sheild power awakens she's both completely estatic and absolutely terrified.
+
+            <br/><br/>
+
+           </details> <br/>
+           <details> <summary>Heritage Characters</summary> 
+
+           </details><br/>
+           <details> <summary>Legacy Characters</summary> 
+
+           </details><br/>
+        
+        `,
+        /*
+            name lastn<br/>
+            age (at start of book/series)<br/>
+            species<br/>
+            desc of char<br/><br/>
+            */
         worldbuilding: {
             species: ``,
             world: ``,
@@ -183,12 +243,12 @@ function putTab(element) {
         var page = document.getElementById(element.id + "pg");
         page.innerHTML = `
         ${stories[i].overview}<br/>
-        ${stories[i].characters}
+        ${stories[i].characters}<br/>
        <details> <summary>Worldbuilding</summary>
        <h2>Timeline</h2>
         <div class="timeline">${stories[i].worldbuilding.timeline}</div><br/>
-        ${stories[i].worldbuilding.world}<br/>
-        ${stories[i].worldbuilding.species}<br/>
+        ${stories[i].worldbuilding.world}<br/><br/>
+        ${stories[i].worldbuilding.species}<br/><br/>
         ${stories[i].worldbuilding.religion}
         
         </details>

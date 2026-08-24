@@ -107,7 +107,7 @@ details{
     border: solid #f0d66423 3px;
     border-radius: 10px;
     height: 300px;
-    width: 93%;
+    width: 1400px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -121,5 +121,6 @@ details{
     border-radius: 15px;
     width: 400px;
     min-width: 200px;
+    overflow-y: auto;
 
 }

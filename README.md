@@ -24,7 +24,7 @@ Includes:
 > # Tapestry
 > Where all our OG stories live
 >
-> Still a WIP
+> Still a WIP (hidden while I'm working on getting base details filled in)
 
 And more to be added!! ^-^
 
