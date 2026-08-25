@@ -104,18 +104,19 @@ var stories = [
             Species: Zesper<br/>
                 Ari is very friendly but quite reserved as well. She's been homeschooled for most of her 
                 life and this is the first year she'll be going to public school. Ari loves art and drawing, 
-                particurally she likes drawing animals. Ari also loves reading, her favorite genres 
+                particularly she likes drawing animals. Ari also loves reading, her favorite genres 
                 are fantasy and sci-fi.
             <br/><br/>
 
-            Holly lastn<br/>
+            Holly Prince<br/>
             Age: 12 <br/>
             Species: Human (Mostly)<br/>
             Holly is the energy of the trio. She's always bouncing off the walls or ranting about something.
-            Holly is 
+            Holly is super sensitive and her emotions can change in a moment's notice. She's also super smart 
+            and has an exellent memory.
             <br/><br/>
 
-            Grace lastn<br/>
+            Grace Smith<br/>
             Age: 13 <br/>
             Species: Human (Mostly)<br/>
                 A calm girl, Grace is the mediator of the trio. She's also a big anime and manga fan.
@@ -125,6 +126,29 @@ var stories = [
 
            </details> <br/>
            <details> <summary>Heritage Characters</summary> 
+            Ari Winterr<br/>
+            Age: 13<br/>
+            Species: Zesper<br/>
+                Ari is very protective and outgoing. She firmly believes with her friends she can do anything. 
+                Now that she's gotten control over most of her powers, she hopes she can make the world a
+                kinder, and therefore safer, place to live.
+            <br/><br/>
+
+            Holly Prince<br/>
+            Age: 13 <br/>
+            Species: Human (Mostly)<br/>
+            Holly is still as energetic as ever. She loves helping people and with her speed she 
+            can help more people in less time. Holly is super sensitive and her emotions can change in a moment's notice. She's also super smart 
+            and has an exellent memory.
+            <br/><br/>
+
+            Grace Smith<br/>
+            Age: 14 <br/>
+            Species: Human (Mostly)<br/>
+                A calm girl, Grace is the mediator of the trio. She's also a big anime and manga fan.
+                When her sheild power awakens she's both completely estatic and absolutely terrified.
+
+            <br/><br/>
 
            </details><br/>
            <details> <summary>Legacy Characters</summary> 
