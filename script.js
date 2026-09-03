@@ -2,6 +2,7 @@ var about = document.getElementById("Abt");
 var headmates = document.getElementById("headmates");
 var projects = document.getElementById("projects");
 var blog = document.getElementById("blog");
+var contact = document.getElementById("contact");
 
 var currTab = about;
 
@@ -31,6 +32,7 @@ getOpen(about);
 getOpen(headmates);
 getOpen(projects);
 getOpen(blog);
+getOpen(contact);
 
 var headmates = [
     {
@@ -78,7 +80,7 @@ var headmates = [
         `,
 
         pictures: `Pictures go here, captions underneath<br/> 
-        Still working on geting pics for Cat, Hades, Zer0, Cirrus 
+        Still working on geting pics for several headmates
         <img src="hmpics/zen-picrew.png">
         Zenith-1<img src="hmpics/zen-2.png">Zenith-2 `,
     },

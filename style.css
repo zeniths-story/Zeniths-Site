@@ -20,6 +20,10 @@ body{
     background-color: rgba(16, 17, 82, 0);
 }
 
+.yellow{
+    color: yellow;
+}
+
 .mount{
     background-color: rgb(70, 138, 138);
     padding: 600px;
@@ -42,6 +46,7 @@ body{
     height: fit-content;
     padding: 5px 30px 30px;
     border-radius: 50px;
+    user-select: none;
 
 }
 
@@ -445,6 +450,7 @@ margin: 10px;
     display: flex;
     align-self: center;
     text-align: center;
+    
 }
 
 #posts{
@@ -482,5 +488,23 @@ margin: 10px;
     margin: 0px 5px 5px 5px;
 }
 
+#contact{
+    border:solid white 1px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    text-align: center;
+}
+
+#form{
+
+    display: flex;
+    flex-direction: column;
+}
+input{
+    max-height: 300px;
+}
 
 /*  border:solid white 1px;  */
