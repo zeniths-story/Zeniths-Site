@@ -791,12 +791,12 @@ getTag(crafts)
 var projects = [
     {
         projname:"Our Website",
-        projpic:`<img src="./zen-sitenew.png">`,
+        projpic:`<img src="proj/zen-sitenew.png">`,
         otherpics: [
-            `<img src="./zen-site2.png">`,
-            `<img src="./zen-site3.png">`,
-            `<img src="./zen-site4.png">`,
-            `<img src="./zen-site5.png">`,
+            `<img src="proj/zen-site2.png">`,
+            `<img src="proj/zen-site3.png">`,
+            `<img src="proj/zen-site4.png">`,
+            `<img src="proj/zen-site5.png">`,
         ],
         desc: `Our homebase where we can put info on our plurality, 
             past and current projects, and give an easy intro to others about us.`,
@@ -805,7 +805,7 @@ var projects = [
     },
     {
         projname:"NovaOS",
-        projpic:`<img src="./novaos.png">`,
+        projpic:`<img src="proj/novaos.png">`,
         otherpics: [],
         desc: "A simple, small space-themed WebOS made for HackClub.",
         projtags:"current, 2026, HC, tech",
@@ -1173,3 +1173,27 @@ function blogClick(){
     var blogTop = document.getElementById("BlogTop");
     blogTop.scrollIntoView();
 };
+
+function checkUser(){
+    var devEnd = document.getElementById("devEnd");
+    var popup = document.getElementById("devEndCheck");
+    var pass = document.getElementById("typedPass")
+
+    devEnd.addEventListener("click", function() {
+        popup.style.display = "flex";
+       
+    })
+}
+
+checkUser()
+
+function getPass(){
+    let typedPass = pass.value;    
+    console.log("success");
+        
+    console.log(typedPass);
+        
+    if (typedPass === "test"){      
+        console.log("success");
+    }
+}

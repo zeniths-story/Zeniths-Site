@@ -1,5 +1,7 @@
 body{
     background-color: rgb(16, 17, 82);
+    background: rgb(16, 17, 82);
+    background: linear-gradient(180deg, rgba(0, 0, 38, 1) 0%, rgba(16, 17, 82) 70%);
     color: rgb(60, 158, 223);
     text-align: center;
     display: flex;
@@ -23,6 +25,30 @@ body{
 .yellow{
     color: yellow;
 }
+
+#devEnd{
+    display: flex;
+    align-self: flex-start;
+    color:  rgb(1, 1, 54);
+    user-select: none;
+    cursor: pointer;
+}
+
+#devEndCheck{
+    background-color: rgb(16, 17, 82);
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    align-self: flex-start;
+    user-select: none;
+    cursor: pointer;
+    z-index:99;
+}
+
 
 .mount{
     background-color: rgb(70, 138, 138);
