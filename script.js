@@ -32,7 +32,7 @@ getOpen(about);
 getOpen(headmates);
 getOpen(projects);
 getOpen(blog);
-getOpen(contact);
+//getOpen(contact);
 
 var headmates = [
     {
