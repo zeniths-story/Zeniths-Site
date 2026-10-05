@@ -201,7 +201,7 @@ var headmates = [
         origin:"Brainmade",
         misc:``,
         links:``,
-        pictures: `no pic yet...`,
+        pictures: `<img src="hmpics/cir.png">`,
     },
     {
         name:"Danger",
