@@ -334,6 +334,34 @@ var headmates = [
         links: `<a href="https://pin.it/7ifFZR6Hb" target="blank"> Pintrest Board </a>`,
         pictures: `<img src="hmpics/kai.webp">`,
     },
+     {
+        name:"Ka'lle",
+        pronouns: "Flux/they",
+        role: "",
+        firstNoted: "september 11, 2026",
+        gender: "masc-alligned",
+        age:"24",
+        quote: "",
+        species: "Frella (anthro cat from og story)",
+        origin:"Brainmade-ish",
+        misc:`Friend: Kai`,
+        links:``,
+        pictures: `no pic yet...`,
+    },
+     {
+        name:"Kia",
+        pronouns: "He/They",
+        role: "",
+        firstNoted: "September 14, 2026",
+        gender: "Boy",
+        age:"23",
+        quote: "",
+        species: "Human",
+        origin:"The Amazing Digital Circus",
+        misc:``,
+        links:``,
+        pictures: `Face claim is based off Ikimaru's human Jax design. <img src="hmpics/kia.jpg">`,
+    },
     {
         name:"Lumi",
         pronouns: "She/They",
@@ -369,6 +397,21 @@ var headmates = [
         pictures: `<img src="hmpics/luna-1.png"> This one's best 
         <img src="hmpics/luna-2.png">
         <img src="hmpics/luna-3.png">`,
+    },
+       {
+        name:"Mark",
+        pronouns: "He/Him",
+        role: "",
+        firstNoted: "September 23, 2026",
+        gender: "Boy",
+        age:"32",
+        quote: "",
+        species: "Human",
+        origin:"The Martian - Andy Weir",
+        misc:`We mostly call him Watney.<br/><br/>
+        Friends: Ari, Grace, Rocky`,
+        links:``,
+        pictures: `<img src="hmpics/watney.jpg">`,
     },
     {
         name:"Nova",
@@ -463,6 +506,34 @@ var headmates = [
         Reid's Tunes</a>`,
         pictures: `<img src="hmpics/reid.png">`,
     },
+       {
+        name:"Rex",
+        pronouns: "He/It",
+        role: "",
+        firstNoted: "September 13, 2026",
+        gender: "Boy",
+        age:"15",
+        quote: "",
+        species: "Human - Therian Dog",
+        origin:"Brainmade",
+        misc:``,
+        links:``,
+        pictures: `<img src="hmpics/rex.png">`,
+    },
+       {
+        name:"River",
+        pronouns: "They/He",
+        role: "",
+        firstNoted: "September 8, 2026",
+        gender: "No Thanks",
+        age:"27",
+        quote: "",
+        species: "Water Fairy",
+        origin:"Brainmade",
+        misc:``,
+        links:``,
+        pictures: `<img src="hmpics/river.jpg">`,
+    },
     {
         name:"Rocky",
         pronouns: "Th♪y/H♪ (They/He)",
@@ -473,7 +544,7 @@ var headmates = [
         quote: `"Words of <em>great</em> encouragement!" Rocky - <i>Project Hail Mary</i>`,
         species: "Eridian",
         origin: "Rocky - Project Hail Mary (Movie)",
-        misc:``,
+        misc:`Friends: Grace, Ari, Watney`,
         links: ``,
         pictures: `<img src="hmpics/rocky.webp">`,
     },
@@ -516,6 +587,21 @@ var headmates = [
         Voice Claim (First Voice)</a>`,
         pictures: `<img src="hmpics/rylen.png">`,
     },
+       {
+        name:"Ryland",
+        pronouns: "He/Him",
+        role: "",
+        firstNoted: "September 23, 2026",
+        gender: "Boy",
+        age:"32",
+        quote: "",
+        species: "Human",
+        origin:"Project Hail Mary (Book & Movie)",
+        misc:`We mostly call him Grace <br/><br/>
+        Friends: Ari, Watney, Rocky`,
+        links:``,
+        pictures: `<img src="hmpics/ryland.jpg">`,
+    },
      {
         name:"Ryon",
         pronouns: "He/They",
@@ -530,6 +616,20 @@ var headmates = [
         Friends:Lumi, Theo, Evi`,
         links: `<a href="https://pin.it/5FDAWBrOt" target="blank"> Pintrest Board</a>`,
         pictures: `<img src="hmpics/ryon.webp">`,
+    },
+       {
+        name:"Senka",
+        pronouns: "Dark/It/They",
+        role: "",
+        firstNoted: "October 4, 2026",
+        gender: "",
+        age:"Ageless",
+        quote: "",
+        species: "Shadow",
+        origin:"Brainmade",
+        misc:``,
+        links:``,
+        pictures: `no pic yet...`,
     },
     {
         name:"Silveny",
@@ -934,6 +1034,22 @@ var projects = [
         projtags:"2026, art, doodles",
         num: 16,
     },
+    {
+        projname:"Duos - Lumi & Rowan",
+        projpic:`<img src="digital art/rowanlumi.jpg">`,
+        otherpics: [],
+        desc: "They're basically father & child",
+        projtags:"2026, art",
+        num: 17,
+    },
+    {
+        projname:"Duos - Evi & Kai",
+        projpic:`<img src="digital art/evikai.jpg">`,
+        otherpics: [],
+        desc: "Drawn back when Evi still liked the Human-eque form",
+        projtags:"2026, art",
+        num: 18,
+    },
 
 ];
 
@@ -1188,7 +1304,7 @@ function checkUser(){
 checkUser()
 
 function getPass(){
-    let typedPass = pass.value;    
+    var typedPass = pass.value;    
     console.log("success");
         
     console.log(typedPass);
@@ -1197,3 +1313,5 @@ function getPass(){
         console.log("success");
     }
 }
+
+getPass()

@@ -107,7 +107,7 @@ details{
     border: solid #f0d66423 3px;
     border-radius: 10px;
     height: 300px;
-    width: 1400px;
+    width: 1160px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -119,8 +119,13 @@ details{
     margin: 15px;
     padding: 10px;
     border-radius: 15px;
-    width: 400px;
-    min-width: 200px;
+    min-width: 300px;
+    justify-content: center;
+    align-content: center;
     overflow-y: auto;
+}
 
+.timelinePoint h3{
+    align-self: flex-end;
+    justify-self: flex-end;
 }
