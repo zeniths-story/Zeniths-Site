@@ -1332,7 +1332,7 @@ function blogClick(){
     blogTop.scrollIntoView();
 };
 
-function checkUser(){
+/*function checkUser(){
     var devEnd = document.getElementById("devEnd");
     var popup = document.getElementById("devEndCheck");
     var pass = document.getElementById("typedPass")
@@ -1355,4 +1355,4 @@ function getPass(pw){
         console.log("success");
     }
 }
-
+*/
