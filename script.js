@@ -85,6 +85,20 @@ var headmates = [
         Zenith-1<img src="hmpics/zen-2.png">Zenith-2 `,
     },
     {
+        name:"Abby",
+        pronouns: "He/Any",
+        role: "",
+        firstNoted: "October 14, 2026",
+        gender: "Demon",
+        age:"Ageless",
+        quote: "",
+        species: "Demon",
+        origin:"Haunted Hotel",
+        misc:``,
+        links:``,
+        pictures: `<img src="hmpics/Abby.jpg">`,
+    },
+    {
         name:"Ari",
         pronouns: "She/They",
         role: "",
@@ -204,6 +218,20 @@ var headmates = [
         pictures: `<img src="hmpics/cir.png">`,
     },
     {
+        name:"Cystrix",
+        pronouns: "Any",
+        role: "",
+        firstNoted: "October 24, 2026",
+        gender: "",
+        age:"Ageless",
+        quote: "",
+        species: "Storm",
+        origin:"Brainmade",
+        misc:``,
+        links:``,
+        pictures: `<img src="hmpics/CyPic.jpg">`,
+    },
+    {
         name:"Danger",
         pronouns: "He/They",
         role: "",
@@ -218,6 +246,20 @@ var headmates = [
            God Complex (playlist)</a>  
             <a href="https://pin.it/4cnPvZBpc" target="blank">My Pintrest Board <a/>`,
         pictures: `<img src="hmpics/danger-1.png"><img src="hmpics/danger-2.png">`,
+    },
+    {
+        name:"Esther",
+        pronouns: "She/Her",
+        role: "",
+        firstNoted: "October 14, 2026",
+        gender: "",
+        age:"13",
+        quote: "",
+        species: "Human",
+        origin:"Haunted Hotel",
+        misc:``,
+        links:``,
+        pictures: `<img src="hmpics/Esther.jpg">`,
     },
     {
         name:"Ethan",
@@ -255,21 +297,6 @@ var headmates = [
         Friends: Asher, Theo, Ryon, Quill`,
         links: `<a href="https://pin.it/1BFIhrTkb" target="blank"> Pintrest Board </a>`,
         pictures: `<img src="hmpics/evi.png">`,
-    },
-    {
-        name:"Evyn",
-        pronouns: "Fur/Paw/Hunt/Howl",
-        role: "",
-        firstNoted: "June 12, 2026",
-        gender: "WolfGender",
-        age:"16",
-        quote: `Ask for more, the universe isn't on a budget`,
-        species: "Werewolf (<i>Wolf Children</i> style)",
-        origin:"Brainmade",
-        misc:`I will bark at you.<br/><br/>
-        Dating:Charly`,
-        links: `<a href="https://open.spotify.com/playlist/60qiOvAgXqA0HfZjqlHyj5" target="blank"> Playlist </a>`,
-        pictures: `<img src="hmpics/evyn.jpg">`,
     },
     {
         name:"Fletcher",
@@ -750,6 +777,21 @@ var headmates = [
         <a href="https://pin.it/6dPNfZvoc" target="blank"> Pintrest Board >:) </a>`,
         pictures: `<img src="hmpics/tommy.jpg"> Art by @Shmeckdoesstuff on twitter`,
     },
+     {
+        name:"Wolfe",
+        pronouns: "Fur/Paw/Hunt/Howl",
+        role: "",
+        firstNoted: "June 12, 2026",
+        gender: "WolfGender",
+        age:"16",
+        quote: `Ask for more, the universe isn't on a budget`,
+        species: "Werewolf (<i>Wolf Children</i> style)",
+        origin:"Brainmade",
+        misc:`I will bark at you.<br/><br/>
+        Dating:Charly`,
+        links: `<a href="https://open.spotify.com/playlist/60qiOvAgXqA0HfZjqlHyj5" target="blank"> Playlist </a>`,
+        pictures: `<img src="hmpics/evyn.jpg">`,
+    },
     {
         name:"Ves",
         pronouns: "Night/Star/Void",
@@ -796,7 +838,7 @@ var headmates = [
         origin:"Brainmade",
         misc:``,
         links:``,
-        pictures: `no pic yet...`,
+        pictures: `<img src="hmpics/zer0.png">`,
     },
     
 ];
@@ -1297,21 +1339,20 @@ function checkUser(){
 
     devEnd.addEventListener("click", function() {
         popup.style.display = "flex";
+        getPass(pass)
        
     })
 }
 
 checkUser()
 
-function getPass(){
-    var typedPass = pass.value;    
+function getPass(pw){  
     console.log("success");
         
-    console.log(typedPass);
+    console.log(pw);
         
-    if (typedPass === "test"){      
+    if (pw === "test"){      
         console.log("success");
     }
 }
 
-getPass()
