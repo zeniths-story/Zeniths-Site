@@ -49,6 +49,11 @@ text-decoration: underline dotted;
     margin: 0;
 }
 
+#dev:hover{
+    color: #9fc0d4;
+    background-color: #000000;
+    cursor: pointer;
+}
 
 
 
