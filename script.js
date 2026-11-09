@@ -50,7 +50,7 @@ var headmates = [
         >Willowgenic: Created on purpose<br/>
         >Brainmade: not based off pre-existing media<br/>
         >Introject: based off pre-existing media or people.<br/>
-        <span id="red">!!Introjects have no control over their source. 
+        <span class="yellow">!!Introjects have no control over their source. 
         Introjects will have varying degrees of source attachment. 
         Don't immeditely assume an introject wants to be treated or acts like their source!!</span><br/>
         >>Fictive: based off a fictional character/person<br/>
