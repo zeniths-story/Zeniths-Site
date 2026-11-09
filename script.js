@@ -34,6 +34,18 @@ getOpen(projects);
 getOpen(blog);
 //getOpen(contact);
 
+var adj = [ "An adventureous", "A chaotic", "An artistic"]
+var obsession = ["<i>Project Hail Mary</i>", "the night sky", "our partner <3", "programing"]
+
+function getText(){
+    var ADJSpan = document.getElementById("adj");
+    ADJSpan.innerHTML = adj[Math.floor(Math.random() * adj.length)];
+
+    var obsessSpan = document.getElementById("obsession");
+    obsessSpan.innerHTML = obsession[Math.floor(Math.random() * obsession.length)]
+}
+getText();
+
 var headmates = [
     {
         name:"Name",

@@ -53,6 +53,7 @@ text-decoration: underline dotted;
     color: #9fc0d4;
     background-color: #000000;
     cursor: pointer;
+    user-select: none;
 }
 
 
@@ -92,6 +93,7 @@ text-decoration: underline dotted;
     background-color: #375161;
     color: #92b4c7;
     cursor: pointer;
+    user-select: none;
 }
 
 
