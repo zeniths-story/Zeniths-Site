@@ -38,7 +38,7 @@ var headmates = [
     {
         name:"Name",
         pronouns: "Pronouns",
-        role: "Role (if any)",
+        role: "Role (possibly joke role)",
         firstNoted: `[Date], approx when they showed up/we noticed in headspace.<br/>
         !!Evi Doesn't have one because they hosted for so long we arn't 
         sure the exact date star showed up!!`,
@@ -79,15 +79,15 @@ var headmates = [
         
         `,
 
-        pictures: `Pictures go here, captions underneath<br/> 
-        Still working on geting pics for several headmates
+        pictures: `<p>Pictures go here, captions underneath<br/> 
+        Still working on geting pics for several headmates</p>
         <img src="hmpics/zen-picrew.png">
         Zenith-1<img src="hmpics/zen-2.png">Zenith-2 `,
     },
     {
         name:"Abby",
         pronouns: "He/Any",
-        role: "",
+        role: "Demon",
         firstNoted: "October 14, 2026",
         gender: "Demon",
         age:"Ageless",
@@ -101,7 +101,7 @@ var headmates = [
     {
         name:"Ari",
         pronouns: "She/They",
-        role: "",
+        role: "Media Zesper",
         firstNoted: "July 12, 2026",
         gender: "Girl",
         age:"13",
@@ -122,7 +122,7 @@ var headmates = [
     {
         name:"Asher",
         pronouns: "They/Pup/Dream/He",
-        role: "",
+        role: "Astro Tech",
         firstNoted: "March 24, 2026",
         gender: "Agender",
         age:"16",
@@ -171,7 +171,7 @@ var headmates = [
     {
         name:"Cat",
         pronouns: "She/Her",
-        role: "",
+        role: "Cat",
         firstNoted: "January 28, 2026",
         gender: "Female",
         age:"Adult",
@@ -187,7 +187,7 @@ var headmates = [
     {
         name:"Charly",
         pronouns: "He/They/She",
-        role: "",
+        role: "Golden Retreiver",
         firstNoted: "June 14, 2026",
         gender: "Bigender (boy/girl)",
         age:"16",
@@ -206,7 +206,7 @@ var headmates = [
      {
         name:"Cirrus",
         pronouns: "They/Fluff/Wind/Aether",
-        role: "",
+        role: "It Heckn' Wimdy",
         firstNoted: "August 21, 2026",
         gender: "",
         age:"Ageless??",
@@ -220,7 +220,7 @@ var headmates = [
     {
         name:"Cystrix",
         pronouns: "Any",
-        role: "",
+        role: "StormKeeper",
         firstNoted: "October 24, 2026",
         gender: "",
         age:"Ageless",
@@ -234,7 +234,7 @@ var headmates = [
     {
         name:"Danger",
         pronouns: "He/They",
-        role: "",
+        role: "God",
         firstNoted: "May 2, 2026",
         gender: "",
         age:"16",
@@ -250,7 +250,7 @@ var headmates = [
     {
         name:"Esther",
         pronouns: "She/Her",
-        role: "",
+        role: "Shemon",
         firstNoted: "October 14, 2026",
         gender: "",
         age:"13",
@@ -301,7 +301,7 @@ var headmates = [
     {
         name:"Fletcher",
         pronouns: "They/He",
-        role: "",
+        role: "Energy holder",
         firstNoted: "August 2, 2026",
         gender: "Gendervoid",
         age:"13-14",
@@ -317,7 +317,7 @@ var headmates = [
     {
         name:"Hades",
         pronouns: "He/Him",
-        role: "",
+        role: "Doggo",
         firstNoted: "July 16, 2026",
         gender: "Male",
         age:"Adult",
@@ -347,7 +347,7 @@ var headmates = [
     {
         name:"Kai",
         pronouns: "Glitch/Void/They/He",
-        role: "",
+        role: "Holo Tech",
         firstNoted: "April 7, 2026",
         gender: "Robotgender",
         age:"15",
@@ -364,7 +364,7 @@ var headmates = [
      {
         name:"Ka'lle",
         pronouns: "Flux/they",
-        role: "",
+        role: "Space Explorer",
         firstNoted: "september 11, 2026",
         gender: "masc-alligned",
         age:"24",
@@ -378,7 +378,7 @@ var headmates = [
      {
         name:"Kia",
         pronouns: "He/They",
-        role: "",
+        role: "Funny Bunny",
         firstNoted: "September 14, 2026",
         gender: "Boy",
         age:"23",
@@ -408,7 +408,7 @@ var headmates = [
     {
         name:"Luna",
         pronouns: "She/Any",
-        role: "",
+        role: "Quiet Girlie",
         firstNoted: "July 29, 2026",
         gender: "Girl",
         age:"16 (regresses to 12)",
@@ -428,7 +428,7 @@ var headmates = [
        {
         name:"Mark",
         pronouns: "He/Him",
-        role: "",
+        role: "The Martian",
         firstNoted: "September 23, 2026",
         gender: "Boy",
         age:"32",
@@ -443,7 +443,7 @@ var headmates = [
     {
         name:"Nova",
         pronouns: "Any",
-        role: "",
+        role: "Space Thing",
         firstNoted: "July 17, 2026",
         gender: "No",
         age:"Ageless",
@@ -474,7 +474,7 @@ var headmates = [
     {
         name:"Opal",
         pronouns: "She/They",
-        role: "",
+        role: "Aura",
         firstNoted: "July 6, 2026",
         gender: "Demi-girl",
         age:"16",
@@ -514,7 +514,7 @@ var headmates = [
     {
         name:"Reid",
         pronouns: "He/She",
-        role: "",
+        role: "Anarchist",
         firstNoted: "June 24, 2026",
         gender: "Bigenderfluid (Boy/Girl)",
         age:"17",
@@ -536,7 +536,7 @@ var headmates = [
        {
         name:"Rex",
         pronouns: "He/It",
-        role: "",
+        role: "PuppyBoy",
         firstNoted: "September 13, 2026",
         gender: "Boy",
         age:"15",
@@ -550,7 +550,7 @@ var headmates = [
        {
         name:"River",
         pronouns: "They/He",
-        role: "",
+        role: "Flowstate",
         firstNoted: "September 8, 2026",
         gender: "No Thanks",
         age:"27",
@@ -564,7 +564,7 @@ var headmates = [
     {
         name:"Rocky",
         pronouns: "Th♪y/H♪ (They/He)",
-        role: "",
+        role: "Rock",
         firstNoted: "June 1, 2026",
         gender: "",
         age:"Adult",
@@ -597,7 +597,7 @@ var headmates = [
     {
         name:"Rylen",
         pronouns: "He/They",
-        role: "",
+        role: "Knight",
         firstNoted: "June 17, 2026",
         gender: "Genderqueer",
         age:"17",
@@ -617,7 +617,7 @@ var headmates = [
        {
         name:"Ryland",
         pronouns: "He/Him",
-        role: "",
+        role: "Patron Saint of One-Way Trips",
         firstNoted: "September 23, 2026",
         gender: "Boy",
         age:"32",
@@ -632,7 +632,7 @@ var headmates = [
      {
         name:"Ryon",
         pronouns: "He/They",
-        role: "",
+        role: "Starboi",
         firstNoted: "March 28, 2026",
         gender: "Boy",
         age:"15",
@@ -647,7 +647,7 @@ var headmates = [
        {
         name:"Senka",
         pronouns: "Dark/It/They",
-        role: "",
+        role: "The Shadow",
         firstNoted: "October 4, 2026",
         gender: "",
         age:"Ageless",
@@ -677,7 +677,7 @@ var headmates = [
     {
         name:"Texas",
         pronouns: "He/Him",
-        role: "",
+        role: "Cowboy",
         firstNoted: "June 16, 2026",
         gender: "Boy",
         age:"34",
@@ -692,7 +692,7 @@ var headmates = [
     {
         name:"Theo",
         pronouns: "He/They",
-        role: "",
+        role: "Bee Boi",
         firstNoted: "May 17, 2026",
         gender: "Boy",
         age:"13",
@@ -710,7 +710,7 @@ var headmates = [
     {
         name:"Ti",
         pronouns: "She/They/Any",
-        role: "",
+        role: "Ti-84",
         firstNoted: "August 30, 2026",
         gender: "",
         age:"Ageless",
@@ -724,7 +724,7 @@ var headmates = [
     {
         name:"Tina",
         pronouns: "She/They",
-        role: "",
+        role: "Necromancer",
         firstNoted: "May 18, 2026",
         gender: "Girl",
         age:"27",
@@ -760,7 +760,7 @@ var headmates = [
     {
         name:"Tommy",
         pronouns: "He/Him",
-        role: "",
+        role: "Tommy Minecraft",
         firstNoted: "July 14, 2026",
         gender: "Boy",
         age:"Slider 16-22",
@@ -780,7 +780,7 @@ var headmates = [
      {
         name:"Wolfe",
         pronouns: "Fur/Paw/Hunt/Howl",
-        role: "",
+        role: "Wolfkid",
         firstNoted: "June 12, 2026",
         gender: "WolfGender",
         age:"16",
@@ -814,7 +814,7 @@ var headmates = [
     {
         name:"Zane",
         pronouns: "They/Them",
-        role: "",
+        role: "John Zenith",
         firstNoted: "June 19, 2026",
         gender: "Non-Binary",
         age:"18",
@@ -829,7 +829,7 @@ var headmates = [
     {
         name:"Zer0",
         pronouns: "They/Axis/Orbit",
-        role: "",
+        role: "Balance Holder",
         firstNoted: "August 13, 2026",
         gender: "",
         age:"Ageless",

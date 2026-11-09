@@ -169,17 +169,18 @@ animation: scroll 10s linear infinite;
 
 
 
-
-
-
 /*Headmates stuff*/
 #headmates p{
     max-width: fit-content;
 }
 
+#headmates{
+    max-height: 1100px;
+}
+
 #list{
     width: 120px;
-    height: 100vh;
+    height: 100%;
     overflow: auto;
     scrollbar-gutter: stable;
     border-radius: 10px;
@@ -216,6 +217,9 @@ animation: scroll 10s linear infinite;
     flex-direction: column;
     align-items: center;
     height: fit-content;
+    max-height: 100%;
+    overflow: auto;
+    scrollbar-gutter: stable;
 }
 
 #pictures img{
@@ -261,6 +265,9 @@ animation: scroll 10s linear infinite;
     width: 50%;
     border-radius: 5px;
 }
+
+
+
 
 /*spotlight stuff*/
 
@@ -329,7 +336,7 @@ animation: scroll 10s linear infinite;
 
 .arrow{
     background-image: linear-gradient(to left, #64a5f000, #375161, #64a5f000);
-    width: 100px;
+    width: fit-content;
     height: fit-content;
     padding: 10px;
     border-radius: 10px;
@@ -343,7 +350,7 @@ animation: scroll 10s linear infinite;
     height: fit-content;
     padding: 10px;
     border-radius: 10px;
-    color:  rgb(28, 30, 112);
+    color:  #9fc0d4;
     user-select: none;
     cursor: pointer;
 }
