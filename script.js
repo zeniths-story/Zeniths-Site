@@ -848,7 +848,7 @@ function addToList(index){
     var list = document.getElementById("list");
     var hminfo = headmates[index];
     var newDiv = document.createElement("div");
-    newDiv.innerHTML= `${hminfo.name}<p></p>`;
+    newDiv.innerHTML= `<p>${hminfo.name}</p>`;
 
     newDiv.addEventListener("click", function(){
         sethmCont(index);
@@ -1142,7 +1142,7 @@ function addToShow(index){
     divTotal.innerHTML = `
     <p>${projects[index].projname}</p>
      ${projects[index].projpic}
-    <p></p>`
+     <br/>`
 
     divTotal.classList.add("showpic");
     divTotal.id = projects[index].num;
