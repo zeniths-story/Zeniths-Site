@@ -35,7 +35,7 @@ getOpen(blog);
 //getOpen(contact);
 
 var adj = [ "An adventureous", "A chaotic", "An artistic"]
-var obsession = ["<i>Project Hail Mary</i>", "the night sky", "our partner <3", "programing"]
+var obsession = ["<i>Project Hail Mary</i>", "the night sky", "our partner <3", "programing", "space sci-fi"]
 
 function getText(){
     var ADJSpan = document.getElementById("adj");
@@ -103,10 +103,10 @@ var headmates = [
         firstNoted: "October 14, 2026",
         gender: "Demon",
         age:"Ageless",
-        quote: "",
+        quote: "This vessel requires Fruit Loops!",
         species: "Demon",
         origin:"Haunted Hotel",
-        misc:``,
+        misc:`I like Tina, she's pretty cool, like Esther.`,
         links:``,
         pictures: `<img src="hmpics/Abby.jpg">`,
     },
@@ -155,7 +155,8 @@ var headmates = [
         quote: ``,
         species: "Human",
         origin:"Brainmade",
-        misc: `Caretaker: Az<br/>
+        misc: `Please treat me like a child <br/>
+        Caretaker: Az<br/>
         Friends: Silveny, Lumi`,
         links: ``,
         pictures: `<img src="hmpics/ash.webp">`,
@@ -190,7 +191,8 @@ var headmates = [
         quote: ``,
         species: "Cat",
         origin:"Brainmade - Willowgenic?",
-        misc: `Bestie: Theo<br/>
+        misc: `Doesn't do much, hangs with the littles a lot though -Tommy <br/>
+        Bestie: Theo<br/>
         Friend: Lumi
         `,
         links: ``,
@@ -217,15 +219,15 @@ var headmates = [
     },
      {
         name:"Cirrus",
-        pronouns: "They/Fluff/Wind/Aether",
+        pronouns: "They/Fluff/Aether",
         role: "It Heckn' Wimdy",
         firstNoted: "August 21, 2026",
-        gender: "",
+        gender: "No thanks",
         age:"Ageless??",
         quote: ``,
         species: "Humannoid concept of clouds n shit",
         origin:"Brainmade",
-        misc:``,
+        misc:`Cousins: Cysrix, Zer0`,
         links:``,
         pictures: `<img src="hmpics/cir.png">`,
     },
@@ -234,12 +236,12 @@ var headmates = [
         pronouns: "Any",
         role: "StormKeeper",
         firstNoted: "October 24, 2026",
-        gender: "",
+        gender: "Storm",
         age:"Ageless",
         quote: "",
         species: "Storm",
         origin:"Brainmade",
-        misc:``,
+        misc:`Cousins: Cirrus, Zer0`,
         links:``,
         pictures: `<img src="hmpics/CyPic.jpg">`,
     },
@@ -248,12 +250,12 @@ var headmates = [
         pronouns: "He/They",
         role: "God",
         firstNoted: "May 2, 2026",
-        gender: "",
-        age:"16",
+        gender: "Chaos",
+        age:"17",
         quote: `No one's coming to save you, but no one's coming to stop you either | Through Hell to the stars`,
         species: "Explosion/Chaos God",
         origin:"Brainmade",
-        misc: "Family: Az",
+        misc: "Family: Az, Ash",
         links: `<a href="https://open.spotify.com/playlist/46zHm8sxmKftu1TAzKGEvS" target="blank">
            God Complex (playlist)</a>  
             <a href="https://pin.it/4cnPvZBpc" target="blank">My Pintrest Board <a/>`,
@@ -269,7 +271,7 @@ var headmates = [
         quote: "",
         species: "Human",
         origin:"Haunted Hotel",
-        misc:``,
+        misc:`Tina is a great teacher :>`,
         links:``,
         pictures: `<img src="hmpics/Esther.jpg">`,
     },
@@ -320,8 +322,8 @@ var headmates = [
         quote: `Shoot for the moon, even if you miss you'll land among the stars.`,
         species: "Human?",
         origin:"Brainmade",
-        misc:`Hi! I'm new! uh, you can call me either Fletch or Fletcher idc <br/>
-        I like arrows n stuff<br/>
+        misc:`Hi! You can call me either Fletch or Fletcher idc :p<br/>
+        I like arrows n stuff :D<br/>
         Friends: Tommy`,
         links: `<a href="https://pin.it/6SZhmDDZr" target="blank"> My Pintrest Board! :p </a>"`,
         pictures: `<img src="hmpics/fletch.png">`,
@@ -352,7 +354,8 @@ var headmates = [
         quote: `Speak the truth, even if your voice shakes`,
         species: "Elf (semi-KotLC)",
         origin:"Brainmade",
-        misc:"Friend: Rylen, Reid",
+        misc:`Dormant? <br/>
+        Friend: Rylen, Reid`,
         links: ``,
         pictures: `<img src="hmpics/hart.png">`,
     },
@@ -369,7 +372,8 @@ var headmates = [
         I lost my identity so very long ago | Language of the Lost - Riproducer`,
         species: "Holographic Assistant",
         origin:"Brainmade",
-        misc:"Dormant?",
+        misc:`Dormant?<br/>
+        Friend: Ka'lle`,
         links: `<a href="https://pin.it/7ifFZR6Hb" target="blank"> Pintrest Board </a>`,
         pictures: `<img src="hmpics/kai.webp">`,
     },
@@ -377,7 +381,7 @@ var headmates = [
         name:"Ka'lle",
         pronouns: "Flux/they",
         role: "Space Explorer",
-        firstNoted: "september 11, 2026",
+        firstNoted: "September 11, 2026",
         gender: "masc-alligned",
         age:"24",
         quote: "",
@@ -394,12 +398,12 @@ var headmates = [
         firstNoted: "September 14, 2026",
         gender: "Boy",
         age:"23",
-        quote: "",
+        quote: "hooway -me",
         species: "Human",
         origin:"The Amazing Digital Circus",
-        misc:``,
+        misc:`Face claim is based off Ikimaru's human Jax design. `,
         links:``,
-        pictures: `Face claim is based off Ikimaru's human Jax design. <img src="hmpics/kia.jpg">`,
+        pictures: `<img src="hmpics/kia.jpg">`,
     },
     {
         name:"Lumi",
@@ -412,7 +416,8 @@ var headmates = [
         your head and your heart are just one foot apart | Head and Hart - TV Room`,
         species: "Human",
         origin:"Brainmade",
-        misc:`Family: Rowan, Silveny, Theo<br/>
+        misc:`Treat me how I want to be treated! <br/>
+        Family: Rowan, Silveny, Theo<br/>
         Friends: Cat, Ash, Ryon, Quill, Hades, Tommy`,
         links: ``,
         pictures: `<img src="hmpics/lumi.png">`,
@@ -906,6 +911,24 @@ function getHMTot(){
     totSpan.innerHTML = (headmates.length - 1)
 }
 getHMTot()
+
+function hmSpotlight(index){
+    var hmName = document.getElementById("hmName");
+    var hmPrn = document.getElementById("hmPrn");
+    var hmMisc = document.getElementById("hmMisc");
+    var hmPic = document.getElementById("hmPic");
+    var headmate = headmates[index];
+    
+    hmPic.innerHTML = headmate.pictures;
+    hmName.innerHTML = headmate.name;
+    hmPrn.innerHTML = headmate.pronouns;
+    hmMisc.innerHTML = headmate.misc;
+}
+hmSpotlight(Math.floor(Math.random() * headmates.length));
+
+
+
+
 
 function getTag(element){
         element.addEventListener("click", function() { 
