@@ -26,7 +26,7 @@ function getOpen(element){
        closeTab(currTab);
         openTab(element);
     });
-};
+}
 
 getOpen(about);
 getOpen(headmates);
@@ -1132,7 +1132,7 @@ var projects = [
         num: 18,
     },
 
-];
+]
 
 var seltags = document.getElementsByClassName("tagsel");
 
@@ -1143,8 +1143,8 @@ function getProjs() {
     } else { //no tags are selected, display everything 
          deleteAllProj();
          addAllProjs();
-    };
-};
+    }
+}
 
 function deleteAllProj(){  //remove everything
     var currProjs = document.getElementsByClassName("showpic");//stuff that is showing
@@ -1152,27 +1152,36 @@ function deleteAllProj(){  //remove everything
 
     for(let i=0; i < currProjsLeng; i++){
         currProjs[0].remove();//actually take it off
-    }; 
-};
+    }
+}
 
 function addTaggedProjs(){ // *works*
-    for(let i=0; i< seltags.length; i++){ //for if there is multiple tags selected
-        var tagName = seltags[i].id
+    for(let i=0; i < seltags.length; i++){ //for if there is multiple tags selected
+        var tagName = seltags[i].id;
 
         for(let i=0; i<projects.length; i++){
             if(projects[i].projtags.includes(tagName)){
-                addToShow(i); 
+                addToShow(i);
 
-            };
-        };
-    };
-};
+            }
+        }
+    }
+}
 
 function addAllProjs(){
     for(let i=0; i< projects.length; i++){
+        addToShow(i);  //make visible
+    }
+
+}
+
+function clickAdd(){
+    if(document.getElementsByClassName("showpic").length < 1){
+        for(let i=0; i< projects.length; i++){
             addToShow(i);  //make visible
-    };
-};
+        }
+    }
+}
 
 function addToShow(index){
     var sc = document.getElementById("showcase");
@@ -1191,7 +1200,7 @@ function addToShow(index){
         spotlight(index);
     });
           
-};
+}
 
 function spotlight(index) {
     var spotlight = document.getElementById("spotlight");
@@ -1233,7 +1242,7 @@ function spotlight(index) {
          spotlight.style.display = "none";
     })
     spotlight.style.display = "flex";
-};
+}
 
 function putCurrent(){
     for(i=0; i< projects.length; i++){
@@ -1322,7 +1331,7 @@ var blogPosts =[
             Zenith's IRL Stories
         `,
     },
-];
+]
 
 /*
     {
@@ -1358,18 +1367,18 @@ function addPost(index) {
          
     postDiv.classList.add("postDes");
     blogWall.appendChild(postDiv);
-};
+}
 
 for(i=0; i< (blogPosts.length); i++){
         addPost(i);
-};
+}
 blogClick()
 
 function blogClick(){
     //console.log("click")
     var blogTop = document.getElementById("BlogTop");
     blogTop.scrollIntoView();
-};
+}
 
 /*function checkUser(){
     var devEnd = document.getElementById("devEnd");

@@ -102,6 +102,11 @@ div{
 
 .tab{
     background-color: #9fc0d4;
+    text-decoration: none;
+}
+
+#tapestryTab{
+    text-decoration: none;
 }
 
 .tab:hover, .select{
@@ -212,7 +217,7 @@ animation: scroll 10s linear infinite;
 }
 
 #handi{
-    height: 596px;
+    height: 65.7vh;
     overflow: auto;
 }
 
@@ -286,6 +291,27 @@ animation: scroll 10s linear infinite;
 
 
 /*projects stuff*/
+
+#tagList{
+    overflow-y: auto;
+    scrollbar-gutter: stable;
+}
+
+.tag{
+    background-color: #9fc0d4;
+    user-select: none;
+    text-align: center;
+    cursor: pointer;
+
+}
+
+.tagsel{
+    background-color: #375161;
+    color: #92b4c7;
+    cursor: pointer;
+    user-select: none;
+}
+
 
 #showcase{
     margin: 10px;
