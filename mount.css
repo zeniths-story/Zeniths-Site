@@ -51,6 +51,9 @@ div{
 .center{
     text-align: center;
 }
+.p-scroll{
+    overflow-x: auto;
+}
 
 #pageTitle{
     font-size: 300%;
@@ -122,10 +125,10 @@ div{
 
 /* Right panel stuff */
 #rightPanel{
-    width: 152px;
+    width: 160px;
     height: 95vh;
     position: fixed;
-    right: 15px;
+    right: 5px;
     padding: 15px;
     border-radius: 15px;
 }
@@ -134,6 +137,12 @@ div{
  max-height: 130px;
 }
 
+#hmSpl{
+    max-height: 510px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    border-radius: 15px;
+}
 
 
 

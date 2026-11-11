@@ -227,7 +227,7 @@ var headmates = [
         quote: ``,
         species: "Humannoid concept of clouds n shit",
         origin:"Brainmade",
-        misc:`Cousins: Cysrix, Zer0`,
+        misc:`Cousins: Cysrix, Zer0, Senka`,
         links:``,
         pictures: `<img src="hmpics/cir.png">`,
     },
@@ -241,7 +241,7 @@ var headmates = [
         quote: "",
         species: "Storm",
         origin:"Brainmade",
-        misc:`Cousins: Cirrus, Zer0`,
+        misc:`Cousins: Cirrus, Zer0, Senka`,
         links:``,
         pictures: `<img src="hmpics/CyPic.jpg">`,
     },
@@ -292,6 +292,22 @@ var headmates = [
         links: ``,
         pictures: `<img src="hmpics/ethan.png">`,
     },
+     {
+        name:"Evelyn",
+        pronouns: "She/They",
+        role: "Aura",
+        firstNoted: "July 6, 2026",
+        gender: "Demi-girl",
+        age:"16",
+        quote: "",
+        species: "Human",
+        origin:"Brainmade",
+        misc:`I like opals ^-^ <br/>
+        `,
+        links: ``,
+        pictures: `<img src="hmpics/opal-1.png">
+        <img src="hmpics/opal-2.jpg"><img src="hmpics/opal-3.jpg">`,
+    },
     {
         name:"Evi",
         pronouns: "They/Star/She",
@@ -323,7 +339,7 @@ var headmates = [
         species: "Human?",
         origin:"Brainmade",
         misc:`Hi! You can call me either Fletch or Fletcher idc :p<br/>
-        I like arrows n stuff :D<br/>
+        I like arrows n stuff :D<br/><br/>
         Friends: Tommy`,
         links: `<a href="https://pin.it/6SZhmDDZr" target="blank"> My Pintrest Board! :p </a>"`,
         pictures: `<img src="hmpics/fletch.png">`,
@@ -436,7 +452,7 @@ var headmates = [
         I'm losing my mind | Losing my Mind - Amélie Farren`,
         species: "Human",
         origin:"Brainmade",
-        misc:`New, Quiet girl, pretty nice (-Null)`,
+        misc:`Quiet, soft girl, pretty nice (-Null)`,
         links: `<a href="https://open.spotify.com/playlist/3b0M1S2ZfzmdwlhN7JTBg9" target="blank">Luna's Likes (playlist)<a/>`,
         pictures: `<img src="hmpics/luna-1.png"> This one's best 
         <img src="hmpics/luna-2.png">
@@ -483,26 +499,11 @@ var headmates = [
         quote: "The most basic form of mind control is repetition.",
         species: "Void",
         origin:"Brainmade",
-        misc:``,
+        misc:`I help mask a lot and generally keep feelings under control. <br/>
+        Sibling:Senka`,
         links: ``,
         pictures: `<img src="hmpics/nova-1.png"> True form 
         <img src="hmpics/nova-2.png"> human-esqe form`,
-    },
-    {
-        name:"Opal",
-        pronouns: "She/They",
-        role: "Aura",
-        firstNoted: "July 6, 2026",
-        gender: "Demi-girl",
-        age:"16",
-        quote: "",
-        species: "Human",
-        origin:"Brainmade",
-        misc:`You can call me Evy or Evelyn as well as Opal ^-^<br/>
-        `,
-        links: ``,
-        pictures: `<img src="hmpics/opal-1.png">
-        <img src="hmpics/opal-2.jpg"><img src="hmpics/opal-3.jpg">`,
     },
     {
         name:"Quill",
@@ -524,7 +525,7 @@ var headmates = [
          I wanna watch how it happens | Cinematic - Will Linley`,
         species: "Fairy",
         origin:"Brainmade",
-        misc:`Friends: Evi, Lumi`,
+        misc:`Dormant? <br/>Friends: Evi, Lumi`,
         links: ``,
         pictures: `<img src="hmpics/quill.webp">`,
     },
@@ -544,7 +545,8 @@ var headmates = [
         When life is shit, Turn the music up`,
         species: "Human",
         origin:"Brainmade",
-        misc:`Friends: Ry(len), Hart`,
+        misc:`My least favorite color and fruit is orange. <br/>
+        Friends: Ry(len), Hart`,
         links: `<a href="https://pin.it/5cw8L85CJ" target="blank">Draw me in these please!!</a><br/>
         <a href="https://open.spotify.com/playlist/4n8UrKarVgxTa7Isl90yG0" target="blank">
         Reid's Tunes</a>`,
@@ -560,7 +562,7 @@ var headmates = [
         quote: "",
         species: "Human - Therian Dog",
         origin:"Brainmade",
-        misc:``,
+        misc:`Very shifty when he fronts. Also a sysDoubter -Charly`,
         links:``,
         pictures: `<img src="hmpics/rex.png">`,
     },
@@ -574,7 +576,7 @@ var headmates = [
         quote: "",
         species: "Water Fairy",
         origin:"Brainmade",
-        misc:``,
+        misc:`Gender is shit`,
         links:``,
         pictures: `<img src="hmpics/river.jpg">`,
     },
@@ -583,7 +585,7 @@ var headmates = [
         pronouns: "Th♪y/H♪ (They/He)",
         role: "Rock",
         firstNoted: "June 1, 2026",
-        gender: "",
+        gender: "Eridian",
         age:"Adult",
         quote: `"Words of <em>great</em> encouragement!" Rocky - <i>Project Hail Mary</i>`,
         species: "Eridian",
@@ -671,9 +673,10 @@ var headmates = [
         quote: "",
         species: "Shadow",
         origin:"Brainmade",
-        misc:``,
+        misc:`Sibling: Null<br/>
+        Cousin: Cystrix, Cirrus, Zer0`,
         links:``,
-        pictures: `no pic yet...`,
+        pictures: `<img src="hmpics/senka.webp">`,
     },
     {
         name:"Silveny",
@@ -729,7 +732,7 @@ var headmates = [
         pronouns: "She/They/Any",
         role: "Ti-84",
         firstNoted: "August 30, 2026",
-        gender: "",
+        gender: "fem-aligned",
         age:"Ageless",
         quote: "",
         species: "anthro tiger",
@@ -786,13 +789,14 @@ var headmates = [
         species: "Human",
         origin:"Faitive - Tommyinnit/Tom Simons",
         misc:`If I'm fronting, please don't treat me like the actual Tom Simons! 
-        I will refer to us as the same person, but I'm aware we are fundamentally different.<br/>
+        I will refer to us as the same person, but I'm aware we are fundamentally different.<br/><br/>
         Bestie: Hades<br/>
-        Friends: Theo, Lumi, Fletch`,
+        Friends: Theo, Lumi, Fletch <br/>
+        Art by @Shmeckdoesstuff on twitter`,
         links: `<a href="https://open.spotify.com/playlist/1f9mlzalrqvLP5w6AB5D8j" target="blank">
         Tommy's Jams</a>  
         <a href="https://pin.it/6dPNfZvoc" target="blank"> Pintrest Board >:) </a>`,
-        pictures: `<img src="hmpics/tommy.jpg"> Art by @Shmeckdoesstuff on twitter`,
+        pictures: `<img src="hmpics/tommy.jpg">`,
     },
      {
         name:"Wolfe",
@@ -853,7 +857,7 @@ var headmates = [
         quote: "",
         species: "Gravity",
         origin:"Brainmade",
-        misc:``,
+        misc:` Cousins: Senka, Cirrus, Cystrix`,
         links:``,
         pictures: `<img src="hmpics/zer0.png">`,
     },
