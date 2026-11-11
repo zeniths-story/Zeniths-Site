@@ -44,7 +44,7 @@ body{
 .tab{
     width: fit-content;
     background-color: #f0d6644d;
-    padding: 20px;
+    padding: 5px;
     margin: 10px;
     border-radius: 5px;
     cursor: pointer;
@@ -62,7 +62,6 @@ body{
  .select{
     width: fit-content;
     background-color: #f0be6269;
-    padding: 20px;
     border-radius: 5px;
     cursor: pointer;
 }

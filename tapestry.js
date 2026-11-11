@@ -30,7 +30,7 @@ var stories = [
                 
             `,
             world: `<h3>Nezro:</h3>
-                 Name & Meaning: Nezro [Ne-say-row]
+                 Name & Meaning: Nezro [Neh-say-row]
                  <h3>Jifro:</h3>
                  Name & Meaning: Jifro [he-fro]
                  <h3>Mamirye (Earth):</h3>
